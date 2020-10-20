@@ -6,6 +6,7 @@ import dash_core_components as dcc
 
 import pandas as pd
 import numpy as np
+import base64
 import random
 import math
 
@@ -1091,10 +1092,12 @@ def update_player_graph(player_name):
         domain={'x': [0, 1], 'y': [0, 1]}
     ))
 
+    encoded_image = base64.b64encode(open(campioncini[player_name], 'rb').read())
+
     row = html.Div([
         # image of campioncino
         html.Div([
-            html.Img(src=campioncini[player_name], alt=player_name),
+            html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()), alt=player_name),
             dcc.Graph(figure=voto)
         ], className="four columns"),
 
