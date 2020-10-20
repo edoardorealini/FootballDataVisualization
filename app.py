@@ -322,6 +322,7 @@ def update_bar_wins(selected_dropdown_value):
         xaxis_title="Teams",
         yaxis_title="Matches",
         legend_orientation="v",
+        hovermode="x"
         #transition=trx
     )
 
@@ -375,6 +376,7 @@ def update_bar_goals(selected_dropdown_value):
         yaxis_title="Goals",
         barmode='stack', 
         legend_orientation='v',
+        hovermode="x"
         #transition=trx
     )
 
@@ -436,6 +438,7 @@ def update_scatter_season(selected_dropdown_value):
         yaxis_title="Average goals conceded",
         legend=dict(orientation="h"),
         showlegend=False,
+        hovermode="x"
         #transition=trx
         )
 
@@ -481,7 +484,8 @@ def update_parallel(selected_dropdown_value):
         paper_bgcolor = 'rgb(230,236,245)',
         title=trace_title,
         title_x=0.5,
-        title_y=0.96)
+        title_y=0.96,        
+        )
 
     return fig
 
@@ -524,6 +528,7 @@ def update_lines_points(selected_dropdown_value):
         title_x=0.5,
         xaxis_title="Year",
         yaxis_title="Points",
+        hovermode="x"
         #transition=trx
     )
 
@@ -586,6 +591,7 @@ def update_lines_wins(selected_dropdown_value):
         title_x=0.5,
         xaxis_title="Year",
         yaxis_title="Wins",
+        hovermode="x"
         #transition=trx
     )
 
@@ -641,6 +647,7 @@ def update_lines_scoring(selected_dropdown_value):
         title_x=0.5,
         xaxis_title="Year",
         yaxis_title="Average",
+        hovermode="x"
     )
 
     return fig
@@ -692,7 +699,8 @@ def update_bubbles(selected_dropdown_value):
         xaxis_title='Shots taken',
         yaxis_title='Scoring Rate % (Goals/Shots)',
         legend_orientation="h",
-        showlegend=False
+        showlegend=False,
+        hovermode="x"
         #transition=trx
     )
 
