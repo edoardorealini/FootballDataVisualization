@@ -117,7 +117,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                                                 html.Center(
                                                     className='div-for-dropdown',
                                                     children=[
-                                                        dcc.Dropdown(id='season_selector_parallel', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
+                                                        dcc.Dropdown(id='season_select_bubble', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
                                                                     multi=False, value="2019",
                                                                     className='season_selector_goals',
                                                                     clearable=False,
@@ -139,7 +139,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
 
                                     html.Div(className='six columns',
                                             children=[
-                                                dcc.Graph(id='parallel', config={'displayModeBar': True})
+                                                dcc.Graph(id='bubble', config={'displayModeBar': True})
                                             ])
                                 ]
                 ),
@@ -226,13 +226,13 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                 #row for dropdown selectors for the 2 SCATTER graphs
                 html.Div(className='row',
                     children=  [                                        
-                                    html.Div(className='six columns',
+                                    html.Div(className='twelve columns',
                                         children=[
                                             html.Center(children=[html.P('Season')]),
                                             html.Center(children=[html.Div(
                                                 className='row',
                                                 children=[
-                                                    dcc.Dropdown(id='season_select_bubble', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
+                                                    dcc.Dropdown(id='season_select_parallel', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
                                                                 multi=False, value="2019",
                                                                 className='season_selector_wins',
                                                                 clearable=False,
@@ -257,22 +257,22 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                                                                     style={"width": "60%"}
                                                                     ),
                                                     ])
-                                                ] #, style={"display":"none"}
+                                                ] , style={"display":"none"}
                                             )
                                 ]),
             
                 #row for dropdown selectors for the 2 scatter graphs
                 html.Div(className='row',
                     children=  [                                    
-                                    html.Div(className='six columns',
+                                    html.Div(className='twelve columns',
                                             children=[
-                                                dcc.Graph(id='bubble', config={'displayModeBar': True})
+                                                dcc.Graph(id='parallel', config={'displayModeBar': True})
                                             ]),
 
                                     html.Div(className='six columns',
                                             children=[
                                                 dcc.Graph(id='bar_shots', config={'displayModeBar': True})
-                                            ])
+                                            ], style={"display":"none"})
                                 ]
                 ),
 
