@@ -5,7 +5,7 @@ import dash_html_components as html
 import dash_core_components as dcc
 
 import pandas as pd
-import numpy as np 
+import numpy as np
 import random
 import math
 
@@ -14,8 +14,60 @@ from dash.dependencies import Input, Output
 from utils import *
 
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css',
+                        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"]
 data_path = "./data/"
+
+
+# -------Important variables for FANTACALCIO purposes-------
+
+# Retreive df
+season = 2019
+data_url = "./data/fantacalcio/stats" + str(season) + ".csv"
+img_url = './data/fantacalcio/no_img' + str(season) + '.csv'
+original_df = pd.read_csv(data_url)
+team_df = original_df.sort_values(by=["Squadra"], ascending=True)
+no_images = pd.read_csv(img_url)["Nome"].to_list()
+
+all_names = original_df["Nome"]
+all_names_at_least_one_match_df = original_df[original_df["Partite giocate"] > 0].sort_values(by=["Nome"], ascending=True)
+all_names_at_least_one_match = all_names_at_least_one_match_df["Nome"]
+campioncini = {}
+
+for player_name in all_names:
+    modified_name = player_name
+    if " " in modified_name:
+        modified_name = modified_name.replace(" ", "-")
+    if "\'" in modified_name:
+        modified_name = modified_name.replace("\'", "-")
+    if "." in modified_name:
+        modified_name = modified_name.replace(".", "")
+
+    url_img = "./data/fantacalcio/campioncini/"
+
+    if modified_name not in no_images:
+        # campioncini[player_name] = img_name
+        campioncini[player_name] = url_img + modified_name + ".png"
+    else:
+        # campioncini[player_name] = "./data/fantacalcio/campioncini/noimg.png"
+        campioncini[player_name] = url_img + "noimg.png"
+
+# Important global variables
+roles = {"All": "Players",
+         "P": "GoalKeepers",
+         "D": "Defenders",
+         "C": "Midfielders",
+         "A": "Forwarders"}
+
+color_by_role = {"P": "#A569BD",
+                 "D": "#3498DB",
+                 "C": "#16A085",
+                 "A": "#E74C3C"}
+
+numbers_of_players = [5, 10, 15, 20, 25]
+
+stats_to_show = ["Media voto + Media Fantavoto",
+                 "Goal fatti + Rigori segnati", "Ammonizioni + Espulsioni"]
 
 
 # ----------------------------- APP ----------------------------------------
@@ -26,7 +78,7 @@ app.config.suppress_callback_exceptions = True
 server = app.server
 
 # Define the app
-app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("Data Results and Visualization - Politecnico di Milano")]), 
+app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("Data Results and Visualization - Politecnico di Milano")]),
     html.Div([
         dcc.Tabs([
             dcc.Tab(label='SERIE A', children=[
@@ -34,7 +86,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                 html.Div(className="row", style={"padding": 20}),
 
                 #row for dropdown selectors for WINS AND GOALS graphs
-                html.Div(className="row", children=[                
+                html.Div(className="row", children=[
 
                     html.Div(className='six columns',
                         children=[
@@ -48,7 +100,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                                                             clearable=False,
                                                             searchable=False,
                                                             style={"width": "60%",
-                                                                    "verticalAlign": "middle"                                                            
+                                                                    "verticalAlign": "middle"
                                                             }
                                                             )
                                             ])
@@ -76,7 +128,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
 
                 #row for the actual graphs wins and goals
                 html.Div(className='row',
-                    children=  [                                    
+                    children=  [
                                     html.Div(className='six columns',
                                             children=[
                                                 dcc.Graph(id='bar_wins', config={'displayModeBar': True})
@@ -93,7 +145,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
 
                 #row for dropdown selectors for the 2 SCATTER graphs
                 html.Div(className='row',
-                    children=  [                                        
+                    children=  [
                                     html.Div(className='six columns',
                                         children=[
                                             html.Center(children=[html.P('Season')]),
@@ -128,10 +180,10 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                                                 ] #, style={"display":"none"}
                                             )
                                 ]),
-            
+
                 #row for dropdown selectors for the 2 scatter graphs
                 html.Div(className='row',
-                    children=  [                                    
+                    children=  [
                                     html.Div(className='six columns',
                                             children=[
                                                 dcc.Graph(id='scatter_season', config={'displayModeBar': True})
@@ -148,7 +200,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
 
                 #teams viz selectors
                 html.Div(className='row',
-                    children=  [                                        
+                    children=  [
                                     html.Div(className='four columns',
                                         children=[
                                             html.Center(children=[html.P('Team')]),
@@ -200,10 +252,10 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                                                 ] #, style={"display":"none"}
                                             )
                                 ]),
-            
+
                 #row for dropdown selectors for the 2 scatter graphs
                 html.Div(className='row',
-                    children=  [                                    
+                    children=  [
                                     html.Div(className='four columns',
                                             children=[
                                                 dcc.Graph(id='lines_team_points', config={'displayModeBar': True})
@@ -223,7 +275,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
 
                  html.Div(className="row", style={"padding": 30}),
 
-                #row for dropdown selectors for the 2 SCATTER graphs                                        
+                #row for dropdown selectors for the 2 SCATTER graphs
                 html.Div(className='row',
                     children=[
                         html.Center(children=[html.P('Season')]),
@@ -240,31 +292,195 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                             ])
                         ])
                     ]),
-            
-                #row for dropdown selectors for the 2 scatter graphs
-                                
+
+                # row for dropdown selectors for the 2 scatter graphs
+
                 html.Div(className='row',
                         children=[
                             dcc.Graph(id='parallel', config={'displayModeBar': True})
                         ])
-                                
-                
 
-            ]), #closes serieA tab
+            ]), # closes serieA tab
 
             dcc.Tab(label='FANTACALCIO', children=[
-                #TODO rick aggiungi HTML qui
-                dcc.Graph(
-                    figure={
-                        'data': [
-                            {'x': [1, 2, 3], 'y': [1, 4, 1],
-                                'type': 'bar', 'name': 'SF'},
-                            {'x': [1, 2, 3], 'y': [1, 2, 3],
-                            'type': 'bar', 'name': u'Montréal'},
-                        ]
-                    }
-                )
+                # TODO rick aggiungi HTML qui
+                html.Div([
+
+                    html.Div([
+                        html.Br(),
+                        html.Div([
+                            html.H1([
+                                html.I(className="fa fa-futbol-o"),
+                                html.B(children='  Welcome to FantaStats!  '),
+                                html.I(className="fa fa-futbol-o"),
+                            ])
+                        ], className="row"),
+
+                        html.H4(children='In this dashboard you can plot some interesting stats about last Serie A season.'),
+
+                        html.Br(),
+                    ], style={"textAlign": "center"}, id="introText"),
+
+                    # first row
+                    html.Div([
+                        # second column first row
+                        html.Div([
+                            html.H6(children='''The following graph shows the statistics about the number of goals
+                                                   scored or conceded, rispectevely for players or GoalKeepers.'''),
+                            html.Br(),
+
+                            html.Div([
+                                html.Div([
+                                    html.Div([
+                                        html.Div(children='Filter by role:', className='four columns', style={
+                                            "textAlign": "right", "paddingTop": "5px"}),
+                                        html.Div([
+                                            dcc.Dropdown(
+                                                clearable=False,
+                                                searchable=False,
+                                                id='players_role_goals',
+                                                options=[{'label': value, 'value': key}
+                                                         for key, value in roles.items()],
+                                                value='All'
+                                            )], className='eight columns')
+                                    ], className='row'), ], className='five columns'),
+                                html.Div(
+                                    "", className='two columns'),
+                                html.Div([
+                                    html.Div([
+                                        html.Div(children='Show only top:', className='four columns', style={
+                                            "textAlign": "right", "paddingTop": "5px"}),
+                                        html.Div([
+                                            dcc.Dropdown(
+                                                clearable=False,
+                                                searchable=False,
+                                                id='players_number_goals',
+                                                options=[{'label': str(i), 'value': i}
+                                                         for i in numbers_of_players],
+                                                value=15
+                                            )], className='eight columns')
+                                    ], className='row'), ], className='five columns')
+                            ], className='row'),
+
+                            dcc.Graph(id='goals_graph')], className="six columns"),
+
+                        # second column first row
+                        html.Div([
+                            html.H6(children='''The following graph shows the statistics about the grade
+                                             point average and the  so-called Fantagrade.'''),
+
+                            html.Br(),
+
+                            html.Div([
+                                html.Div([
+                                    html.Div([
+                                        html.Div(children='Filter by role:', className='four columns', style={
+                                            "textAlign": "right", "paddingTop": "5px"}),
+                                        html.Div([
+                                            dcc.Dropdown(
+                                                clearable=False,
+                                                searchable=False,
+                                                id='players_role_mv',
+                                                options=[{'label': value, 'value': key}
+                                                         for key, value in roles.items()],
+                                                value='All'
+                                            )], className='eight columns')
+                                    ], className='row'), ], className='five columns'),
+                                html.Div(
+                                    "", className='two columns'),
+                                html.Div([
+                                    html.Div([
+                                        html.Div(children='Show only top:', className='four columns', style={
+                                            "textAlign": "right", "paddingTop": "5px"}),
+                                        html.Div([
+                                            dcc.Dropdown(
+                                                clearable=False,
+                                                searchable=False,
+                                                id='players_number_mv',
+                                                options=[{'label': str(i), 'value': i}
+                                                         for i in numbers_of_players],
+                                                value=15
+                                            )], className='eight columns')
+                                    ], className='row'), ], className='five columns')
+                            ], className='row'),
+
+                            dcc.Graph(id='mv_graph')
+                        ], className="six columns")
+                    ], className="row"),
+
+                    html.Br(),
+                    html.Br(),
+
+                    # second row
+                    html.Div([
+                        # first column second row
+                        html.Div([
+                            html.H6(
+                                children='''The following graph shows the stats players filtered by their team.'''),
+
+                            html.Br(),
+
+                            html.Div([
+                                html.Div([
+                                    html.Div([
+                                        html.Div(children='Filter by team:', className='four columns', style={
+                                            "textAlign": "right", "paddingTop": "5px"}),
+                                        html.Div([
+                                            dcc.Dropdown(
+                                                clearable=False,
+                                                id='team_value',
+                                                options=[{'label': team, 'value': team}
+                                                         for team in team_df["Squadra"].unique()],
+                                                value='Atalanta'
+                                            )], className='eight columns')
+                                    ], className='row'), ], className='five columns'),
+                                html.Div(className='one columns'),
+                                html.Div([
+                                    html.Div([
+                                        html.Div(children='Stats to show:', className='four columns', style={
+                                            "textAlign": "right", "paddingTop": "5px"}),
+                                        html.Div([
+                                            dcc.Dropdown(
+                                                clearable=False,
+                                                searchable=False,
+                                                id='stats_value',
+                                                options=[{'label': i, 'value': i}
+                                                         for i in stats_to_show],
+                                                value="Media voto + Media Fantavoto"
+                                            )], className='eight columns')
+                                    ], className='row'), ], className='six columns'),
+                            ], className='row'),
+
+                            dcc.Graph(id='team_graph')
+                        ], className="six columns"),
+
+                        # second column second row
+                        html.Div([
+                            html.H6(
+                                children='Here you can visualise the most important stats of each player.'),
+
+                            html.Br(),
+
+                            html.Div([
+                                html.Div(children='Search player:', className='six columns', style={
+                                    "textAlign": "right", "paddingTop": "5px"}),
+                                html.Div([
+                                    dcc.Dropdown(
+                                        clearable=False,
+                                        id='player_to_show_name',
+                                        options=[{'label': name, 'value': name} for name in all_names_at_least_one_match],
+                                        value='IMMOBILE'
+                                    )], className='six columns')
+                            ], className='row', style={"maxWidth": "50%", "marginRight": "auto", "marginLeft": "0px"}),
+
+
+                            html.Div(id="player_stats")
+                        ], className="six columns"),
+                    ], className="row"),
+
+                ], style={'maxWidth': '94vw', "marginRight": "auto", "marginLeft": "auto"})
             ]),
+
         ])
     ])
 ])
@@ -374,7 +590,7 @@ def update_bar_goals(selected_dropdown_value):
         title_x = 0.5,
         xaxis_title="Teams",
         yaxis_title="Goals",
-        barmode='stack', 
+        barmode='stack',
         legend_orientation='v',
         hovermode="x"
         #transition=trx
@@ -388,7 +604,7 @@ def update_bar_goals(selected_dropdown_value):
               [Input('season_selector_scatter', 'value')])
 def update_scatter_season(selected_dropdown_value):
 
-    trace_title = "Goals average scatter plot - season " + str(selected_dropdown_value)    
+    trace_title = "Goals average scatter plot - season " + str(selected_dropdown_value)
 
     df = pd.read_csv("./data/teams/" + str(selected_dropdown_value) + ".csv")
     avg_for = df["avg_goalsFor"].to_list()
@@ -404,14 +620,14 @@ def update_scatter_season(selected_dropdown_value):
     color_list = np.divide(avg_against, avg_for)
     rgb_color_list = colorscale_to_rgb(list(color_list), 'gnuplot')
 
-    for i in range(0,20): 
-        
+    for i in range(0,20):
+
         avg_for_x.append(avg_for[i])
         avg_against_y.append(avg_against[i])
 
         marker_text = "Team: " + teams[i] + "<br>" + "avg scored: " + str(avg_for[i]) + "<br>" + "avg conceded: " + str(avg_against[i])
 
-        fig.add_trace(go.Scatter(x=avg_for_x, y=avg_against_y, 
+        fig.add_trace(go.Scatter(x=avg_for_x, y=avg_against_y,
                                 mode='markers',
                                 name=teams[i],
                                 marker=dict(
@@ -422,11 +638,11 @@ def update_scatter_season(selected_dropdown_value):
                                     showscale=False),
                                 text=marker_text,
                                 hoverinfo="text"))
-        
+
         avg_for_x.clear()
         avg_against_y.clear()
-        
-        
+
+
     fig.add_trace(go.Scatter(x=np.array(avg_for),y=line,
                             mode='lines',
                             marker_color="black",
@@ -488,7 +704,7 @@ def update_parallel(selected_dropdown_value):
         paper_bgcolor = 'rgb(230,236,245)',
         title=trace_title,
         title_x=0.5,
-        title_y=0.96,        
+        title_y=0.96,
         )
 
     return fig
@@ -514,7 +730,7 @@ def update_lines_points(selected_dropdown_value):
 
         except:
             points_list.append(0)
-        
+
     fig = go.Figure()
 
     fig.add_trace(go.Scatter(x=seasons, y=points_list,
@@ -524,7 +740,7 @@ def update_lines_points(selected_dropdown_value):
                         line_width=3,
                         marker_size=10,
                         )
-                
+
                 )
 
     fig.update_layout(
@@ -624,8 +840,8 @@ def update_lines_scoring(selected_dropdown_value):
         except:
             goalsFor_list.append(0)
             goalsAgainst_list.append(0)
-        
-        
+
+
     fig = go.Figure()
 
     fig.add_trace(go.Scatter(x=seasons, y=goalsFor_list,
@@ -633,16 +849,16 @@ def update_lines_scoring(selected_dropdown_value):
                         name='Goals scored',
                         line_shape='spline',
                         line_width=3,
-                        marker_size=10,            
+                        marker_size=10,
                         )
-                        
+
                     )
     fig.add_trace(go.Scatter(x=seasons, y=goalsAgainst_list,
                         mode='lines+markers',
                         name='Goals conceded',
                         line_shape='spline',
                         line_width=3,
-                        marker_size=10,                                             
+                        marker_size=10,
                         )
                     )
 
@@ -678,13 +894,13 @@ def update_bubbles(selected_dropdown_value):
     shot_x, score_y = [], []
     rgb_color_list = colorscale_to_rgb(goals, 'Set2')
 
-    for i in range(0,20):        
+    for i in range(0,20):
         shot_x.append(shots[i])
-        score_y.append(scoring_percentage[i]) 
+        score_y.append(scoring_percentage[i])
 
         marker_text = "Teams: " + teams[i] + "<br>" + "Goals: " + str(goals[i])
-                
-        fig.add_trace(go.Scatter(x=shot_x, y=score_y, name=teams[i], 
+
+        fig.add_trace(go.Scatter(x=shot_x, y=score_y, name=teams[i],
                         mode='markers',
                         text=marker_text,
                         marker=dict(
@@ -693,10 +909,10 @@ def update_bubbles(selected_dropdown_value):
                             color=rgb_color_list[i],
                             line_width=1.7),
                         hoverinfo="text"))
-        
+
         shot_x.clear()
         score_y.clear()
-        
+
     fig.update_layout(
         title='Scoring rates for season ' + str(selected_dropdown_value),
         title_x=0.5,
@@ -708,6 +924,189 @@ def update_bubbles(selected_dropdown_value):
     )
 
     return fig
+
+# -----------------------FANTACALCIO CALLBACKS------------------
+
+
+@app.callback(
+    Output('goals_graph', 'figure'),
+    [Input('players_role_goals', 'value'),
+     Input('players_number_goals', 'value')])
+def update_goals_graph(players_role_goals, players_number_goals):
+
+    if players_role_goals == "All":
+        filtered = original_df
+    else:
+        filtered = original_df[original_df["Ruolo"] == players_role_goals]
+
+    title = "<b>Top " + str(players_number_goals) + " " + \
+        roles[players_role_goals] + " of season " + \
+            str(season) + "-" + str(season + 1) + "</b>"
+
+    # return different stats for GoalKeepers
+    if players_role_goals == "P":
+        filtered = filtered[filtered["Partite giocate"] > 5]
+        # filtered = filtered[filtered["Goals subiti"] > 0]
+        filtered = filtered.sort_values(by=["Goal subiti"], ascending=True)
+        filtered = filtered.head(players_number_goals)
+        y_title = "Goals conceded"
+        fig = go.Figure(data=[
+            go.Bar(name='Goal conceded', x=filtered["Nome"].head(players_number_goals),
+                   y=filtered["Goal subiti"], marker_color='#F1C40F'),
+            go.Bar(name='Penalty blocked', x=filtered["Nome"].head(players_number_goals),
+                   y=filtered["Rigori parati"], marker_color='#03B157')
+        ])
+    else:
+        filtered = filtered[filtered["Goals tot"] > 0]
+        filtered = filtered.sort_values(by=["Goals tot"], ascending=False)
+        filtered = filtered.head(players_number_goals)
+        y_title = "Goals scored"
+        fig = go.Figure(data=[
+            go.Bar(name='Goal scored', x=filtered["Nome"],
+                   y=filtered["Goal fatti"], marker_color='#0088E0'),
+            go.Bar(name='Penalty scored', x=filtered["Nome"],
+                   y=filtered["Rigori segnati"], marker_color='#03B157')
+        ])
+
+    fig.update_layout(barmode='stack', xaxis=dict(title_text="Name of players"),
+                      yaxis=dict(title_text=y_title), title_text=title)
+
+    return fig
+
+
+@app.callback(
+    Output('mv_graph', 'figure'),
+    [Input('players_role_mv', 'value'),
+     Input('players_number_mv', 'value')])
+def update_mv_graph(players_role_mv, players_number_mv):
+
+    if players_role_mv == "All":
+        filtered = original_df
+    else:
+        filtered = original_df[original_df["Ruolo"] == players_role_mv]
+
+    title = "<b>Top " + str(players_number_mv) + " " + \
+        roles[players_role_mv] + " of season " + \
+            str(season) + "-" + str(season + 1) + "</b>"
+
+    filtered = filtered[filtered["Partite giocate"] > 5]
+    filtered = filtered.sort_values(by=["Media Fantavoto"], ascending=False)
+    filtered = filtered.head(players_number_mv)
+    y_title = "Grade"
+    fig = go.Figure()
+
+    fig.add_trace(
+        go.Scatter(name='Average Fantagrade', x=filtered["Nome"],
+                   y=filtered["Media Fantavoto"], marker_color='#0088E0', mode='lines+markers'))
+
+    fig.add_trace(go.Bar(name='Average grade', x=filtered["Nome"],
+                         y=filtered["Media voto"], marker_color='#E53935'))
+
+    fig.update_layout(xaxis=dict(title_text="Name of players"),
+                      yaxis=dict(title_text=y_title), title_text=title)
+
+    return fig
+
+
+@app.callback(
+    Output('team_graph', 'figure'),
+    [Input('team_value', 'value'),
+     Input('stats_value', 'value')])
+def update_team_graph(team_value, stats_value):
+
+    filtered = original_df[original_df["Squadra"] == team_value]
+
+    title = "<b>Players of " + team_value + " of season " + \
+            str(season) + "-" + str(season + 1) + \
+        " ordered by " + stats_value + "</b>"
+
+    stats = stats_value.split(" + ")
+    filtered = filtered[filtered["Partite giocate"] > 3]
+    filtered = filtered.sort_values(by=[stats[0]], ascending=False)
+    filtered = filtered.head(25)
+
+    colors = []
+
+    for role in filtered["Ruolo"]:
+        colors.append(color_by_role[role])
+
+    fig = go.Figure()
+
+    if (stats[0] == "Media voto"):
+        fig.add_trace(go.Scatter(name='Average Fantagrade', x=filtered["Nome"],
+                                 y=filtered[stats[1]], marker_color='#0088E0', mode='lines+markers'))
+        fig.add_trace(go.Bar(name='Average grade', x=filtered["Nome"],
+                             y=filtered[stats[0]], marker_color=colors)),
+        y_title = "Grade"
+
+    if (stats[0] == "Goal fatti"):
+        fig.add_trace(go.Bar(name='Goal scored', x=filtered["Nome"],
+                             y=filtered[stats[0]], marker_color='#0088E0'))
+        fig.add_trace(go.Bar(name='Penalty scored', x=filtered["Nome"],
+                             y=filtered[stats[1]], marker_color='#03B157'))
+        y_title = "Goals scored"
+
+    if (stats[0] == "Ammonizioni"):
+        fig.add_trace(go.Bar(name='Yellow cards', x=filtered["Nome"],
+                             y=filtered[stats[0]], marker_color='#F1C40F'))
+        fig.add_trace(go.Bar(name='Red cards', x=filtered["Nome"],
+                             y=filtered[stats[1]], marker_color='#E53935'))
+        y_title = "Cards"
+
+    fig.update_layout(barmode='stack', xaxis=dict(title_text="Name of players"),
+                      yaxis=dict(title_text=y_title), title_text=title)
+
+    return fig
+
+
+@app.callback(
+    Output('player_stats', 'children'),
+    [Input('player_to_show_name', 'value')])
+def update_player_graph(player_name):
+
+    bigDiv = []
+
+    player = original_df[original_df["Nome"] == player_name]
+    grade = np.array(player["Media Fantavoto"])[0]
+    role_short = np.array(player["Ruolo"])[0]
+    role = roles[role_short]
+    role = "<b>The role of the player is: " + role[:-1] + "</b>"
+
+    y_values = ["Autogoal", "Espulsioni", "Ammonizioni", "Assists tot", "Goals tot", "Partite giocate"]
+    x_values = np.array(player[y_values])[0]
+
+    colors_bars = ["#AF7AC5", "#E74C3C", "#F1C40F", "#58D68D", "#229954", "#2980B9"]
+
+    bigDiv.append(html.Br())
+    # bigDiv.append(html.Br())
+    bigDiv.append(html.B(children="Stats of " + player_name))
+
+    fig = go.Figure(go.Bar(x=x_values, y=y_values, orientation='h', marker_color=colors_bars))
+    fig.update_layout(title_text=role)
+
+    voto = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=grade,
+        title={'text': "<b>Fantagrade</b>"},
+        domain={'x': [0, 1], 'y': [0, 1]}
+    ))
+
+    row = html.Div([
+        # image of campioncino
+        html.Div([
+            html.Img(src=campioncini[player_name], alt=player_name),
+            dcc.Graph(figure=voto)
+        ], className="four columns"),
+
+        # relevant stats: goals, assists, cards, avg grade
+        html.Div([
+            dcc.Graph(figure=fig)
+        ], className="eight columns"),
+    ], className="row")
+
+    bigDiv.append(row)
+
+    return bigDiv
 
 
 # ----------------------------- MAIN ----------------------------------------
