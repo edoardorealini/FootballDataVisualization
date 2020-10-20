@@ -411,6 +411,8 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
 
                     html.Br(),
                     html.Br(),
+                    html.Br(),
+                    html.Br(),
 
                     # second row
                     html.Div([
