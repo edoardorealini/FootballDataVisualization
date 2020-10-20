@@ -1082,7 +1082,8 @@ def update_player_graph(player_name):
     # bigDiv.append(html.Br())
     bigDiv.append(html.B(children="Stats of " + player_name, style={"fontSize": "20px"}))
 
-    fig = go.Figure(go.Bar(x=x_values, y=y_values, orientation='h', marker_color=colors_bars))
+    y_values_bug_fix = ["Autogoal ", "Espulsioni ", "Ammonizioni ", "Assists tot ", "Goals tot ", "Partite giocate "]
+    fig = go.Figure(go.Bar(x=x_values, y=y_values_bug_fix, orientation='h', marker_color=colors_bars))
     fig.update_layout(title_text=role)
 
     voto = go.Figure(go.Indicator(
