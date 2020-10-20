@@ -223,36 +223,32 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
 
                  html.Div(className="row", style={"padding": 30}),
 
-                #row for dropdown selectors for the 2 SCATTER graphs
+                #row for dropdown selectors for the 2 SCATTER graphs                                        
                 html.Div(className='row',
-                    children=  [                                        
-                                    html.Div(className='row',
-                                        children=[
-                                            html.Center(children=[html.P('Season')]),
-                                            html.Center(children=[html.Div(
-                                                className='row',
-                                                children=[
-                                                    dcc.Dropdown(id='season_select_parallel', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
-                                                                multi=False, value="2019",
-                                                                className='season_selector_parallel',
-                                                                clearable=False,
-                                                                searchable=False,
-                                                                style={"width": "60%"}
-                                                                ),
-                                                ])
-                                            ])
-                                        ])
-                                ]),
+                    children=[
+                        html.Center(children=[html.P('Season')]),
+                        html.Center(children=[html.Div(
+                            className='row',
+                            children=[
+                                dcc.Dropdown(id='season_selector_parallel', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
+                                            multi=False, value="2019",
+                                            className='season_selector_parallel',
+                                            clearable=False,
+                                            searchable=False,
+                                            style={"width": "60%"}
+                                            ),
+                            ])
+                        ])
+                    ]),
             
                 #row for dropdown selectors for the 2 scatter graphs
+                                
                 html.Div(className='row',
-                    children=  [                                    
-                                    html.Div(className='row',
-                                            children=[
-                                                dcc.Graph(id='parallel', config={'displayModeBar': True})
-                                            ])
-                                ]
-                ),
+                        children=[
+                            dcc.Graph(id='parallel', config={'displayModeBar': True})
+                        ])
+                                
+                
 
             ]), #closes serieA tab
 
@@ -465,7 +461,7 @@ def update_parallel(selected_dropdown_value):
 
     fig.add_trace(go.Parcoords(
             line_color = total,
-            line_colorscale = 'Spectral',
+            line_colorscale = 'Reds',
             line_colorbar_title = 'Total shots',
             dimensions = list([
                 dict(range = [100,400],
