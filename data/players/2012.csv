@@ -1,0 +1,21 @@
+,player_id,player_name,firstname,lastname,position,nationality,team_id,team_name,appearences,minutes_played,total_goals,assists_goals,conceded_goals,saves_goals,total_shots,on_shots,won_penalty,commited_penalty,success_penalty,missed_penalty,saved_penalty,yellow_cards,second_yellow_cards,red_cards
+0,274,E. Cavani,Edinson Roberto,Cavani Gómez,Attacker,Uruguay,492,Napoli,34,2981,29,,,,,,,,,,,6,0,0
+1,115141,Antonio Di Natale,Antonio,Di Natale,Attacker,Italy,494,Udinese,33,2708,23,,,,,,,,,,,4,0,0
+2,791,S. El Shaarawy,Stephan,El Shaarawy,Attacker,Italy,489,AC Milan,37,2835,16,,,,,,,,,,,3,0,0
+3,113953,D. Osvaldo,Pablo Daniel,Osvaldo,Attacker,Italy,497,AS Roma,29,2318,16,,,,,,,,,,,6,1,0
+4,39888,G. Denis,Germán Gustavo,Denis,Attacker,Argentina,499,Atalanta,36,3126,15,,,,,,,,,,,3,0,1
+5,176,Erik Lamela,Erik,Lamela,Midfielder,Argentina,497,AS Roma,33,2601,15,,,,,,,,,,,7,0,0
+6,30941,Giampaolo Pazzini,Giampaolo,Pazzini,Attacker,Italy,489,AC Milan,30,1621,15,,,,,,,,,,,7,0,0
+7,115068,Miroslav Klose,Miroslav,Klose,Attacker,Germany,487,Lazio,29,2187,15,,,,,,,,,,,5,0,0
+8,91419,Alberto Gilardino,Alberto,Gilardino,Attacker,Italy,500,Bologna,36,3054,13,,,,,,,,,,,4,0,0
+9,51585,Gonzalo Rubén Bergessio,Gonzalo Rubén,Bergessio,Attacker,Argentina,1580,Catania,32,2678,13,,,,,,,,,,,7,0,0
+10,121,S. Jovetić,Stevan,Jovetić,Attacker,Montenegro,502,Fiorentina,31,2520,13,,,,,,,,,,,3,0,0
+11,91371,Francesco Totti,Francesco,Totti,Attacker,Italy,497,AS Roma,34,2821,12,,,,,,,,,,,7,0,1
+12,30464,M. Sau,Marco,Sau,Attacker,Italy,490,Cagliari,30,1960,12,,,,,,,,,,,3,0,0
+13,91319,Marco Borriello,Marco,Borriello,Attacker,Italy,495,Genoa,28,2345,12,,,,,,,,,,,10,0,0
+14,30489,R. Palacio,Rodrigo Sebastián,Palacio,Attacker,Argentina,505,Inter,26,1972,12,,,,,,,,,,,3,0,0
+15,1917,M. Balotelli,Mario,Barwuah Balotelli,Attacker,Italy,489,AC Milan,13,1145,12,,,,,,,,,,,6,0,0
+16,12994,M. Hamšík,Marek,Hamšík,Midfielder,Slovakia,492,Napoli,38,3280,11,,,,,,,,,,,2,0,0
+17,9959,Hernanes,Anderson Hernanes,de Carvalho Andrade,Midfielder,Brazil,487,Lazio,34,2556,11,,,,,,,,,,,4,0,1
+18,91393,Rolando Bianchi,Rolando,Bianchi,Attacker,Italy,503,Torino,32,2307,11,,,,,,,,,,,5,0,0
+19,2002,A. Ljajić,Adem,Ljajić,Midfielder,Serbia,502,Fiorentina,28,1624,11,,,,,,,,,,,2,0,0

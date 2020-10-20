@@ -1,0 +1,21 @@
+,player_id,player_name,firstname,lastname,position,nationality,team_id,team_name,appearences,minutes_played,total_goals,assists_goals,conceded_goals,saves_goals,total_shots,on_shots,won_penalty,commited_penalty,success_penalty,missed_penalty,saved_penalty,yellow_cards,second_yellow_cards,red_cards
+0,115141,Antonio Di Natale,Antonio,Di Natale,Attacker,Italy,494,Udinese,36,2938,28,,,,,,,,,,,3,0,0
+1,274,E. Cavani,Edinson Roberto,Cavani Gómez,Attacker,Uruguay,492,Napoli,35,2902,26,,,,,,,,,,,5,1,0
+2,42432,Samuel Eto'o Fils,Samuel,Eto'o Fils,Attacker,Cameroon,505,Inter,35,2962,21,,,,,,,,,,,3,0,0
+3,115355,Marco Di Vaio,Marco,Di Vaio,Attacker,Italy,500,Bologna,38,3414,19,,,,,,,,,,,3,0,0
+4,91371,Francesco Totti,Francesco,Totti,Attacker,Italy,497,AS Roma,32,2436,15,,,,,,,,,,,5,0,1
+5,49851,Robinho,Róbson,de Souza,Attacker,Brazil,489,AC Milan,34,2328,14,,,,,,,,,,,2,0,0
+6,51070,Z. Ibrahimović,Zlatan,Ibrahimović,Attacker,Sweden,489,AC Milan,29,2534,14,,,,,,,,,,,8,0,2
+7,9972,Alexandre Pato,Alexandre,Rodrigues da Silva,Attacker,Brazil,489,AC Milan,25,1597,14,,,,,,,,,,,3,0,0
+8,91419,Alberto Gilardino,Alberto,Gilardino,Attacker,Italy,502,Fiorentina,35,3037,12,,,,,,,,,,,3,0,0
+9,31771,Andrea Caracciolo,Andrea,Caracciolo,Attacker,Italy,518,Brescia,33,2628,12,,,,,,,,,,,4,1,0
+10,910,A. Sánchez,Alexis Alejandro,Sánchez Sánchez,Attacker,Chile,494,Udinese,31,2384,12,,,,,,,,,,,6,1,0
+11,12994,M. Hamšík,Marek,Hamšík,Midfielder,Slovakia,492,Napoli,37,2981,11,,,,,,,,,,,5,0,0
+12,9959,Hernanes,Anderson Hernanes,de Carvalho Andrade,Midfielder,Brazil,487,Lazio,36,2860,11,,,,,,,,,,,1,0,0
+13,781,J. Pastore,Javier Matías,Pastore,Midfielder,Argentina,522,Palermo,35,2908,11,,,,,,,,,,,4,0,0
+14,30759,S. Pellissier,Sergio,Pellissier,Attacker,Italy,491,Chievo,35,3056,11,,,,,,,,,,,2,0,0
+15,91319,Marco Borriello,Marco,Borriello,Attacker,Italy,497,AS Roma,34,2288,11,,,,,,,,,,,2,0,0
+16,30541,A. Matri,Alessandro,Matri,Attacker,Italy,490,Cagliari,22,1688,11,,,,,,,,,,,3,0,0
+17,30941,Giampaolo Pazzini,Giampaolo,Pazzini,Attacker,Italy,505,Inter,17,1221,11,,,,,,,,,,,0,0,0
+18,115209,Mirko Vucinic,Mirko,Vucinic,Attacker,Montenegro,497,AS Roma,28,1863,10,,,,,,,,,,,4,0,0
+19,31802,Antonio Floro Flores,Antonio,Floro Flores,Attacker,Italy,495,Genoa,18,1505,10,,,,,,,,,,,2,0,1

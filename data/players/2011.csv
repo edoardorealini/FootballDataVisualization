@@ -1,0 +1,21 @@
+,player_id,player_name,firstname,lastname,position,nationality,team_id,team_name,appearences,minutes_played,total_goals,assists_goals,conceded_goals,saves_goals,total_shots,on_shots,won_penalty,commited_penalty,success_penalty,missed_penalty,saved_penalty,yellow_cards,second_yellow_cards,red_cards
+0,51070,Z. Ibrahimović,Zlatan,Ibrahimović,Attacker,Sweden,489,AC Milan,32,2811,28,,,,,,,,,,,3,0,1
+1,113937,Diego Alberto Milito,Diego Alberto,Milito,Attacker,Argentina,505,Inter,33,2526,24,,,,,,,,,,,2,0,0
+2,115141,Antonio Di Natale,Antonio,Di Natale,Attacker,Italy,494,Udinese,36,3055,23,,,,,,,,,,,2,0,0
+3,274,E. Cavani,Edinson Roberto,Cavani Gómez,Attacker,Uruguay,492,Napoli,35,2914,23,,,,,,,,,,,4,0,0
+4,30489,R. Palacio,Rodrigo Sebastián,Palacio,Attacker,Argentina,495,Genoa,32,2761,19,,,,,,,,,,,6,0,1
+5,39888,G. Denis,Germán Gustavo,Denis,Attacker,Argentina,499,Atalanta,33,2887,16,,,,,,,,,,,5,1,0
+6,115276,Fabrizio Miccoli,Fabrizio,Miccoli,Attacker,Italy,522,Palermo,28,1958,16,,,,,,,,,,,6,0,0
+7,44354,Sebastian Giovinco,Sebastian,Giovinco,Midfielder,Italy,523,Parma,36,3091,15,,,,,,,,,,,4,1,0
+8,121,S. Jovetić,Stevan,Jovetić,Attacker,Montenegro,502,Fiorentina,27,2347,14,,,,,,,,,,,3,0,0
+9,30486,M. Destro,Mattia,Destro,Attacker,Italy,1583,Robur Siena,30,2191,12,,,,,,,,,,,4,0,0
+10,115068,Miroslav Klose,Miroslav,Klose,Attacker,Germany,487,Lazio,27,2285,12,,,,,,,,,,,1,0,0
+11,115286,Marco Rigoni,Marco,Rigoni,Midfielder,Italy,513,Novara,35,3080,11,,,,,,,,,,,4,0,0
+12,115273,David Di Michele,David,Di Michele,Attacker,Italy,867,Lecce,29,2448,11,,,,,,,,,,,7,0,0
+13,113953,D. Osvaldo,Pablo Daniel,Osvaldo,Attacker,Italy,497,AS Roma,26,2090,11,,,,,,,,,,,3,0,2
+14,31686,Emanuele Calaiò,Emanuele,Calaiò,Attacker,Italy,1583,Robur Siena,25,2009,11,,,,,,,,,,,5,0,0
+15,115355,Marco Di Vaio,Marco,Di Vaio,Attacker,Italy,500,Bologna,37,2722,10,,,,,,,,,,,5,0,0
+16,91302,A. Nocerino,Antonio,Nocerino,Midfielder,Italy,489,AC Milan,35,2964,10,,,,,,,,,,,6,0,0
+17,30541,A. Matri,Alessandro,Matri,Attacker,Italy,496,Juventus,31,1922,10,,,,,,,,,,,4,0,0
+18,12994,M. Hamšík,Marek,Hamšík,Midfielder,Slovakia,492,Napoli,37,2681,9,,,,,,,,,,,5,0,0
+19,30901,Francesco Lodi,Francesco,Lodi,Midfielder,Italy,1580,Catania,37,3153,9,,,,,,,,,,,4,0,0

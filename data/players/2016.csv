@@ -1,0 +1,21 @@
+,player_id,player_name,firstname,lastname,position,nationality,team_id,team_name,appearences,minutes_played,total_goals,assists_goals,conceded_goals,saves_goals,total_shots,on_shots,won_penalty,commited_penalty,success_penalty,missed_penalty,saved_penalty,yellow_cards,second_yellow_cards,red_cards
+0,790,E. Džeko,Edin,Džeko,Attacker,Bosnia and Herzegovina,497,AS Roma,37,3053,29,9,,,178,81,4.0,,1,2,,4,0,0
+1,332,D. Mertens,Dries,Mertens,Attacker,Belgium,492,Napoli,35,2566,28,9,,,148,67,3.0,,2,1,,6,0,0
+2,30509,A. Belotti,Andrea,Belotti,Attacker,Italy,503,Torino,35,3071,26,7,,,130,49,5.0,,2,3,,5,0,0
+3,2297,G. Higuaín,Gonzalo Gerardo,Higuaín,Attacker,Argentina,496,Juventus,38,2968,24,3,,,134,64,,,0,0,,1,0,0
+4,216,M. Icardi,Mauro Emanuel,Icardi Rivero,Attacker,Argentina,505,Inter,34,3029,24,8,,,109,38,4.0,,3,1,,1,0,0
+5,1863,C. Immobile,Ciro,Immobile,Attacker,Italy,487,Lazio,36,3124,23,3,,,136,60,3.0,,6,0,,5,0,0
+6,331,L. Insigne,Lorenzo,Insigne,Attacker,Italy,492,Napoli,37,2935,18,9,,,147,56,1.0,,2,0,,2,0,0
+7,91319,Marco Borriello,Marco,Borriello,Attacker,Italy,490,Cagliari,36,2596,16,1,,,81,36,,1.0,1,1,,4,0,0
+8,30433,A. Gómez,Alejandro Darío,Gómez,Midfielder,Argentina,499,Atalanta,37,3140,16,10,,,117,51,3.0,,2,0,,6,0,0
+9,213,K. Baldé,Keita,Baldé Diao,Attacker,Senegal,487,Lazio,31,1930,16,3,,,70,28,2.0,1.0,2,0,,5,1,0
+10,306,Mohamed Salah,Mohamed,Salah Ghaly,Attacker,Egypt,497,AS Roma,31,2486,15,11,,,80,34,3.0,,0,0,,2,0,0
+11,57,N. Kalinić,Nikola,Kalinić,Attacker,Croatia,502,Fiorentina,32,2483,15,2,,,90,41,1.0,,1,1,,5,0,1
+12,330,José Callejón,José María,Callejón Bueno,Attacker,Spain,492,Napoli,37,3149,14,12,,,86,34,1.0,2.0,0,0,,3,0,1
+13,30487,Diego Falcinelli,Diego,Falcinelli,Attacker,Italy,501,Crotone,35,3130,13,3,,,99,34,1.0,,2,0,,7,0,0
+14,1706,C. Bacca,Carlos Arturo,Bacca Ahumada,Attacker,Colombia,489,AC Milan,32,2128,13,3,,,56,28,1.0,,4,2,,3,0,0
+15,12994,M. Hamšík,Marek,Hamšík,Midfielder,Slovakia,492,Napoli,38,3050,12,10,,,88,32,1.0,,0,0,,1,0,0
+16,30461,Gregoire Defrel,Gregoire,Defrel,Attacker,France,488,Sassuolo,29,1961,12,2,,,43,22,2.0,,1,0,,1,0,0
+17,30414,G. Simeone,Giovanni Pablo,Simeone,Attacker,Argentina,495,Genoa,35,2617,12,1,,,75,25,,,1,1,,3,0,0
+18,30463,F. Quagliarella,Fabio,Quagliarella,Attacker,Italy,498,Sampdoria,37,2885,12,4,,,112,42,2.0,,3,1,,2,0,0
+19,207,I. Perišić,Ivan,Perišić,Midfielder,Croatia,505,Inter,36,2756,11,8,,,104,39,,,0,0,,2,0,1

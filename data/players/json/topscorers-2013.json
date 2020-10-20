@@ -1,0 +1,722 @@
+[
+    {
+        "player_id": 1863,
+        "player_name": "C. Immobile",
+        "firstname": "Ciro",
+        "lastname": "Immobile",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 503,
+        "team_name": "Torino",
+        "games": {
+            "appearences": 33,
+            "minutes_played": 2592
+        },
+        "goals": {
+            "total": 22,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 11,
+            "second_yellow": 1,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 115142,
+        "player_name": "Luca Toni",
+        "firstname": "Luca",
+        "lastname": "Toni",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 504,
+        "team_name": "Verona",
+        "games": {
+            "appearences": 34,
+            "minutes_played": 3011
+        },
+        "goals": {
+            "total": 20,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 4,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 5982,
+        "player_name": "C. Tevez",
+        "firstname": "Carlos Alberto",
+        "lastname": "Tevez",
+        "position": "Attacker",
+        "nationality": "Argentina",
+        "team_id": 496,
+        "team_name": "Juventus",
+        "games": {
+            "appearences": 34,
+            "minutes_played": 2603
+        },
+        "goals": {
+            "total": 19,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 4,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 30489,
+        "player_name": "R. Palacio",
+        "firstname": "Rodrigo Sebasti\u00e1n",
+        "lastname": "Palacio",
+        "position": "Attacker",
+        "nationality": "Argentina",
+        "team_id": 505,
+        "team_name": "Inter",
+        "games": {
+            "appearences": 37,
+            "minutes_played": 3169
+        },
+        "goals": {
+            "total": 17,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 3,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 115141,
+        "player_name": "Antonio Di Natale",
+        "firstname": "Antonio",
+        "lastname": "Di Natale",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 494,
+        "team_name": "Udinese",
+        "games": {
+            "appearences": 32,
+            "minutes_played": 2411
+        },
+        "goals": {
+            "total": 17,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 1,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 2297,
+        "player_name": "G. Higua\u00edn",
+        "firstname": "Gonzalo Gerardo",
+        "lastname": "Higua\u00edn",
+        "position": "Attacker",
+        "nationality": "Argentina",
+        "team_id": 492,
+        "team_name": "Napoli",
+        "games": {
+            "appearences": 32,
+            "minutes_played": 2421
+        },
+        "goals": {
+            "total": 17,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 6,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 185,
+        "player_name": "Llorente",
+        "firstname": "Fernando",
+        "lastname": "Llorente Torres",
+        "position": "Attacker",
+        "nationality": "Spain",
+        "team_id": 496,
+        "team_name": "Juventus",
+        "games": {
+            "appearences": 34,
+            "minutes_played": 2500
+        },
+        "goals": {
+            "total": 16,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 3,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 30537,
+        "player_name": "D. Berardi",
+        "firstname": "Domenico",
+        "lastname": "Berardi",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 488,
+        "team_name": "Sassuolo",
+        "games": {
+            "appearences": 29,
+            "minutes_played": 2183
+        },
+        "goals": {
+            "total": 16,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 10,
+            "second_yellow": 0,
+            "red": 1
+        }
+    },
+    {
+        "player_id": 91429,
+        "player_name": "G. Rossi",
+        "firstname": "Giuseppe",
+        "lastname": "Rossi",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 502,
+        "team_name": "Fiorentina",
+        "games": {
+            "appearences": 21,
+            "minutes_played": 1526
+        },
+        "goals": {
+            "total": 16,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 1,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 330,
+        "player_name": "Jos\u00e9 Callej\u00f3n",
+        "firstname": "Jos\u00e9 Mar\u00eda",
+        "lastname": "Callej\u00f3n Bueno",
+        "position": "Attacker",
+        "nationality": "Spain",
+        "team_id": 492,
+        "team_name": "Napoli",
+        "games": {
+            "appearences": 37,
+            "minutes_played": 2851
+        },
+        "goals": {
+            "total": 15,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 6,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 91419,
+        "player_name": "Alberto Gilardino",
+        "firstname": "Alberto",
+        "lastname": "Gilardino",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 495,
+        "team_name": "Genoa",
+        "games": {
+            "appearences": 36,
+            "minutes_played": 2936
+        },
+        "goals": {
+            "total": 15,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 8,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 91480,
+        "player_name": "Paulo S\u00e9rgio Betanin",
+        "firstname": "Paulo S\u00e9rgio",
+        "lastname": "Betanin",
+        "position": "Attacker",
+        "nationality": "Brazil",
+        "team_id": 868,
+        "team_name": "Livorno",
+        "games": {
+            "appearences": 35,
+            "minutes_played": 3144
+        },
+        "goals": {
+            "total": 15,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 8,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 1917,
+        "player_name": "M. Balotelli",
+        "firstname": "Mario",
+        "lastname": "Barwuah Balotelli",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "games": {
+            "appearences": 30,
+            "minutes_played": 2295
+        },
+        "goals": {
+            "total": 14,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 10,
+            "second_yellow": 1,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 50158,
+        "player_name": "Alessio Cerci",
+        "firstname": "Alessio",
+        "lastname": "Cerci",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 503,
+        "team_name": "Torino",
+        "games": {
+            "appearences": 37,
+            "minutes_played": 3016
+        },
+        "goals": {
+            "total": 13,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 5,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 39888,
+        "player_name": "G. Denis",
+        "firstname": "Germ\u00e1n Gustavo",
+        "lastname": "Denis",
+        "position": "Attacker",
+        "nationality": "Argentina",
+        "team_id": 499,
+        "team_name": "Atalanta",
+        "games": {
+            "appearences": 37,
+            "minutes_played": 3238
+        },
+        "goals": {
+            "total": 13,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 3,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 30878,
+        "player_name": "A. Paloschi",
+        "firstname": "Alberto",
+        "lastname": "Paloschi",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 491,
+        "team_name": "Chievo",
+        "games": {
+            "appearences": 34,
+            "minutes_played": 2524
+        },
+        "goals": {
+            "total": 13,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 4,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 30486,
+        "player_name": "M. Destro",
+        "firstname": "Mattia",
+        "lastname": "Destro",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 497,
+        "team_name": "AS Roma",
+        "games": {
+            "appearences": 20,
+            "minutes_played": 1237
+        },
+        "goals": {
+            "total": 13,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 5,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 202,
+        "player_name": "A. Candreva",
+        "firstname": "Antonio",
+        "lastname": "Candreva",
+        "position": "Midfielder",
+        "nationality": "Italy",
+        "team_id": 487,
+        "team_name": "Lazio",
+        "games": {
+            "appearences": 37,
+            "minutes_played": 3063
+        },
+        "goals": {
+            "total": 12,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 3,
+            "second_yellow": 1,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 115145,
+        "player_name": "Antonio Cassano",
+        "firstname": "Antonio",
+        "lastname": "Cassano",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 523,
+        "team_name": "Parma",
+        "games": {
+            "appearences": 34,
+            "minutes_played": 2675
+        },
+        "goals": {
+            "total": 12,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 5,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 12795,
+        "player_name": "E. Martins",
+        "firstname": "Eder",
+        "lastname": "Citadin Martins",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 498,
+        "team_name": "Sampdoria",
+        "games": {
+            "appearences": 33,
+            "minutes_played": 2508
+        },
+        "goals": {
+            "total": 12,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 8,
+            "second_yellow": 1,
+            "red": 0
+        }
+    }
+]
