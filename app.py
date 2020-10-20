@@ -401,7 +401,7 @@ def update_scatter_season(selected_dropdown_value):
     fig = go.Figure()
 
     avg_for_x, avg_against_y = [],[]
-    color_list = np.divide(avg_for, avg_against)
+    color_list = np.divide(avg_against, avg_for)
     rgb_color_list = colorscale_to_rgb(list(color_list), 'gnuplot')
 
     for i in range(0,20): 
