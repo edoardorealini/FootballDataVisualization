@@ -391,9 +391,9 @@ def update_scatter_season(selected_dropdown_value):
     trace_title = "Goals average scatter plot - season " + str(selected_dropdown_value)    
 
     df = pd.read_csv("./data/teams/" + str(selected_dropdown_value) + ".csv")
-    teams = df["team_name"].to_list()
     avg_for = df["avg_goalsFor"].to_list()
     avg_against = df["avg_goalsAgainst"].to_list()
+    teams = df["team_name"].to_list()
 
     slope, intercept, r_value, p_value, std_err = stats.linregress(np.array(avg_for),np.array(avg_against))
     line = slope*np.array(avg_for)+intercept
@@ -402,12 +402,14 @@ def update_scatter_season(selected_dropdown_value):
 
     avg_for_x, avg_against_y = [],[]
     color_list = np.divide(avg_for, avg_against)
-    rgb_color_list = colorscale_to_rgb(list(color_list), 'Blues')
+    rgb_color_list = colorscale_to_rgb(list(color_list), 'gnuplot')
 
-    for i in range(0,20):
+    for i in range(0,20): 
         
         avg_for_x.append(avg_for[i])
         avg_against_y.append(avg_against[i])
+
+        marker_text = "Team: " + teams[i] + "<br>" + "avg scored: " + str(avg_for_x[i]) + "<br>" + "avg conceded: " + str(avg_against_y[i])
 
         fig.add_trace(go.Scatter(x=avg_for_x, y=avg_against_y, 
                                 mode='markers',
@@ -417,7 +419,9 @@ def update_scatter_season(selected_dropdown_value):
                                     color=rgb_color_list[i],
                                     line_width=1.5,
                                     opacity=0.85,
-                                    showscale=False)))
+                                    showscale=False),
+                                text=marker_text,
+                                hoverinfo="text"))
         
         avg_for_x.clear()
         avg_against_y.clear()
@@ -438,7 +442,7 @@ def update_scatter_season(selected_dropdown_value):
         yaxis_title="Average goals conceded",
         legend=dict(orientation="h"),
         showlegend=False,
-        hovermode="x"
+        #hovermode="x"
         #transition=trx
         )
 
@@ -464,7 +468,7 @@ def update_parallel(selected_dropdown_value):
 
     fig.add_trace(go.Parcoords(
             line_color = total,
-            line_colorscale = 'Reds',
+            line_colorscale = 'Spectral',
             line_colorbar_title = 'Total shots',
             dimensions = list([
                 dict(range = [100,400],
@@ -676,10 +680,10 @@ def update_bubbles(selected_dropdown_value):
 
     for i in range(0,20):        
         shot_x.append(shots[i])
-        score_y.append(scoring_percentage[i])
-        
-        marker_text = "Goals:" + str(goals[i])
-        
+        score_y.append(scoring_percentage[i]) 
+
+        marker_text = "Teams: " + teams[i] + "<br>" + "Goals: " + str(goals[i])
+                
         fig.add_trace(go.Scatter(x=shot_x, y=score_y, name=teams[i], 
                         mode='markers',
                         text=marker_text,
@@ -687,8 +691,8 @@ def update_bubbles(selected_dropdown_value):
                             size=goals[i],
                             opacity=0.9,
                             color=rgb_color_list[i],
-                            line_width=1.7
-                    )))
+                            line_width=1.7),
+                        hoverinfo="text"))
         
         shot_x.clear()
         score_y.clear()
@@ -700,7 +704,6 @@ def update_bubbles(selected_dropdown_value):
         yaxis_title='Scoring Rate % (Goals/Shots)',
         legend_orientation="h",
         showlegend=False,
-        hovermode="x"
         #transition=trx
     )
 
