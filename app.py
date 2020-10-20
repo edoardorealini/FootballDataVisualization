@@ -409,7 +409,7 @@ def update_scatter_season(selected_dropdown_value):
         avg_for_x.append(avg_for[i])
         avg_against_y.append(avg_against[i])
 
-        marker_text = "Team: " + teams[i] + "<br>" + "avg scored: " + str(avg_for_x[i]) + "<br>" + "avg conceded: " + str(avg_against_y[i])
+        marker_text = "Team: " + teams[i] + "<br>" + "avg scored: " + str(avg_for[i]) + "<br>" + "avg conceded: " + str(avg_against[i])
 
         fig.add_trace(go.Scatter(x=avg_for_x, y=avg_against_y, 
                                 mode='markers',
