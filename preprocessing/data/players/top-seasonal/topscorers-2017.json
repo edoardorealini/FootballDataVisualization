@@ -1,0 +1,38 @@
+[
+    {
+        "player_id": 2284,
+        "player_name": "Emerson",
+        "firstname": "Emerson",
+        "lastname": "Palmieri dos Santos",
+        "position": "Defender",
+        "nationality": "Italy",
+        "team_id": 497,
+        "team_name": "AS Roma",
+        "games": {
+            "appearences": 0,
+            "minutes_played": 0
+        },
+        "goals": {
+            "total": 0,
+            "assists": null,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": null,
+            "on": null
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": null,
+            "missed": null,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 0,
+            "second_yellow": 0,
+            "red": 0
+        }
+    }
+]

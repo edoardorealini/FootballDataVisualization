@@ -1,0 +1,21 @@
+,player_id,player_name,firstname,lastname,position,nationality,team_id,team_name,appearences,minutes_played,total_goals,assists_goals,conceded_goals,saves_goals,total_shots,on_shots,won_penalty,commited_penalty,success_penalty,missed_penalty,saved_penalty,yellow_cards,second_yellow_cards,red_cards
+0,1863,C. Immobile,Ciro,Immobile,Attacker,Italy,503,Torino,33,2592,22,,,,,,,,,,,11,1,0
+1,115142,Luca Toni,Luca,Toni,Attacker,Italy,504,Verona,34,3011,20,,,,,,,,,,,4,0,0
+2,5982,C. Tevez,Carlos Alberto,Tevez,Attacker,Argentina,496,Juventus,34,2603,19,,,,,,,,,,,4,0,0
+3,30489,R. Palacio,Rodrigo Sebastián,Palacio,Attacker,Argentina,505,Inter,37,3169,17,,,,,,,,,,,3,0,0
+4,115141,Antonio Di Natale,Antonio,Di Natale,Attacker,Italy,494,Udinese,32,2411,17,,,,,,,,,,,1,0,0
+5,2297,G. Higuaín,Gonzalo Gerardo,Higuaín,Attacker,Argentina,492,Napoli,32,2421,17,,,,,,,,,,,6,0,0
+6,185,Llorente,Fernando,Llorente Torres,Attacker,Spain,496,Juventus,34,2500,16,,,,,,,,,,,3,0,0
+7,30537,D. Berardi,Domenico,Berardi,Attacker,Italy,488,Sassuolo,29,2183,16,,,,,,,,,,,10,0,1
+8,91429,G. Rossi,Giuseppe,Rossi,Attacker,Italy,502,Fiorentina,21,1526,16,,,,,,,,,,,1,0,0
+9,330,José Callejón,José María,Callejón Bueno,Attacker,Spain,492,Napoli,37,2851,15,,,,,,,,,,,6,0,0
+10,91419,Alberto Gilardino,Alberto,Gilardino,Attacker,Italy,495,Genoa,36,2936,15,,,,,,,,,,,8,0,0
+11,91480,Paulo Sérgio Betanin,Paulo Sérgio,Betanin,Attacker,Brazil,868,Livorno,35,3144,15,,,,,,,,,,,8,0,0
+12,1917,M. Balotelli,Mario,Barwuah Balotelli,Attacker,Italy,489,AC Milan,30,2295,14,,,,,,,,,,,10,1,0
+13,50158,Alessio Cerci,Alessio,Cerci,Attacker,Italy,503,Torino,37,3016,13,,,,,,,,,,,5,0,0
+14,39888,G. Denis,Germán Gustavo,Denis,Attacker,Argentina,499,Atalanta,37,3238,13,,,,,,,,,,,3,0,0
+15,30878,A. Paloschi,Alberto,Paloschi,Attacker,Italy,491,Chievo,34,2524,13,,,,,,,,,,,4,0,0
+16,30486,M. Destro,Mattia,Destro,Attacker,Italy,497,AS Roma,20,1237,13,,,,,,,,,,,5,0,0
+17,202,A. Candreva,Antonio,Candreva,Midfielder,Italy,487,Lazio,37,3063,12,,,,,,,,,,,3,1,0
+18,115145,Antonio Cassano,Antonio,Cassano,Attacker,Italy,523,Parma,34,2675,12,,,,,,,,,,,5,0,0
+19,12795,E. Martins,Eder,Citadin Martins,Attacker,Italy,498,Sampdoria,33,2508,12,,,,,,,,,,,8,1,0

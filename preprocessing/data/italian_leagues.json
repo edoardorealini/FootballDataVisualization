@@ -1,0 +1,407 @@
+[
+    {
+        "league_id": 1253,
+        "name": "Serie D - Girone A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-09-01",
+        "season_end": "2020-05-03",
+        "logo": "https://media.api-sports.io/football/leagues/426.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 1254,
+        "name": "Serie D - Girone B",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-09-01",
+        "season_end": "2020-05-03",
+        "logo": "https://media.api-sports.io/football/leagues/427.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 1255,
+        "name": "Serie D - Girone C",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-09-01",
+        "season_end": "2020-05-03",
+        "logo": "https://media.api-sports.io/football/leagues/428.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 1256,
+        "name": "Serie D - Girone D",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-09-01",
+        "season_end": "2020-05-03",
+        "logo": "https://media.api-sports.io/football/leagues/429.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 1257,
+        "name": "Serie D - Girone E",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-09-01",
+        "season_end": "2020-05-03",
+        "logo": "https://media.api-sports.io/football/leagues/430.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 1258,
+        "name": "Serie D - Girone F",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-09-01",
+        "season_end": "2020-05-03",
+        "logo": "https://media.api-sports.io/football/leagues/431.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 1259,
+        "name": "Serie D - Girone G",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-09-01",
+        "season_end": "2020-05-03",
+        "logo": "https://media.api-sports.io/football/leagues/432.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 1260,
+        "name": "Serie D - Girone H",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-09-01",
+        "season_end": "2020-05-03",
+        "logo": "https://media.api-sports.io/football/leagues/433.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 1261,
+        "name": "Serie D - Girone I",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-09-01",
+        "season_end": "2020-05-03",
+        "logo": "https://media.api-sports.io/football/leagues/434.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 1601,
+        "name": "Super Cup",
+        "type": "Cup",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-12-22",
+        "season_end": "2019-12-22",
+        "logo": "https://media.api-sports.io/football/leagues/547.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics": true,
+                "players_statistics": true
+            },
+            "players": false,
+            "topScorers": false,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 2798,
+        "name": "Serie A Women",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2020,
+        "season_start": "2020-08-22",
+        "season_end": "2021-05-23",
+        "logo": "https://media.api-sports.io/football/leagues/139.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 1,
+        "coverage": {
+            "standings": true,
+            "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": false,
+            "topScorers": false,
+            "predictions": true,
+            "odds": false
+        }
+    },
+    {
+        "league_id": 2857,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2020,
+        "season_start": "2020-09-19",
+        "season_end": "2021-05-23",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 1,
+        "coverage": {
+            "standings": true,
+            "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics": true,
+                "players_statistics": true
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": true
+        }
+    },
+    {
+        "league_id": 2941,
+        "name": "Coppa Italia",
+        "type": "Cup",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2020,
+        "season_start": "2020-09-23",
+        "season_end": "2020-09-30",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+            "standings": false,
+            "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": true
+        }
+    },
+    {
+        "league_id": 2946,
+        "name": "Serie B",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2020,
+        "season_start": "2020-09-25",
+        "season_end": "2021-05-07",
+        "logo": "https://media.api-sports.io/football/leagues/136.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 1,
+        "coverage": {
+            "standings": true,
+            "fixtures": {
+                "events": true,
+                "lineups": true,
+                "statistics": true,
+                "players_statistics": true
+            },
+            "players": true,
+            "topScorers": true,
+            "predictions": true,
+            "odds": true
+        }
+    },
+    {
+        "league_id": 2974,
+        "name": "Serie C",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2020,
+        "season_start": "2020-09-26",
+        "season_end": "2021-04-25",
+        "logo": "https://media.api-sports.io/football/leagues/138.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 1,
+        "coverage": {
+            "standings": true,
+            "fixtures": {
+                "events": true,
+                "lineups": false,
+                "statistics": false,
+                "players_statistics": false
+            },
+            "players": false,
+            "topScorers": false,
+            "predictions": true,
+            "odds": true
+        }
+    }
+]

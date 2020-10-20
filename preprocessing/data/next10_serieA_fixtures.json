@@ -1,0 +1,192 @@
+[
+  {
+    "fixture_id": 608490,
+    "league_id": 2857,
+    "league": {
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg"
+    },
+    "event_date": "2020-09-28T18:45:00+00:00",
+    "event_timestamp": 1601318700,
+    "firstHalfStart": null,
+    "secondHalfStart": null,
+    "round": "Regular Season - 2",
+    "status": "Not Started",
+    "statusShort": "NS",
+    "elapsed": 0,
+    "venue": "Stadio Renato Dall'Ara",
+    "referee": "P. Valeri",
+    "homeTeam": {
+      "team_id": 500,
+      "team_name": "Bologna",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+    },
+    "awayTeam": {
+      "team_id": 523,
+      "team_name": "Parma",
+      "logo": "https://media.api-sports.io/football/teams/523.png"
+    },
+    "goalsHomeTeam": null,
+    "goalsAwayTeam": null,
+    "score": {
+      "halftime": null,
+      "fulltime": null,
+      "extratime": null,
+      "penalty": null
+    }
+  },
+  {
+    "fixture_id": 608480,
+    "league_id": 2857,
+    "league": {
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg"
+    },
+    "event_date": "2020-09-30T16:00:00+00:00",
+    "event_timestamp": 1601481600,
+    "firstHalfStart": null,
+    "secondHalfStart": null,
+    "round": "Regular Season - 1",
+    "status": "Not Started",
+    "statusShort": "NS",
+    "elapsed": 0,
+    "venue": "Stadio Ciro Vigorito",
+    "referee": null,
+    "homeTeam": {
+      "team_id": 506,
+      "team_name": "Benevento",
+      "logo": "https://media.api-sports.io/football/teams/506.png"
+    },
+    "awayTeam": {
+      "team_id": 505,
+      "team_name": "Inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "goalsHomeTeam": null,
+    "goalsAwayTeam": null,
+    "score": {
+      "halftime": null,
+      "fulltime": null,
+      "extratime": null,
+      "penalty": null
+    }
+  },
+  {
+    "fixture_id": 608488,
+    "league_id": 2857,
+    "league": {
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg"
+    },
+    "event_date": "2020-09-30T16:00:00+00:00",
+    "event_timestamp": 1601481600,
+    "firstHalfStart": null,
+    "secondHalfStart": null,
+    "round": "Regular Season - 1",
+    "status": "Not Started",
+    "statusShort": "NS",
+    "elapsed": 0,
+    "venue": "Dacia Arena",
+    "referee": null,
+    "homeTeam": {
+      "team_id": 494,
+      "team_name": "Udinese",
+      "logo": "https://media.api-sports.io/football/teams/494.png"
+    },
+    "awayTeam": {
+      "team_id": 515,
+      "team_name": "Spezia",
+      "logo": "https://media.api-sports.io/football/teams/515.png"
+    },
+    "goalsHomeTeam": null,
+    "goalsAwayTeam": null,
+    "score": {
+      "halftime": null,
+      "fulltime": null,
+      "extratime": null,
+      "penalty": null
+    }
+  },
+  {
+    "fixture_id": 608484,
+    "league_id": 2857,
+    "league": {
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg"
+    },
+    "event_date": "2020-09-30T18:45:00+00:00",
+    "event_timestamp": 1601491500,
+    "firstHalfStart": null,
+    "secondHalfStart": null,
+    "round": "Regular Season - 1",
+    "status": "Not Started",
+    "statusShort": "NS",
+    "elapsed": 0,
+    "venue": "Stadio Olimpico",
+    "referee": null,
+    "homeTeam": {
+      "team_id": 487,
+      "team_name": "Lazio",
+      "logo": "https://media.api-sports.io/football/teams/487.png"
+    },
+    "awayTeam": {
+      "team_id": 499,
+      "team_name": "Atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "goalsHomeTeam": null,
+    "goalsAwayTeam": null,
+    "score": {
+      "halftime": null,
+      "fulltime": null,
+      "extratime": null,
+      "penalty": null
+    }
+  },
+  {
+    "fixture_id": 608502,
+    "league_id": 2857,
+    "league": {
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg"
+    },
+    "event_date": "2020-10-02T18:45:00+00:00",
+    "event_timestamp": 1601664300,
+    "firstHalfStart": null,
+    "secondHalfStart": null,
+    "round": "Regular Season - 3",
+    "status": "Not Started",
+    "statusShort": "NS",
+    "elapsed": 0,
+    "venue": "Stadio Artemio Franchi",
+    "referee": null,
+    "homeTeam": {
+      "team_id": 502,
+      "team_name": "Fiorentina",
+      "logo": "https://media.api-sports.io/football/teams/502.png"
+    },
+    "awayTeam": {
+      "team_id": 498,
+      "team_name": "Sampdoria",
+      "logo": "https://media.api-sports.io/football/teams/498.png"
+    },
+    "goalsHomeTeam": null,
+    "goalsAwayTeam": null,
+    "score": {
+      "halftime": null,
+      "fulltime": null,
+      "extratime": null,
+      "penalty": null
+    }
+  }
+]

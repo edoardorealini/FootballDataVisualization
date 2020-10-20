@@ -1,0 +1,367 @@
+{
+  "api": {
+    "results": 1,
+    "predictions": [
+      {
+        "match_winner": "N 2",
+        "under_over": null,
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "advice": "Double chance :  draws or AC Milan",
+        "winning_percent": {
+          "home": "0%",
+          "draws": "50%",
+          "away": "50%"
+        },
+        "teams": {
+          "home": {
+            "team_id": 501,
+            "team_name": "Crotone",
+            "last_5_matches": {
+              "forme": "0%",
+              "att": "7%",
+              "def": "71%",
+              "goals": 1,
+              "goals_avg": 1,
+              "goals_against": 4,
+              "goals_against_avg": 4
+            },
+            "all_last_matches": {
+              "matchs": {
+                "matchsPlayed": {
+                  "home": 0,
+                  "away": 1,
+                  "total": 1
+                },
+                "wins": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                },
+                "draws": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                },
+                "loses": {
+                  "home": 0,
+                  "away": 1,
+                  "total": 1
+                }
+              },
+              "goals": {
+                "goalsFor": {
+                  "home": 0,
+                  "away": 1,
+                  "total": 1
+                },
+                "goalsAgainst": {
+                  "home": 0,
+                  "away": 4,
+                  "total": 4
+                }
+              },
+              "goalsAvg": {
+                "goalsFor": {
+                  "home": "0.0",
+                  "away": "1.0",
+                  "total": "1.0"
+                },
+                "goalsAgainst": {
+                  "home": "0.0",
+                  "away": "4.0",
+                  "total": "4.0"
+                }
+              }
+            },
+            "last_h2h": {
+              "played": {
+                "home": 2,
+                "away": 2,
+                "total": 4
+              },
+              "wins": {
+                "home": 0,
+                "away": 0,
+                "total": 0
+              },
+              "draws": {
+                "home": 1,
+                "away": 0,
+                "total": 1
+              },
+              "loses": {
+                "home": 1,
+                "away": 2,
+                "total": 3
+              }
+            }
+          },
+          "away": {
+            "team_id": 489,
+            "team_name": "AC Milan",
+            "last_5_matches": {
+              "forme": "100%",
+              "att": "14%",
+              "def": "100%",
+              "goals": 2,
+              "goals_avg": 2,
+              "goals_against": 0,
+              "goals_against_avg": 0
+            },
+            "all_last_matches": {
+              "matchs": {
+                "matchsPlayed": {
+                  "home": 1,
+                  "away": 0,
+                  "total": 1
+                },
+                "wins": {
+                  "home": 1,
+                  "away": 0,
+                  "total": 1
+                },
+                "draws": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                },
+                "loses": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                }
+              },
+              "goals": {
+                "goalsFor": {
+                  "home": 2,
+                  "away": 0,
+                  "total": 2
+                },
+                "goalsAgainst": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                }
+              },
+              "goalsAvg": {
+                "goalsFor": {
+                  "home": "2.0",
+                  "away": "0.0",
+                  "total": "2.0"
+                },
+                "goalsAgainst": {
+                  "home": "0.0",
+                  "away": "0.0",
+                  "total": "0.0"
+                }
+              }
+            },
+            "last_h2h": {
+              "played": {
+                "home": 2,
+                "away": 2,
+                "total": 4
+              },
+              "wins": {
+                "home": 2,
+                "away": 1,
+                "total": 3
+              },
+              "draws": {
+                "home": 0,
+                "away": 1,
+                "total": 1
+              },
+              "loses": {
+                "home": 0,
+                "away": 0,
+                "total": 0
+              }
+            }
+          }
+        },
+        "h2h": [
+          {
+            "fixture_id": 21524,
+            "league_id": 66,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2016-12-04T11:30:00+00:00",
+            "event_timestamp": 1480851000,
+            "firstHalfStart": 1480851000,
+            "secondHalfStart": 1480854600,
+            "round": "Regular Season - 15",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "San Siro/Giuseppe Meazza",
+            "referee": "Marco Di Bello, Italy",
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 501,
+              "team_name": "Crotone",
+              "logo": "https://media.api-sports.io/football/teams/501.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "1-1",
+              "fulltime": "2-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 21329,
+            "league_id": 66,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2017-04-30T13:00:00+00:00",
+            "event_timestamp": 1493557200,
+            "firstHalfStart": 1493557200,
+            "secondHalfStart": 1493560800,
+            "round": "Regular Season - 34",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Ezio Scida",
+            "referee": "Luca Banti, Italy",
+            "homeTeam": {
+              "team_id": 501,
+              "team_name": "Crotone",
+              "logo": "https://media.api-sports.io/football/teams/501.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "1-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 9037,
+            "league_id": 28,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2017-08-20T18:45:00+00:00",
+            "event_timestamp": 1503254700,
+            "firstHalfStart": 1503254700,
+            "secondHalfStart": 1503258300,
+            "round": "Regular Season - 1",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Ezio Scida",
+            "referee": "Maurizio Mariani, Italy",
+            "homeTeam": {
+              "team_id": 501,
+              "team_name": "Crotone",
+              "logo": "https://media.api-sports.io/football/teams/501.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 3,
+            "score": {
+              "halftime": "0-3",
+              "fulltime": "0-3",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 8850,
+            "league_id": 28,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2018-01-06T14:00:00+00:00",
+            "event_timestamp": 1515247200,
+            "firstHalfStart": 1515247200,
+            "secondHalfStart": 1515250800,
+            "round": "Regular Season - 20",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "San Siro/Giuseppe Meazza",
+            "referee": "Fabio Maresca, Italy",
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 501,
+              "team_name": "Crotone",
+              "logo": "https://media.api-sports.io/football/teams/501.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-0",
+              "extratime": null,
+              "penalty": null
+            }
+          }
+        ],
+        "comparison": {
+          "forme": {
+            "home": "0%",
+            "away": "100%"
+          },
+          "att": {
+            "home": "33%",
+            "away": "67%"
+          },
+          "def": {
+            "home": "0%",
+            "away": "100%"
+          },
+          "fish_law": {
+            "home": "0%",
+            "away": "0%"
+          },
+          "h2h": {
+            "home": "9%",
+            "away": "91%"
+          },
+          "goals_h2h": {
+            "home": "22%",
+            "away": "78%"
+          }
+        }
+      }
+    ]
+  }
+}

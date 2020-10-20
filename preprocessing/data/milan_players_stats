@@ -1,0 +1,5551 @@
+{
+  "api": {
+    "results": 72,
+    "players": [
+      {
+        "player_id": 1637,
+        "player_name": "L. Biglia",
+        "firstname": "Lucas Rodrigo",
+        "lastname": "Biglia",
+        "number": null,
+        "position": "Midfielder",
+        "age": 34,
+        "birth_date": "30/01/1986",
+        "birth_place": "Mercedes",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "178 cm",
+        "weight": "64 kg",
+        "injured": null,
+        "rating": "6.600000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 6,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 386,
+          "key": 6,
+          "accuracy": 90
+        },
+        "tackles": {
+          "total": 9,
+          "blocks": 3,
+          "interceptions": 9
+        },
+        "duels": {
+          "total": 11,
+          "won": 6
+        },
+        "dribbles": {
+          "attempts": 5,
+          "success": 3
+        },
+        "fouls": {
+          "drawn": 7,
+          "committed": 22
+        },
+        "cards": {
+          "yellow": 4,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 14,
+          "minutes_played": 683,
+          "lineups": 8
+        },
+        "substitutes": {
+          "in": 6,
+          "out": 4,
+          "bench": 21
+        }
+      },
+      {
+        "player_id": 1637,
+        "player_name": "L. Biglia",
+        "firstname": "Lucas Rodrigo",
+        "lastname": "Biglia",
+        "number": null,
+        "position": "Midfielder",
+        "age": 34,
+        "birth_date": "30/01/1986",
+        "birth_place": "Mercedes",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "178 cm",
+        "weight": "64 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1638,
+        "player_name": "Giacomo Bonaventura",
+        "firstname": "Giacomo",
+        "lastname": "Bonaventura",
+        "number": null,
+        "position": "Midfielder",
+        "age": 31,
+        "birth_date": "22/08/1989",
+        "birth_place": "San Severino Marche",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "180 cm",
+        "weight": "75 kg",
+        "injured": null,
+        "rating": "6.914814",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 40,
+          "on": 13
+        },
+        "goals": {
+          "total": 3,
+          "conceded": 0,
+          "assists": 5,
+          "saves": 0
+        },
+        "passes": {
+          "total": 551,
+          "key": 26,
+          "accuracy": 84
+        },
+        "tackles": {
+          "total": 16,
+          "blocks": 2,
+          "interceptions": 7
+        },
+        "duels": {
+          "total": 50,
+          "won": 27
+        },
+        "dribbles": {
+          "attempts": 28,
+          "success": 20
+        },
+        "fouls": {
+          "drawn": 33,
+          "committed": 20
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 29,
+          "minutes_played": 1327,
+          "lineups": 13
+        },
+        "substitutes": {
+          "in": 16,
+          "out": 9,
+          "bench": 23
+        }
+      },
+      {
+        "player_id": 1638,
+        "player_name": "Giacomo Bonaventura",
+        "firstname": "Giacomo",
+        "lastname": "Bonaventura",
+        "number": null,
+        "position": "Midfielder",
+        "age": 31,
+        "birth_date": "22/08/1989",
+        "birth_place": "San Severino Marche",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "180 cm",
+        "weight": "75 kg",
+        "injured": null,
+        "rating": "6.766666",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 2,
+          "on": 2
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 53,
+          "key": 1,
+          "accuracy": 75
+        },
+        "tackles": {
+          "total": 7,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 10,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 203,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 3,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1631,
+        "player_name": "Ricardo Iván Rodríguez Araya",
+        "firstname": "Ricardo Iván",
+        "lastname": "Rodríguez Araya",
+        "number": null,
+        "position": "Defender",
+        "age": 28,
+        "birth_date": "25/08/1992",
+        "birth_place": "Zürich",
+        "birth_country": "Switzerland",
+        "nationality": "Switzerland",
+        "height": "181 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "6.860000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 210,
+          "key": 1,
+          "accuracy": 87
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 2,
+          "interceptions": 5
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 3,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 388,
+          "lineups": 5
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 2,
+          "bench": 10
+        }
+      },
+      {
+        "player_id": 1633,
+        "player_name": "I. Strinić",
+        "firstname": "Ivan",
+        "lastname": "Strinić",
+        "number": null,
+        "position": "Defender",
+        "age": 32,
+        "birth_date": "17/07/1987",
+        "birth_place": "Split",
+        "birth_country": "Croatia",
+        "nationality": "Croatia",
+        "height": "186 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1633,
+        "player_name": "I. Strinić",
+        "firstname": "Ivan",
+        "lastname": "Strinić",
+        "number": null,
+        "position": "Defender",
+        "age": 32,
+        "birth_date": "17/07/1987",
+        "birth_place": "Split",
+        "birth_country": "Croatia",
+        "nationality": "Croatia",
+        "height": "186 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1647,
+        "player_name": "Emanuele Torrasi",
+        "firstname": "Emanuele",
+        "lastname": "Torrasi",
+        "number": null,
+        "position": "Midfielder",
+        "age": 21,
+        "birth_date": "16/03/1999",
+        "birth_place": "Milano",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": null,
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1652,
+        "player_name": "F. Tsadjout",
+        "firstname": "Franck",
+        "lastname": "Tsadjout",
+        "number": null,
+        "position": "Attacker",
+        "age": 21,
+        "birth_date": "28/07/1999",
+        "birth_place": "Perugia",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "190 cm",
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1625,
+        "player_name": "Matteo Soncin",
+        "firstname": "Matteo",
+        "lastname": "Soncin",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 19,
+        "birth_date": "28/03/2001",
+        "birth_place": null,
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": null,
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 1625,
+        "player_name": "Matteo Soncin",
+        "firstname": "Matteo",
+        "lastname": "Soncin",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 19,
+        "birth_date": "28/03/2001",
+        "birth_place": null,
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": null,
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1639,
+        "player_name": "M. Brescianini",
+        "firstname": "Marco",
+        "lastname": "Brescianini",
+        "number": null,
+        "position": "Midfielder",
+        "age": 20,
+        "birth_date": "20/01/2000",
+        "birth_place": null,
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": null,
+        "weight": null,
+        "injured": null,
+        "rating": "6.700000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 21,
+          "key": 0,
+          "accuracy": 100
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 4,
+          "won": 2
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 24,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 19
+        }
+      },
+      {
+        "player_id": 1639,
+        "player_name": "M. Brescianini",
+        "firstname": "Marco",
+        "lastname": "Brescianini",
+        "number": null,
+        "position": "Midfielder",
+        "age": 20,
+        "birth_date": "20/01/2000",
+        "birth_place": null,
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": null,
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 1648,
+        "player_name": "Fabio Borini",
+        "firstname": "Fabio",
+        "lastname": "Borini",
+        "number": null,
+        "position": "Attacker",
+        "age": 29,
+        "birth_date": "29/03/1991",
+        "birth_place": "Bentivoglio",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "180 cm",
+        "weight": "73 kg",
+        "injured": null,
+        "rating": "6.821428",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 39,
+          "on": 15
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 167,
+          "key": 7,
+          "accuracy": 69
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 0,
+          "interceptions": 13
+        },
+        "duels": {
+          "total": 51,
+          "won": 24
+        },
+        "dribbles": {
+          "attempts": 19,
+          "success": 10
+        },
+        "fouls": {
+          "drawn": 26,
+          "committed": 11
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 1,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 70,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 1,
+          "bench": 13
+        }
+      },
+      {
+        "player_id": 1651,
+        "player_name": "Krzysztof Piątek",
+        "firstname": "Krzysztof",
+        "lastname": "Piątek",
+        "number": null,
+        "position": "Attacker",
+        "age": 25,
+        "birth_date": "01/07/1995",
+        "birth_place": "Dzierżoniów",
+        "birth_country": "Poland",
+        "nationality": "Poland",
+        "height": "183 cm",
+        "weight": "77 kg",
+        "injured": null,
+        "rating": "6.877777",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 48,
+          "on": 15
+        },
+        "goals": {
+          "total": 4,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 171,
+          "key": 16,
+          "accuracy": 78
+        },
+        "tackles": {
+          "total": 7,
+          "blocks": 2,
+          "interceptions": 3
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 7,
+          "success": 5
+        },
+        "fouls": {
+          "drawn": 27,
+          "committed": 24
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 3,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 18,
+          "minutes_played": 1190,
+          "lineups": 14
+        },
+        "substitutes": {
+          "in": 4,
+          "out": 7,
+          "bench": 7
+        }
+      },
+      {
+        "player_id": 1651,
+        "player_name": "Krzysztof Piątek",
+        "firstname": "Krzysztof",
+        "lastname": "Piątek",
+        "number": null,
+        "position": "Attacker",
+        "age": 25,
+        "birth_date": "01/07/1995",
+        "birth_place": "Dzierżoniów",
+        "birth_country": "Poland",
+        "nationality": "Poland",
+        "height": "183 cm",
+        "weight": "77 kg",
+        "injured": null,
+        "rating": "7.450000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 6,
+          "on": 2
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 20,
+          "key": 3,
+          "accuracy": 67
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 3,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 155,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1628,
+        "player_name": "Mattia Caldara",
+        "firstname": "Mattia",
+        "lastname": "Caldara",
+        "number": null,
+        "position": "Defender",
+        "age": 26,
+        "birth_date": "05/05/1994",
+        "birth_place": "Bergamo",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "187 cm",
+        "weight": "80 kg",
+        "injured": null,
+        "rating": "6.814285",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 5,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 394,
+          "key": 1,
+          "accuracy": 81
+        },
+        "tackles": {
+          "total": 21,
+          "blocks": 5,
+          "interceptions": 30
+        },
+        "duels": {
+          "total": 87,
+          "won": 50
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 7,
+          "committed": 20
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 6
+        }
+      },
+      {
+        "player_id": 1624,
+        "player_name": "Pepe Reina",
+        "firstname": "José Manuel",
+        "lastname": "Reina Páez",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 38,
+        "birth_date": "31/08/1982",
+        "birth_place": "Madrid",
+        "birth_country": "Spain",
+        "nationality": "Spain",
+        "height": "188 cm",
+        "weight": "92 kg",
+        "injured": null,
+        "rating": "7.000000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 1,
+          "assists": 0,
+          "saves": 5
+        },
+        "passes": {
+          "total": 21,
+          "key": 0,
+          "accuracy": 72
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 1
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 1
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 15
+        }
+      },
+      {
+        "player_id": 2063,
+        "player_name": "André Silva",
+        "firstname": "André Miguel",
+        "lastname": "Valente Silva",
+        "number": null,
+        "position": "Attacker",
+        "age": 25,
+        "birth_date": "06/11/1995",
+        "birth_place": "Gondomar",
+        "birth_country": "Portugal",
+        "nationality": "Portugal",
+        "height": "184 cm",
+        "weight": "84 kg",
+        "injured": null,
+        "rating": "6.700000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 2,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 8,
+          "key": 0,
+          "accuracy": 66
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 61,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1621,
+        "player_name": "Antonio Donnarumma",
+        "firstname": "Antonio",
+        "lastname": "Donnarumma",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 30,
+        "birth_date": "07/07/1990",
+        "birth_place": "Castellammare di Stabia",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "192 cm",
+        "weight": "96 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 37
+        }
+      },
+      {
+        "player_id": 1621,
+        "player_name": "Antonio Donnarumma",
+        "firstname": "Antonio",
+        "lastname": "Donnarumma",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 30,
+        "birth_date": "07/07/1990",
+        "birth_place": "Castellammare di Stabia",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "192 cm",
+        "weight": "96 kg",
+        "injured": null,
+        "rating": "7.200000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 2
+        },
+        "passes": {
+          "total": 15,
+          "key": 0,
+          "accuracy": 51
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 1622,
+        "player_name": "G. Donnarumma",
+        "firstname": "Gianluigi",
+        "lastname": "Donnarumma",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 21,
+        "birth_date": "25/02/1999",
+        "birth_place": "Castellammare di Stabia",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "196 cm",
+        "weight": "90 kg",
+        "injured": null,
+        "rating": "7.000000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 3,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 43,
+          "assists": 0,
+          "saves": 101
+        },
+        "passes": {
+          "total": 707,
+          "key": 0,
+          "accuracy": 73
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 0,
+          "interceptions": 3
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 4
+        },
+        "games": {
+          "appearences": 36,
+          "minutes_played": 3202,
+          "lineups": 36
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1622,
+        "player_name": "G. Donnarumma",
+        "firstname": "Gianluigi",
+        "lastname": "Donnarumma",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 21,
+        "birth_date": "25/02/1999",
+        "birth_place": "Castellammare di Stabia",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "196 cm",
+        "weight": "90 kg",
+        "injured": null,
+        "rating": "7.500000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 3,
+          "assists": 0,
+          "saves": 12
+        },
+        "passes": {
+          "total": 50,
+          "key": 0,
+          "accuracy": 61
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 1
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 300,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1627,
+        "player_name": "D. Calabria",
+        "firstname": "Davide",
+        "lastname": "Calabria",
+        "number": null,
+        "position": "Defender",
+        "age": 24,
+        "birth_date": "06/12/1996",
+        "birth_place": "Brescia",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "177 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "6.812500",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 13,
+          "on": 2
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 773,
+          "key": 13,
+          "accuracy": 79
+        },
+        "tackles": {
+          "total": 45,
+          "blocks": 5,
+          "interceptions": 21
+        },
+        "duels": {
+          "total": 57,
+          "won": 32
+        },
+        "dribbles": {
+          "attempts": 22,
+          "success": 9
+        },
+        "fouls": {
+          "drawn": 22,
+          "committed": 15
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 1,
+          "red": 1
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 25,
+          "minutes_played": 1619,
+          "lineups": 16
+        },
+        "substitutes": {
+          "in": 9,
+          "out": 4,
+          "bench": 18
+        }
+      },
+      {
+        "player_id": 1627,
+        "player_name": "D. Calabria",
+        "firstname": "Davide",
+        "lastname": "Calabria",
+        "number": null,
+        "position": "Defender",
+        "age": 24,
+        "birth_date": "06/12/1996",
+        "birth_place": "Brescia",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "177 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "6.250000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 53,
+          "key": 1,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 3,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 8,
+          "won": 4
+        },
+        "dribbles": {
+          "attempts": 5,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 178,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1632,
+        "player_name": "A. Romagnoli",
+        "firstname": "Alessio",
+        "lastname": "Romagnoli",
+        "number": null,
+        "position": "Defender",
+        "age": 25,
+        "birth_date": "12/01/1995",
+        "birth_place": "Roma",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "185 cm",
+        "weight": "75 kg",
+        "injured": null,
+        "rating": "7.061764",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 34,
+        "shots": {
+          "total": 15,
+          "on": 3
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1735,
+          "key": 11,
+          "accuracy": 89
+        },
+        "tackles": {
+          "total": 45,
+          "blocks": 18,
+          "interceptions": 57
+        },
+        "duels": {
+          "total": 41,
+          "won": 24
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 20,
+          "committed": 41
+        },
+        "cards": {
+          "yellow": 4,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 35,
+          "minutes_played": 3092,
+          "lineups": 35
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1632,
+        "player_name": "A. Romagnoli",
+        "firstname": "Alessio",
+        "lastname": "Romagnoli",
+        "number": null,
+        "position": "Defender",
+        "age": 25,
+        "birth_date": "12/01/1995",
+        "birth_place": "Roma",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "185 cm",
+        "weight": "75 kg",
+        "injured": null,
+        "rating": "7.100000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 4,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 177,
+          "key": 1,
+          "accuracy": 91
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 4,
+          "interceptions": 9
+        },
+        "duels": {
+          "total": 3,
+          "won": 2
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 3,
+          "committed": 5
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 390,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1629,
+        "player_name": "A. Conti",
+        "firstname": "Andrea",
+        "lastname": "Conti",
+        "number": null,
+        "position": "Defender",
+        "age": 26,
+        "birth_date": "02/03/1994",
+        "birth_place": "Lecco",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "184 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.550000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 2,
+          "saves": 0
+        },
+        "passes": {
+          "total": 675,
+          "key": 11,
+          "accuracy": 82
+        },
+        "tackles": {
+          "total": 36,
+          "blocks": 7,
+          "interceptions": 37
+        },
+        "duels": {
+          "total": 44,
+          "won": 22
+        },
+        "dribbles": {
+          "attempts": 11,
+          "success": 7
+        },
+        "fouls": {
+          "drawn": 21,
+          "committed": 34
+        },
+        "cards": {
+          "yellow": 8,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 23,
+          "minutes_played": 1729,
+          "lineups": 21
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 6,
+          "bench": 13
+        }
+      },
+      {
+        "player_id": 1629,
+        "player_name": "A. Conti",
+        "firstname": "Andrea",
+        "lastname": "Conti",
+        "number": null,
+        "position": "Defender",
+        "age": 26,
+        "birth_date": "02/03/1994",
+        "birth_place": "Lecco",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "184 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.300000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 96,
+          "key": 0,
+          "accuracy": 78
+        },
+        "tackles": {
+          "total": 11,
+          "blocks": 0,
+          "interceptions": 8
+        },
+        "duels": {
+          "total": 10,
+          "won": 4
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 3,
+          "committed": 7
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 298,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 47300,
+        "player_name": "T. Hernández",
+        "firstname": "Theo Bernard François",
+        "lastname": "Hernández",
+        "number": null,
+        "position": "Defender",
+        "age": 23,
+        "birth_date": "06/10/1997",
+        "birth_place": "Marseille",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "184 cm",
+        "weight": "81 kg",
+        "injured": null,
+        "rating": "7.075000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 49,
+          "on": 17
+        },
+        "goals": {
+          "total": 6,
+          "conceded": 0,
+          "assists": 3,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1323,
+          "key": 40,
+          "accuracy": 83
+        },
+        "tackles": {
+          "total": 55,
+          "blocks": 6,
+          "interceptions": 43
+        },
+        "duels": {
+          "total": 90,
+          "won": 58
+        },
+        "dribbles": {
+          "attempts": 104,
+          "success": 55
+        },
+        "fouls": {
+          "drawn": 66,
+          "committed": 31
+        },
+        "cards": {
+          "yellow": 10,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 33,
+          "minutes_played": 2819,
+          "lineups": 32
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 3,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 47300,
+        "player_name": "T. Hernández",
+        "firstname": "Theo Bernard François",
+        "lastname": "Hernández",
+        "number": null,
+        "position": "Defender",
+        "age": 23,
+        "birth_date": "06/10/1997",
+        "birth_place": "Marseille",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "184 cm",
+        "weight": "81 kg",
+        "injured": null,
+        "rating": "7.333333",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 8,
+          "on": 4
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 131,
+          "key": 7,
+          "accuracy": 83
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 7,
+          "success": 6
+        },
+        "fouls": {
+          "drawn": 8,
+          "committed": 5
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 1,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 281,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1630,
+        "player_name": "Mateo Pablo Musacchio",
+        "firstname": "Mateo Pablo",
+        "lastname": "Musacchio",
+        "number": null,
+        "position": "Defender",
+        "age": 30,
+        "birth_date": "26/08/1990",
+        "birth_place": "Rosario",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "180 cm",
+        "weight": "73 kg",
+        "injured": null,
+        "rating": "6.772222",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 5,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 890,
+          "key": 11,
+          "accuracy": 87
+        },
+        "tackles": {
+          "total": 12,
+          "blocks": 6,
+          "interceptions": 21
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 3
+        },
+        "fouls": {
+          "drawn": 10,
+          "committed": 19
+        },
+        "cards": {
+          "yellow": 4,
+          "yellowred": 0,
+          "red": 1
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 18,
+          "minutes_played": 1467,
+          "lineups": 17
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 1,
+          "bench": 5
+        }
+      },
+      {
+        "player_id": 1630,
+        "player_name": "Mateo Pablo Musacchio",
+        "firstname": "Mateo Pablo",
+        "lastname": "Musacchio",
+        "number": null,
+        "position": "Defender",
+        "age": 30,
+        "birth_date": "26/08/1990",
+        "birth_place": "Rosario",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "180 cm",
+        "weight": "73 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 2045,
+        "player_name": "S. Kjær",
+        "firstname": "Simon",
+        "lastname": "Thorup Kjær",
+        "number": null,
+        "position": "Defender",
+        "age": 31,
+        "birth_date": "26/03/1989",
+        "birth_place": "Horsens",
+        "birth_country": "Denmark",
+        "nationality": "Denmark",
+        "height": "190 cm",
+        "weight": "86 kg",
+        "injured": null,
+        "rating": "6.600000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 132,
+          "key": 0,
+          "accuracy": 76
+        },
+        "tackles": {
+          "total": 9,
+          "blocks": 4,
+          "interceptions": 7
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 13
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 15,
+          "minutes_played": 1243,
+          "lineups": 15
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 3,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 2045,
+        "player_name": "S. Kjær",
+        "firstname": "Simon",
+        "lastname": "Thorup Kjær",
+        "number": null,
+        "position": "Defender",
+        "age": 31,
+        "birth_date": "26/03/1989",
+        "birth_place": "Horsens",
+        "birth_country": "Denmark",
+        "nationality": "Denmark",
+        "height": "190 cm",
+        "weight": "86 kg",
+        "injured": null,
+        "rating": "7.300000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 2,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 159,
+          "key": 1,
+          "accuracy": 85
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 9,
+          "interceptions": 3
+        },
+        "duels": {
+          "total": 8,
+          "won": 3
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 382,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 10160,
+        "player_name": "Léo Duarte",
+        "firstname": "Leonardo",
+        "lastname": "Duarte da Silva",
+        "number": null,
+        "position": "Defender",
+        "age": 24,
+        "birth_date": "17/07/1996",
+        "birth_place": "Mococa",
+        "birth_country": "Brazil",
+        "nationality": "Brazil",
+        "height": "183 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.600000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 3,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 171,
+          "key": 0,
+          "accuracy": 88
+        },
+        "tackles": {
+          "total": 4,
+          "blocks": 6,
+          "interceptions": 3
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 6,
+          "minutes_played": 403,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 0,
+          "bench": 11
+        }
+      },
+      {
+        "player_id": 10160,
+        "player_name": "Léo Duarte",
+        "firstname": "Leonardo",
+        "lastname": "Duarte da Silva",
+        "number": null,
+        "position": "Defender",
+        "age": 24,
+        "birth_date": "17/07/1996",
+        "birth_place": "Mococa",
+        "birth_country": "Brazil",
+        "nationality": "Brazil",
+        "height": "183 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1417,
+        "player_name": "A. Saelemaekers",
+        "firstname": "Alexis",
+        "lastname": "Saelemaekers",
+        "number": null,
+        "position": "Defender",
+        "age": 21,
+        "birth_date": "27/06/1999",
+        "birth_place": null,
+        "birth_country": "Belgium",
+        "nationality": "Belgium",
+        "height": "180 cm",
+        "weight": "72 kg",
+        "injured": null,
+        "rating": "6.615384",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 9,
+          "on": 2
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 246,
+          "key": 7,
+          "accuracy": 78
+        },
+        "tackles": {
+          "total": 13,
+          "blocks": 1,
+          "interceptions": 8
+        },
+        "duels": {
+          "total": 83,
+          "won": 32
+        },
+        "dribbles": {
+          "attempts": 18,
+          "success": 8
+        },
+        "fouls": {
+          "drawn": 8,
+          "committed": 14
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 1,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 13,
+          "minutes_played": 681,
+          "lineups": 6
+        },
+        "substitutes": {
+          "in": 7,
+          "out": 3,
+          "bench": 10
+        }
+      },
+      {
+        "player_id": 1417,
+        "player_name": "A. Saelemaekers",
+        "firstname": "Alexis",
+        "lastname": "Saelemaekers",
+        "number": null,
+        "position": "Defender",
+        "age": 21,
+        "birth_date": "27/06/1999",
+        "birth_place": null,
+        "birth_country": "Belgium",
+        "nationality": "Belgium",
+        "height": "180 cm",
+        "weight": "72 kg",
+        "injured": null,
+        "rating": "6.250000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 6,
+          "key": 0,
+          "accuracy": 42
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 4,
+          "won": 1
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 12,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 3173,
+        "player_name": "I. Bennacer",
+        "firstname": "Ismael",
+        "lastname": "Bennacer",
+        "number": null,
+        "position": "Midfielder",
+        "age": 23,
+        "birth_date": "01/12/1997",
+        "birth_place": "Arles",
+        "birth_country": "France",
+        "nationality": "Algeria",
+        "height": "175 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "6.990000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 12,
+          "on": 2
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1474,
+          "key": 28,
+          "accuracy": 87
+        },
+        "tackles": {
+          "total": 63,
+          "blocks": 7,
+          "interceptions": 53
+        },
+        "duels": {
+          "total": 100,
+          "won": 55
+        },
+        "dribbles": {
+          "attempts": 89,
+          "success": 71
+        },
+        "fouls": {
+          "drawn": 34,
+          "committed": 45
+        },
+        "cards": {
+          "yellow": 14,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 2,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 31,
+          "minutes_played": 2488,
+          "lineups": 28
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 6,
+          "bench": 7
+        }
+      },
+      {
+        "player_id": 3173,
+        "player_name": "I. Bennacer",
+        "firstname": "Ismael",
+        "lastname": "Bennacer",
+        "number": null,
+        "position": "Midfielder",
+        "age": 23,
+        "birth_date": "01/12/1997",
+        "birth_place": "Arles",
+        "birth_country": "France",
+        "nationality": "Algeria",
+        "height": "175 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "7.000000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 217,
+          "key": 8,
+          "accuracy": 84
+        },
+        "tackles": {
+          "total": 9,
+          "blocks": 1,
+          "interceptions": 4
+        },
+        "duels": {
+          "total": 9,
+          "won": 4
+        },
+        "dribbles": {
+          "attempts": 8,
+          "success": 5
+        },
+        "fouls": {
+          "drawn": 5,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 390,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1641,
+        "player_name": "Samu Castillejo",
+        "firstname": "Samuel",
+        "lastname": "Castillejo Azuaga",
+        "number": null,
+        "position": "Midfielder",
+        "age": 25,
+        "birth_date": "18/01/1995",
+        "birth_place": "Málaga",
+        "birth_country": "Spain",
+        "nationality": "Spain",
+        "height": "182 cm",
+        "weight": "67 kg",
+        "injured": null,
+        "rating": "6.866666",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 31,
+          "on": 8
+        },
+        "goals": {
+          "total": 2,
+          "conceded": 0,
+          "assists": 3,
+          "saves": 0
+        },
+        "passes": {
+          "total": 341,
+          "key": 40,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 24,
+          "blocks": 2,
+          "interceptions": 23
+        },
+        "duels": {
+          "total": 30,
+          "won": 6
+        },
+        "dribbles": {
+          "attempts": 37,
+          "success": 19
+        },
+        "fouls": {
+          "drawn": 20,
+          "committed": 13
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 0,
+          "red": 1
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 22,
+          "minutes_played": 1215,
+          "lineups": 16
+        },
+        "substitutes": {
+          "in": 6,
+          "out": 12,
+          "bench": 13
+        }
+      },
+      {
+        "player_id": 1641,
+        "player_name": "Samu Castillejo",
+        "firstname": "Samuel",
+        "lastname": "Castillejo Azuaga",
+        "number": null,
+        "position": "Midfielder",
+        "age": 25,
+        "birth_date": "18/01/1995",
+        "birth_place": "Málaga",
+        "birth_country": "Spain",
+        "nationality": "Spain",
+        "height": "182 cm",
+        "weight": "67 kg",
+        "injured": null,
+        "rating": "7.533333",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 5,
+          "on": 3
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 2,
+          "saves": 0
+        },
+        "passes": {
+          "total": 85,
+          "key": 11,
+          "accuracy": 86
+        },
+        "tackles": {
+          "total": 10,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 10,
+          "success": 5
+        },
+        "fouls": {
+          "drawn": 6,
+          "committed": 7
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 264,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 2,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 1640,
+        "player_name": "H. Çalhanoğlu",
+        "firstname": "Hakan",
+        "lastname": "Çalhanoğlu",
+        "number": null,
+        "position": "Midfielder",
+        "age": 26,
+        "birth_date": "08/02/1994",
+        "birth_place": "Mannheim",
+        "birth_country": "Germany",
+        "nationality": "Turkey",
+        "height": "178 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "7.361764",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 98,
+          "on": 33
+        },
+        "goals": {
+          "total": 9,
+          "conceded": 0,
+          "assists": 9,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1187,
+          "key": 67,
+          "accuracy": 82
+        },
+        "tackles": {
+          "total": 39,
+          "blocks": 2,
+          "interceptions": 26
+        },
+        "duels": {
+          "total": 70,
+          "won": 30
+        },
+        "dribbles": {
+          "attempts": 45,
+          "success": 28
+        },
+        "fouls": {
+          "drawn": 27,
+          "committed": 38
+        },
+        "cards": {
+          "yellow": 6,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 1,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 35,
+          "minutes_played": 2718,
+          "lineups": 34
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 15,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1640,
+        "player_name": "H. Çalhanoğlu",
+        "firstname": "Hakan",
+        "lastname": "Çalhanoğlu",
+        "number": null,
+        "position": "Midfielder",
+        "age": 26,
+        "birth_date": "08/02/1994",
+        "birth_place": "Mannheim",
+        "birth_country": "Germany",
+        "nationality": "Turkey",
+        "height": "178 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "7.466666",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 9,
+          "on": 3
+        },
+        "goals": {
+          "total": 2,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 99,
+          "key": 4,
+          "accuracy": 83
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 1,
+          "interceptions": 3
+        },
+        "duels": {
+          "total": 11,
+          "won": 6
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 6,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 215,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 1,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 31054,
+        "player_name": "R. Krunić",
+        "firstname": "Rade",
+        "lastname": "Krunić",
+        "number": null,
+        "position": "Midfielder",
+        "age": 27,
+        "birth_date": "07/10/1993",
+        "birth_place": "Foča",
+        "birth_country": "Bosnia and Herzegovina",
+        "nationality": "Bosnia and Herzegovina",
+        "height": "184 cm",
+        "weight": "74 kg",
+        "injured": null,
+        "rating": "6.740000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 6,
+          "on": 2
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 195,
+          "key": 9,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 16,
+          "blocks": 0,
+          "interceptions": 9
+        },
+        "duels": {
+          "total": 13,
+          "won": 7
+        },
+        "dribbles": {
+          "attempts": 12,
+          "success": 10
+        },
+        "fouls": {
+          "drawn": 17,
+          "committed": 11
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 15,
+          "minutes_played": 529,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 11,
+          "out": 3,
+          "bench": 28
+        }
+      },
+      {
+        "player_id": 31054,
+        "player_name": "R. Krunić",
+        "firstname": "Rade",
+        "lastname": "Krunić",
+        "number": null,
+        "position": "Midfielder",
+        "age": 27,
+        "birth_date": "07/10/1993",
+        "birth_place": "Foča",
+        "birth_country": "Bosnia and Herzegovina",
+        "nationality": "Bosnia and Herzegovina",
+        "height": "184 cm",
+        "weight": "74 kg",
+        "injured": null,
+        "rating": "6.766666",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 5,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 57,
+          "key": 1,
+          "accuracy": 85
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 0,
+          "interceptions": 5
+        },
+        "duels": {
+          "total": 1,
+          "won": 1
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 10,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 180,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 1,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1646,
+        "player_name": "Lucas Paquetá",
+        "firstname": "Lucas",
+        "lastname": "Tolentino Coelho de Lima",
+        "number": null,
+        "position": "Midfielder",
+        "age": 23,
+        "birth_date": "27/08/1997",
+        "birth_place": "Rio de Janeiro",
+        "birth_country": "Brazil",
+        "nationality": "Brazil",
+        "height": "180 cm",
+        "weight": "72 kg",
+        "injured": null,
+        "rating": "6.660869",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 33,
+          "on": 12
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 430,
+          "key": 18,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 29,
+          "blocks": 2,
+          "interceptions": 8
+        },
+        "duels": {
+          "total": 58,
+          "won": 25
+        },
+        "dribbles": {
+          "attempts": 41,
+          "success": 23
+        },
+        "fouls": {
+          "drawn": 25,
+          "committed": 25
+        },
+        "cards": {
+          "yellow": 7,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 24,
+          "minutes_played": 1101,
+          "lineups": 12
+        },
+        "substitutes": {
+          "in": 12,
+          "out": 10,
+          "bench": 21
+        }
+      },
+      {
+        "player_id": 1646,
+        "player_name": "Lucas Paquetá",
+        "firstname": "Lucas",
+        "lastname": "Tolentino Coelho de Lima",
+        "number": null,
+        "position": "Midfielder",
+        "age": 23,
+        "birth_date": "27/08/1997",
+        "birth_place": "Rio de Janeiro",
+        "birth_country": "Brazil",
+        "nationality": "Brazil",
+        "height": "180 cm",
+        "weight": "72 kg",
+        "injured": null,
+        "rating": "6.600000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 27,
+          "key": 1,
+          "accuracy": 89
+        },
+        "tackles": {
+          "total": 4,
+          "blocks": 1,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 24,
+          "won": 12
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 3
+        },
+        "fouls": {
+          "drawn": 5,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 100,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 1,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 56473,
+        "player_name": "M. Gabbia",
+        "firstname": "Matteo",
+        "lastname": "Gabbia",
+        "number": null,
+        "position": "Midfielder",
+        "age": 21,
+        "birth_date": "21/10/1999",
+        "birth_place": "Busto Arsizio",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "185 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "6.825000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 4,
+          "on": 2
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 328,
+          "key": 1,
+          "accuracy": 86
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 5,
+          "interceptions": 8
+        },
+        "duels": {
+          "total": 35,
+          "won": 20
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 10
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 9,
+          "minutes_played": 678,
+          "lineups": 6
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 1,
+          "bench": 31
+        }
+      },
+      {
+        "player_id": 56473,
+        "player_name": "M. Gabbia",
+        "firstname": "Matteo",
+        "lastname": "Gabbia",
+        "number": null,
+        "position": "Midfielder",
+        "age": 21,
+        "birth_date": "21/10/1999",
+        "birth_place": "Busto Arsizio",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "185 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "6.700000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 5,
+          "key": 0,
+          "accuracy": 100
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 1,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 8,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 1642,
+        "player_name": "F. Kessié",
+        "firstname": "Franck Yannick",
+        "lastname": "Kessié",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "19/12/1996",
+        "birth_place": "Ouragahio",
+        "birth_country": "Côte d'Ivoire",
+        "nationality": "Côte d'Ivoire",
+        "height": "183 cm",
+        "weight": "74 kg",
+        "injured": null,
+        "rating": "6.838235",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 40,
+          "on": 13
+        },
+        "goals": {
+          "total": 4,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1434,
+          "key": 29,
+          "accuracy": 88
+        },
+        "tackles": {
+          "total": 48,
+          "blocks": 5,
+          "interceptions": 31
+        },
+        "duels": {
+          "total": 88,
+          "won": 35
+        },
+        "dribbles": {
+          "attempts": 34,
+          "success": 24
+        },
+        "fouls": {
+          "drawn": 21,
+          "committed": 59
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 2,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 35,
+          "minutes_played": 2910,
+          "lineups": 33
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 8,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 1642,
+        "player_name": "F. Kessié",
+        "firstname": "Franck Yannick",
+        "lastname": "Kessié",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "19/12/1996",
+        "birth_place": "Ouragahio",
+        "birth_country": "Côte d'Ivoire",
+        "nationality": "Côte d'Ivoire",
+        "height": "183 cm",
+        "weight": "74 kg",
+        "injured": null,
+        "rating": "6.900000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 3,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 66,
+          "key": 2,
+          "accuracy": 93
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 2,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 8,
+          "won": 4
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 3,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 187,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 1,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 263480,
+        "player_name": "G. Olzer",
+        "firstname": "Giacomo",
+        "lastname": "Olzer",
+        "number": null,
+        "position": "Midfielder",
+        "age": 19,
+        "birth_date": "14/04/2001",
+        "birth_place": "Rovereto",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "188 cm",
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 263480,
+        "player_name": "G. Olzer",
+        "firstname": "Giacomo",
+        "lastname": "Olzer",
+        "number": null,
+        "position": "Midfielder",
+        "age": 19,
+        "birth_date": "14/04/2001",
+        "birth_place": "Rovereto",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "188 cm",
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1643,
+        "player_name": "D. Laxalt",
+        "firstname": "Diego Sebastián",
+        "lastname": "Laxalt Suárez",
+        "number": null,
+        "position": "Midfielder",
+        "age": 27,
+        "birth_date": "07/02/1993",
+        "birth_place": "Montevideo",
+        "birth_country": "Uruguay",
+        "nationality": "Uruguay",
+        "height": "178 cm",
+        "weight": "68 kg",
+        "injured": null,
+        "rating": "6.550000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 77,
+          "key": 1,
+          "accuracy": 84
+        },
+        "tackles": {
+          "total": 4,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 20,
+          "won": 7
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 169,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 0,
+          "bench": 16
+        }
+      },
+      {
+        "player_id": 1643,
+        "player_name": "D. Laxalt",
+        "firstname": "Diego Sebastián",
+        "lastname": "Laxalt Suárez",
+        "number": null,
+        "position": "Midfielder",
+        "age": 27,
+        "birth_date": "07/02/1993",
+        "birth_place": "Montevideo",
+        "birth_country": "Uruguay",
+        "nationality": "Uruguay",
+        "height": "178 cm",
+        "weight": "68 kg",
+        "injured": null,
+        "rating": "6.550000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 77,
+          "key": 1,
+          "accuracy": 84
+        },
+        "tackles": {
+          "total": 4,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 20,
+          "won": 7
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1643,
+        "player_name": "D. Laxalt",
+        "firstname": "Diego Sebastián",
+        "lastname": "Laxalt Suárez",
+        "number": null,
+        "position": "Midfielder",
+        "age": 27,
+        "birth_date": "07/02/1993",
+        "birth_place": "Montevideo",
+        "birth_country": "Uruguay",
+        "nationality": "Uruguay",
+        "height": "178 cm",
+        "weight": "68 kg",
+        "injured": null,
+        "rating": "6.350000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 4,
+          "key": 0,
+          "accuracy": 58
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 1,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 18,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 51070,
+        "player_name": "Z. Ibrahimović",
+        "firstname": "Zlatan",
+        "lastname": "Ibrahimović",
+        "number": null,
+        "position": "Attacker",
+        "age": 39,
+        "birth_date": "03/10/1981",
+        "birth_place": "Malmö",
+        "birth_country": "Sweden",
+        "nationality": "Sweden",
+        "height": "195 cm",
+        "weight": "95 kg",
+        "injured": null,
+        "rating": "7.364705",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 58,
+          "on": 19
+        },
+        "goals": {
+          "total": 10,
+          "conceded": 0,
+          "assists": 5,
+          "saves": 0
+        },
+        "passes": {
+          "total": 382,
+          "key": 25,
+          "accuracy": 71
+        },
+        "tackles": {
+          "total": 5,
+          "blocks": 3,
+          "interceptions": 5
+        },
+        "duels": {
+          "total": 92,
+          "won": 52
+        },
+        "dribbles": {
+          "attempts": 19,
+          "success": 13
+        },
+        "fouls": {
+          "drawn": 14,
+          "committed": 30
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 2,
+          "missed": 1,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 18,
+          "minutes_played": 1365,
+          "lineups": 16
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 5,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 51070,
+        "player_name": "Z. Ibrahimović",
+        "firstname": "Zlatan",
+        "lastname": "Ibrahimović",
+        "number": null,
+        "position": "Attacker",
+        "age": 39,
+        "birth_date": "03/10/1981",
+        "birth_place": "Malmö",
+        "birth_country": "Sweden",
+        "nationality": "Sweden",
+        "height": "195 cm",
+        "weight": "95 kg",
+        "injured": null,
+        "rating": "7.500000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 10,
+          "on": 4
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 40,
+          "key": 6,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 145,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 1831,
+        "player_name": "A. Rebić",
+        "firstname": "Ante",
+        "lastname": "Rebić",
+        "number": null,
+        "position": "Attacker",
+        "age": 27,
+        "birth_date": "21/09/1993",
+        "birth_place": "Split",
+        "birth_country": "Croatia",
+        "nationality": "Croatia",
+        "height": "185 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "6.970833",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 39,
+          "on": 20
+        },
+        "goals": {
+          "total": 11,
+          "conceded": 0,
+          "assists": 3,
+          "saves": 0
+        },
+        "passes": {
+          "total": 223,
+          "key": 29,
+          "accuracy": 69
+        },
+        "tackles": {
+          "total": 13,
+          "blocks": 1,
+          "interceptions": 3
+        },
+        "duels": {
+          "total": 92,
+          "won": 33
+        },
+        "dribbles": {
+          "attempts": 44,
+          "success": 22
+        },
+        "fouls": {
+          "drawn": 14,
+          "committed": 26
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 26,
+          "minutes_played": 1396,
+          "lineups": 15
+        },
+        "substitutes": {
+          "in": 11,
+          "out": 12,
+          "bench": 19
+        }
+      },
+      {
+        "player_id": 1831,
+        "player_name": "A. Rebić",
+        "firstname": "Ante",
+        "lastname": "Rebić",
+        "number": null,
+        "position": "Attacker",
+        "age": 27,
+        "birth_date": "21/09/1993",
+        "birth_place": "Split",
+        "birth_country": "Croatia",
+        "nationality": "Croatia",
+        "height": "185 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "6.325000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 11,
+          "on": 7
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 34,
+          "key": 9,
+          "accuracy": 48
+        },
+        "tackles": {
+          "total": 3,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 2,
+          "won": 1
+        },
+        "dribbles": {
+          "attempts": 9,
+          "success": 6
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 6
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 1
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 285,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 2,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 22236,
+        "player_name": "Rafael Leão",
+        "firstname": "Rafael Alexandre",
+        "lastname": "Conceição Leão",
+        "number": null,
+        "position": "Attacker",
+        "age": 21,
+        "birth_date": "10/06/1999",
+        "birth_place": "Almada",
+        "birth_country": "Portugal",
+        "nationality": "Portugal",
+        "height": "188 cm",
+        "weight": "81 kg",
+        "injured": null,
+        "rating": "6.948275",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 44,
+          "on": 16
+        },
+        "goals": {
+          "total": 6,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 321,
+          "key": 31,
+          "accuracy": 78
+        },
+        "tackles": {
+          "total": 5,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 46,
+          "won": 15
+        },
+        "dribbles": {
+          "attempts": 60,
+          "success": 39
+        },
+        "fouls": {
+          "drawn": 15,
+          "committed": 16
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 31,
+          "minutes_played": 1392,
+          "lineups": 12
+        },
+        "substitutes": {
+          "in": 19,
+          "out": 7,
+          "bench": 26
+        }
+      },
+      {
+        "player_id": 22236,
+        "player_name": "Rafael Leão",
+        "firstname": "Rafael Alexandre",
+        "lastname": "Conceição Leão",
+        "number": null,
+        "position": "Attacker",
+        "age": 21,
+        "birth_date": "10/06/1999",
+        "birth_place": "Almada",
+        "birth_country": "Portugal",
+        "nationality": "Portugal",
+        "height": "188 cm",
+        "weight": "81 kg",
+        "injured": null,
+        "rating": "7.250000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 22,
+          "key": 5,
+          "accuracy": 82
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 1,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 8,
+          "won": 4
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 82,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 0,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 134926,
+        "player_name": "D. Maldini",
+        "firstname": "Daniel",
+        "lastname": "Maldini",
+        "number": null,
+        "position": "Attacker",
+        "age": 19,
+        "birth_date": "11/10/2001",
+        "birth_place": null,
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "181 cm",
+        "weight": null,
+        "injured": null,
+        "rating": "6.300000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 13,
+          "key": 0,
+          "accuracy": 43
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 5,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 25,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 0,
+          "bench": 16
+        }
+      },
+      {
+        "player_id": 134926,
+        "player_name": "D. Maldini",
+        "firstname": "Daniel",
+        "lastname": "Maldini",
+        "number": null,
+        "position": "Attacker",
+        "age": 19,
+        "birth_date": "11/10/2001",
+        "birth_place": null,
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "181 cm",
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 263481,
+        "player_name": "L. Colombo",
+        "firstname": "Lorenzo",
+        "lastname": "Colombo",
+        "number": null,
+        "position": "Attacker",
+        "age": 18,
+        "birth_date": "08/03/2002",
+        "birth_place": "Vimercate",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "183 cm",
+        "weight": "74 kg",
+        "injured": null,
+        "rating": "6.300000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 2,
+          "key": 1,
+          "accuracy": 100
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 3,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 8,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 6
+        }
+      },
+      {
+        "player_id": 263481,
+        "player_name": "L. Colombo",
+        "firstname": "Lorenzo",
+        "lastname": "Colombo",
+        "number": null,
+        "position": "Attacker",
+        "age": 18,
+        "birth_date": "08/03/2002",
+        "birth_place": "Vimercate",
+        "birth_country": "Italy",
+        "nationality": "Italy",
+        "height": "183 cm",
+        "weight": "74 kg",
+        "injured": null,
+        "rating": "6.300000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 1,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 8,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1650,
+        "player_name": "Suso",
+        "firstname": "Jesús Joaquín",
+        "lastname": "Fernández Sáez de la Torre",
+        "number": null,
+        "position": "Midfielder",
+        "age": 27,
+        "birth_date": "19/11/1993",
+        "birth_place": "Cádiz",
+        "birth_country": "Spain",
+        "nationality": "Spain",
+        "height": "177 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "7.231250",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 31,
+          "on": 12
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 2,
+          "saves": 0
+        },
+        "passes": {
+          "total": 538,
+          "key": 41,
+          "accuracy": 81
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 0,
+          "interceptions": 8
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 48,
+          "success": 26
+        },
+        "fouls": {
+          "drawn": 28,
+          "committed": 10
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 16,
+          "minutes_played": 1361,
+          "lineups": 15
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 3,
+          "bench": 5
+        }
+      },
+      {
+        "player_id": 1650,
+        "player_name": "Suso",
+        "firstname": "Jesús Joaquín",
+        "lastname": "Fernández Sáez de la Torre",
+        "number": null,
+        "position": "Midfielder",
+        "age": 27,
+        "birth_date": "19/11/1993",
+        "birth_place": "Cádiz",
+        "birth_country": "Spain",
+        "nationality": "Spain",
+        "height": "177 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "6.800000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 2,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 7,
+          "key": 2,
+          "accuracy": 58
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 26,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 18858,
+        "player_name": "A. Begović",
+        "firstname": "Asmir",
+        "lastname": "Begović",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 33,
+        "birth_date": "20/06/1987",
+        "birth_place": "Trebinje",
+        "birth_country": "Bosnia and Herzegovina",
+        "nationality": "Bosnia and Herzegovina",
+        "height": "199 cm",
+        "weight": "101 kg",
+        "injured": null,
+        "rating": "6.700000",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 891,
+        "league": "Serie A",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 1,
+          "assists": 0,
+          "saves": 3
+        },
+        "passes": {
+          "total": 5,
+          "key": 0,
+          "accuracy": 45
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 128,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 18
+        }
+      },
+      {
+        "player_id": 18858,
+        "player_name": "A. Begović",
+        "firstname": "Asmir",
+        "lastname": "Begović",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 33,
+        "birth_date": "20/06/1987",
+        "birth_place": "Trebinje",
+        "birth_country": "Bosnia and Herzegovina",
+        "nationality": "Bosnia and Herzegovina",
+        "height": "199 cm",
+        "weight": "101 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "league_id": 869,
+        "league": "Coppa Italia",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 4
+        }
+      }
+    ]
+  }
+}

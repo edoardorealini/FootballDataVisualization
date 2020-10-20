@@ -1,0 +1,763 @@
+{
+  "api": {
+    "results": 28,
+    "leagues": [
+      {
+        "league_id": 28,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2017,
+        "season_start": "2017-08-19",
+        "season_end": "2018-05-20",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 32,
+        "name": "UEFA Europa League",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2017,
+        "season_start": "2017-06-29",
+        "season_end": "2018-05-16",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 66,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2016,
+        "season_start": "2016-08-20",
+        "season_end": "2017-05-28",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 89,
+        "name": "Coppa Italia",
+        "type": "Cup",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2017,
+        "season_start": "2017-07-29",
+        "season_end": "2018-05-09",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 0,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": false
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 90,
+        "name": "Coppa Italia",
+        "type": "Cup",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2016,
+        "season_start": "2016-08-05",
+        "season_end": "2017-05-17",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 0,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 94,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2018,
+        "season_start": "2018-08-18",
+        "season_end": "2019-05-26",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 137,
+        "name": "UEFA Europa League",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2018,
+        "season_start": "2018-06-26",
+        "season_end": "2019-05-29",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 198,
+        "name": "Coppa Italia",
+        "type": "Cup",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2018,
+        "season_start": "2018-07-28",
+        "season_end": "2019-05-15",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 0,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 708,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2015,
+        "season_start": "2015-08-22",
+        "season_end": "2016-05-15",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 709,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2014,
+        "season_start": "2014-08-30",
+        "season_end": "2015-05-31",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 710,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2013,
+        "season_start": "2013-08-24",
+        "season_end": "2014-05-18",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 711,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2012,
+        "season_start": "2012-08-25",
+        "season_end": "2013-05-19",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 712,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2011,
+        "season_start": "2011-09-09",
+        "season_end": "2012-05-13",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 713,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2010,
+        "season_start": "2010-08-28",
+        "season_end": "2011-05-22",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 869,
+        "name": "Coppa Italia",
+        "type": "Cup",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-08-03",
+        "season_end": "2020-06-17",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 0,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 891,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2019,
+        "season_start": "2019-08-24",
+        "season_end": "2020-08-02",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": true
+        }
+      },
+      {
+        "league_id": 1051,
+        "name": "International Champions Cup",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2019,
+        "season_start": "2019-07-24",
+        "season_end": "2019-08-10",
+        "logo": "https://media.api-sports.io/football/leagues/26.png",
+        "flag": null,
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": false,
+          "topScorers": false,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 1052,
+        "name": "International Champions Cup",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2018,
+        "season_start": "2018-07-21",
+        "season_end": "2018-08-11",
+        "logo": "https://media.api-sports.io/football/leagues/26.png",
+        "flag": null,
+        "standings": 0,
+        "is_current": 0,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": false,
+          "topScorers": false,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 1053,
+        "name": "International Champions Cup",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2017,
+        "season_start": "2017-07-18",
+        "season_end": "2017-07-30",
+        "logo": "https://media.api-sports.io/football/leagues/26.png",
+        "flag": null,
+        "standings": 0,
+        "is_current": 0,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": false,
+          "topScorers": false,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 1054,
+        "name": "International Champions Cup",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2016,
+        "season_start": "2016-07-22",
+        "season_end": "2016-08-13",
+        "logo": "https://media.api-sports.io/football/leagues/26.png",
+        "flag": null,
+        "standings": 0,
+        "is_current": 0,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": false,
+          "topScorers": false,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 1490,
+        "name": "UEFA Champions League",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2013,
+        "season_start": "2013-07-02",
+        "season_end": "2014-05-24",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 1491,
+        "name": "UEFA Champions League",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2012,
+        "season_start": "2012-07-03",
+        "season_end": "2013-05-25",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 1492,
+        "name": "UEFA Champions League",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2011,
+        "season_start": "2011-06-28",
+        "season_end": "2012-05-19",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "standings": 1,
+        "is_current": 0,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 1602,
+        "name": "Super Cup",
+        "type": "Cup",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2018,
+        "season_start": "2019-01-16",
+        "season_end": "2019-01-16",
+        "logo": "https://media.api-sports.io/football/leagues/547.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 0,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": false,
+          "topScorers": false,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 1603,
+        "name": "Super Cup",
+        "type": "Cup",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2016,
+        "season_start": "2016-12-23",
+        "season_end": "2016-12-23",
+        "logo": "https://media.api-sports.io/football/leagues/547.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 0,
+        "is_current": 0,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": false,
+          "topScorers": false,
+          "predictions": true,
+          "odds": false
+        }
+      },
+      {
+        "league_id": 2777,
+        "name": "UEFA Europa League",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2020,
+        "season_start": "2020-08-18",
+        "season_end": "2020-10-01",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": true
+        }
+      },
+      {
+        "league_id": 2808,
+        "name": "Friendlies Clubs",
+        "type": "Cup",
+        "country": "World",
+        "country_code": null,
+        "season": 2020,
+        "season_start": "2020-01-07",
+        "season_end": "2020-09-26",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "standings": 0,
+        "is_current": 1,
+        "coverage": {
+          "standings": false,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": false,
+            "players_statistics": false
+          },
+          "players": false,
+          "topScorers": false,
+          "predictions": true,
+          "odds": true
+        }
+      },
+      {
+        "league_id": 2857,
+        "name": "Serie A",
+        "type": "League",
+        "country": "Italy",
+        "country_code": "IT",
+        "season": 2020,
+        "season_start": "2020-09-19",
+        "season_end": "2021-05-23",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "standings": 1,
+        "is_current": 1,
+        "coverage": {
+          "standings": true,
+          "fixtures": {
+            "events": true,
+            "lineups": true,
+            "statistics": true,
+            "players_statistics": true
+          },
+          "players": true,
+          "topScorers": true,
+          "predictions": true,
+          "odds": true
+        }
+      }
+    ]
+  }
+}

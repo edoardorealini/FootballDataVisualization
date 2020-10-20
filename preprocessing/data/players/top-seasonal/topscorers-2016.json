@@ -1,0 +1,722 @@
+[
+    {
+        "player_id": 790,
+        "player_name": "E. D\u017eeko",
+        "firstname": "Edin",
+        "lastname": "D\u017eeko",
+        "position": "Attacker",
+        "nationality": "Bosnia and Herzegovina",
+        "team_id": 497,
+        "team_name": "AS Roma",
+        "games": {
+            "appearences": 37,
+            "minutes_played": 3053
+        },
+        "goals": {
+            "total": 29,
+            "assists": 9,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 178,
+            "on": 81
+        },
+        "penalty": {
+            "won": 4,
+            "commited": null,
+            "success": 1,
+            "missed": 2,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 4,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 332,
+        "player_name": "D. Mertens",
+        "firstname": "Dries",
+        "lastname": "Mertens",
+        "position": "Attacker",
+        "nationality": "Belgium",
+        "team_id": 492,
+        "team_name": "Napoli",
+        "games": {
+            "appearences": 35,
+            "minutes_played": 2566
+        },
+        "goals": {
+            "total": 28,
+            "assists": 9,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 148,
+            "on": 67
+        },
+        "penalty": {
+            "won": 3,
+            "commited": null,
+            "success": 2,
+            "missed": 1,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 6,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 30509,
+        "player_name": "A. Belotti",
+        "firstname": "Andrea",
+        "lastname": "Belotti",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 503,
+        "team_name": "Torino",
+        "games": {
+            "appearences": 35,
+            "minutes_played": 3071
+        },
+        "goals": {
+            "total": 26,
+            "assists": 7,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 130,
+            "on": 49
+        },
+        "penalty": {
+            "won": 5,
+            "commited": null,
+            "success": 2,
+            "missed": 3,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 5,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 2297,
+        "player_name": "G. Higua\u00edn",
+        "firstname": "Gonzalo Gerardo",
+        "lastname": "Higua\u00edn",
+        "position": "Attacker",
+        "nationality": "Argentina",
+        "team_id": 496,
+        "team_name": "Juventus",
+        "games": {
+            "appearences": 38,
+            "minutes_played": 2968
+        },
+        "goals": {
+            "total": 24,
+            "assists": 3,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 134,
+            "on": 64
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": 0,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 1,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 216,
+        "player_name": "M. Icardi",
+        "firstname": "Mauro Emanuel",
+        "lastname": "Icardi Rivero",
+        "position": "Attacker",
+        "nationality": "Argentina",
+        "team_id": 505,
+        "team_name": "Inter",
+        "games": {
+            "appearences": 34,
+            "minutes_played": 3029
+        },
+        "goals": {
+            "total": 24,
+            "assists": 8,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 109,
+            "on": 38
+        },
+        "penalty": {
+            "won": 4,
+            "commited": null,
+            "success": 3,
+            "missed": 1,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 1,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 1863,
+        "player_name": "C. Immobile",
+        "firstname": "Ciro",
+        "lastname": "Immobile",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 487,
+        "team_name": "Lazio",
+        "games": {
+            "appearences": 36,
+            "minutes_played": 3124
+        },
+        "goals": {
+            "total": 23,
+            "assists": 3,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 136,
+            "on": 60
+        },
+        "penalty": {
+            "won": 3,
+            "commited": null,
+            "success": 6,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 5,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 331,
+        "player_name": "L. Insigne",
+        "firstname": "Lorenzo",
+        "lastname": "Insigne",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 492,
+        "team_name": "Napoli",
+        "games": {
+            "appearences": 37,
+            "minutes_played": 2935
+        },
+        "goals": {
+            "total": 18,
+            "assists": 9,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 147,
+            "on": 56
+        },
+        "penalty": {
+            "won": 1,
+            "commited": null,
+            "success": 2,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 2,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 91319,
+        "player_name": "Marco Borriello",
+        "firstname": "Marco",
+        "lastname": "Borriello",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 490,
+        "team_name": "Cagliari",
+        "games": {
+            "appearences": 36,
+            "minutes_played": 2596
+        },
+        "goals": {
+            "total": 16,
+            "assists": 1,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 81,
+            "on": 36
+        },
+        "penalty": {
+            "won": null,
+            "commited": 1,
+            "success": 1,
+            "missed": 1,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 4,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 30433,
+        "player_name": "A. G\u00f3mez",
+        "firstname": "Alejandro Dar\u00edo",
+        "lastname": "G\u00f3mez",
+        "position": "Midfielder",
+        "nationality": "Argentina",
+        "team_id": 499,
+        "team_name": "Atalanta",
+        "games": {
+            "appearences": 37,
+            "minutes_played": 3140
+        },
+        "goals": {
+            "total": 16,
+            "assists": 10,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 117,
+            "on": 51
+        },
+        "penalty": {
+            "won": 3,
+            "commited": null,
+            "success": 2,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 6,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 213,
+        "player_name": "K. Bald\u00e9",
+        "firstname": "Keita",
+        "lastname": "Bald\u00e9 Diao",
+        "position": "Attacker",
+        "nationality": "Senegal",
+        "team_id": 487,
+        "team_name": "Lazio",
+        "games": {
+            "appearences": 31,
+            "minutes_played": 1930
+        },
+        "goals": {
+            "total": 16,
+            "assists": 3,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 70,
+            "on": 28
+        },
+        "penalty": {
+            "won": 2,
+            "commited": 1,
+            "success": 2,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 5,
+            "second_yellow": 1,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 306,
+        "player_name": "Mohamed Salah",
+        "firstname": "Mohamed",
+        "lastname": "Salah Ghaly",
+        "position": "Attacker",
+        "nationality": "Egypt",
+        "team_id": 497,
+        "team_name": "AS Roma",
+        "games": {
+            "appearences": 31,
+            "minutes_played": 2486
+        },
+        "goals": {
+            "total": 15,
+            "assists": 11,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 80,
+            "on": 34
+        },
+        "penalty": {
+            "won": 3,
+            "commited": null,
+            "success": 0,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 2,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 57,
+        "player_name": "N. Kalini\u0107",
+        "firstname": "Nikola",
+        "lastname": "Kalini\u0107",
+        "position": "Attacker",
+        "nationality": "Croatia",
+        "team_id": 502,
+        "team_name": "Fiorentina",
+        "games": {
+            "appearences": 32,
+            "minutes_played": 2483
+        },
+        "goals": {
+            "total": 15,
+            "assists": 2,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 90,
+            "on": 41
+        },
+        "penalty": {
+            "won": 1,
+            "commited": null,
+            "success": 1,
+            "missed": 1,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 5,
+            "second_yellow": 0,
+            "red": 1
+        }
+    },
+    {
+        "player_id": 330,
+        "player_name": "Jos\u00e9 Callej\u00f3n",
+        "firstname": "Jos\u00e9 Mar\u00eda",
+        "lastname": "Callej\u00f3n Bueno",
+        "position": "Attacker",
+        "nationality": "Spain",
+        "team_id": 492,
+        "team_name": "Napoli",
+        "games": {
+            "appearences": 37,
+            "minutes_played": 3149
+        },
+        "goals": {
+            "total": 14,
+            "assists": 12,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 86,
+            "on": 34
+        },
+        "penalty": {
+            "won": 1,
+            "commited": 2,
+            "success": 0,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 3,
+            "second_yellow": 0,
+            "red": 1
+        }
+    },
+    {
+        "player_id": 30487,
+        "player_name": "Diego Falcinelli",
+        "firstname": "Diego",
+        "lastname": "Falcinelli",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 501,
+        "team_name": "Crotone",
+        "games": {
+            "appearences": 35,
+            "minutes_played": 3130
+        },
+        "goals": {
+            "total": 13,
+            "assists": 3,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 99,
+            "on": 34
+        },
+        "penalty": {
+            "won": 1,
+            "commited": null,
+            "success": 2,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 7,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 1706,
+        "player_name": "C. Bacca",
+        "firstname": "Carlos Arturo",
+        "lastname": "Bacca Ahumada",
+        "position": "Attacker",
+        "nationality": "Colombia",
+        "team_id": 489,
+        "team_name": "AC Milan",
+        "games": {
+            "appearences": 32,
+            "minutes_played": 2128
+        },
+        "goals": {
+            "total": 13,
+            "assists": 3,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 56,
+            "on": 28
+        },
+        "penalty": {
+            "won": 1,
+            "commited": null,
+            "success": 4,
+            "missed": 2,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 3,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 12994,
+        "player_name": "M. Ham\u0161\u00edk",
+        "firstname": "Marek",
+        "lastname": "Ham\u0161\u00edk",
+        "position": "Midfielder",
+        "nationality": "Slovakia",
+        "team_id": 492,
+        "team_name": "Napoli",
+        "games": {
+            "appearences": 38,
+            "minutes_played": 3050
+        },
+        "goals": {
+            "total": 12,
+            "assists": 10,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 88,
+            "on": 32
+        },
+        "penalty": {
+            "won": 1,
+            "commited": null,
+            "success": 0,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 1,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 30461,
+        "player_name": "Gregoire Defrel",
+        "firstname": "Gregoire",
+        "lastname": "Defrel",
+        "position": "Attacker",
+        "nationality": "France",
+        "team_id": 488,
+        "team_name": "Sassuolo",
+        "games": {
+            "appearences": 29,
+            "minutes_played": 1961
+        },
+        "goals": {
+            "total": 12,
+            "assists": 2,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 43,
+            "on": 22
+        },
+        "penalty": {
+            "won": 2,
+            "commited": null,
+            "success": 1,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 1,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 30414,
+        "player_name": "G. Simeone",
+        "firstname": "Giovanni Pablo",
+        "lastname": "Simeone",
+        "position": "Attacker",
+        "nationality": "Argentina",
+        "team_id": 495,
+        "team_name": "Genoa",
+        "games": {
+            "appearences": 35,
+            "minutes_played": 2617
+        },
+        "goals": {
+            "total": 12,
+            "assists": 1,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 75,
+            "on": 25
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": 1,
+            "missed": 1,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 3,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 30463,
+        "player_name": "F. Quagliarella",
+        "firstname": "Fabio",
+        "lastname": "Quagliarella",
+        "position": "Attacker",
+        "nationality": "Italy",
+        "team_id": 498,
+        "team_name": "Sampdoria",
+        "games": {
+            "appearences": 37,
+            "minutes_played": 2885
+        },
+        "goals": {
+            "total": 12,
+            "assists": 4,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 112,
+            "on": 42
+        },
+        "penalty": {
+            "won": 2,
+            "commited": null,
+            "success": 3,
+            "missed": 1,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 2,
+            "second_yellow": 0,
+            "red": 0
+        }
+    },
+    {
+        "player_id": 207,
+        "player_name": "I. Peri\u0161i\u0107",
+        "firstname": "Ivan",
+        "lastname": "Peri\u0161i\u0107",
+        "position": "Midfielder",
+        "nationality": "Croatia",
+        "team_id": 505,
+        "team_name": "Inter",
+        "games": {
+            "appearences": 36,
+            "minutes_played": 2756
+        },
+        "goals": {
+            "total": 11,
+            "assists": 8,
+            "conceded": null,
+            "saves": null
+        },
+        "shots": {
+            "total": 104,
+            "on": 39
+        },
+        "penalty": {
+            "won": null,
+            "commited": null,
+            "success": 0,
+            "missed": 0,
+            "saved": null
+        },
+        "cards": {
+            "yellow": 2,
+            "second_yellow": 0,
+            "red": 1
+        }
+    }
+]

@@ -1,0 +1,21 @@
+,player_id,player_name,firstname,lastname,position,nationality,team_id,team_name,appearences,minutes_played,total_goals,assists_goals,conceded_goals,saves_goals,total_shots,on_shots,won_penalty,commited_penalty,success_penalty,missed_penalty,saved_penalty,yellow_cards,second_yellow_cards,red_cards
+0,30463,F. Quagliarella,Fabio,Quagliarella,Attacker,Italy,498,Sampdoria,37,3211,26,8.0,,,141,57,,,9,1,,1,0,0
+1,2495,Duván Esteban Zapata Banguera,Duván Esteban,Zapata Banguera,Attacker,Colombia,499,Atalanta,37,2898,23,6.0,,,114,49,,,1,1,,5,0,0
+2,874,Cristiano Ronaldo,Cristiano Ronaldo,dos Santos Aveiro,Attacker,Portugal,496,Juventus,31,2689,21,8.0,,,177,69,,,5,1,,3,0,0
+3,333,A. Milik,Arkadiusz,Milik,Attacker,Poland,492,Napoli,35,2398,17,3.0,,,109,51,,,0,0,,4,0,0
+4,30573,L. Pavoletti,Leonardo,Pavoletti,Attacker,Italy,490,Cagliari,32,2738,16,1.0,,,84,34,,,0,0,,6,0,0
+5,332,D. Mertens,Dries,Mertens,Attacker,Belgium,492,Napoli,35,2250,16,9.0,,,87,38,,,1,0,,1,0,0
+6,31060,Francesco Caputo,Francesco,Caputo,Attacker,Italy,511,Empoli,38,3420,16,3.0,,,93,41,2.0,,2,3,,3,0,0
+7,30879,A. Petagna,Andrea,Petagna,Attacker,Italy,493,Spal,36,3043,16,1.0,,,90,41,1.0,,6,0,,8,0,0
+8,1863,C. Immobile,Ciro,Immobile,Attacker,Italy,487,Lazio,36,2858,15,6.0,,,124,50,,,4,0,,6,0,0
+9,30509,A. Belotti,Andrea,Belotti,Attacker,Italy,503,Torino,37,3301,15,3.0,,,125,47,2.0,,5,1,,5,0,0
+10,1651,K. Piątek,Krzysztof,Piątek,Attacker,Poland,495,Genoa,19,1594,13,,,,77,31,1.0,,2,0,,5,0,0
+11,30434,J. Iličić,Josip,Iličić,Midfielder,Slovenia,499,Atalanta,31,2151,12,7.0,,,98,36,1.0,,0,1,,5,0,1
+12,30461,Gregoire Defrel,Gregoire,Defrel,Attacker,France,498,Sampdoria,36,2341,11,3.0,,,47,23,2.0,,0,0,,2,0,0
+13,791,S. El Shaarawy,Stephan,El Shaarawy,Attacker,Italy,497,AS Roma,28,2107,11,3.0,,,70,30,2.0,,0,0,,2,0,0
+14,31032,Y. Gervinho,Gervais Lombe Yao,Kouassi,Attacker,Côte d'Ivoire,523,Parma,30,2309,11,2.0,,,44,19,1.0,,0,0,,3,0,0
+15,216,M. Icardi,Mauro Emanuel,Icardi Rivero,Attacker,Argentina,505,Inter,29,2268,11,4.0,,,73,30,3.0,,5,1,,0,0,0
+16,331,L. Insigne,Lorenzo,Insigne,Attacker,Italy,492,Napoli,28,2080,10,6.0,,,120,37,,,1,1,,6,0,1
+17,790,E. Džeko,Edin,Džeko,Attacker,Bosnia and Herzegovina,497,AS Roma,33,2576,9,6.0,,,131,51,1.0,,0,0,,9,0,0
+18,878,Mario Mandžukić,Mario,Mandžukić,Attacker,Croatia,496,Juventus,25,2020,9,6.0,,,30,17,1.0,,0,0,,4,0,0
+19,31031,R. Inglese,Roberto,Inglese,Attacker,Italy,523,Parma,25,1968,9,1.0,,,47,21,1.0,,2,0,,3,0,0

@@ -1,0 +1,197 @@
+{
+  "api": {
+    "results": 5,
+    "fixtures": [
+      {
+        "fixture_id": 608492,
+        "league_id": 2857,
+        "league": {
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        },
+        "event_date": "2020-09-27T16:00:00+00:00",
+        "event_timestamp": 1601222400,
+        "firstHalfStart": null,
+        "secondHalfStart": null,
+        "round": "Regular Season - 2",
+        "status": "Not Started",
+        "statusShort": "NS",
+        "elapsed": 0,
+        "venue": "Stadio Ezio Scida",
+        "referee": null,
+        "homeTeam": {
+          "team_id": 501,
+          "team_name": "Crotone",
+          "logo": "https://media.api-sports.io/football/teams/501.png"
+        },
+        "awayTeam": {
+          "team_id": 489,
+          "team_name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png"
+        },
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null,
+        "score": {
+          "halftime": null,
+          "fulltime": null,
+          "extratime": null,
+          "penalty": null
+        }
+      },
+      {
+        "fixture_id": 634718,
+        "league_id": 2777,
+        "league": {
+          "name": "UEFA Europa League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/3.png",
+          "flag": null
+        },
+        "event_date": "2020-10-01T19:00:00+00:00",
+        "event_timestamp": 1601578800,
+        "firstHalfStart": null,
+        "secondHalfStart": null,
+        "round": "Play-offs",
+        "status": "Not Started",
+        "statusShort": "NS",
+        "elapsed": 0,
+        "venue": "Estádio do Rio Ave Futebol Clube",
+        "referee": null,
+        "homeTeam": {
+          "team_id": 226,
+          "team_name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "awayTeam": {
+          "team_id": 489,
+          "team_name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png"
+        },
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null,
+        "score": {
+          "halftime": null,
+          "fulltime": null,
+          "extratime": null,
+          "penalty": null
+        }
+      },
+      {
+        "fixture_id": 608506,
+        "league_id": 2857,
+        "league": {
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        },
+        "event_date": "2020-10-04T16:00:00+00:00",
+        "event_timestamp": 1601827200,
+        "firstHalfStart": null,
+        "secondHalfStart": null,
+        "round": "Regular Season - 3",
+        "status": "Not Started",
+        "statusShort": "NS",
+        "elapsed": 0,
+        "venue": "Stadio Giuseppe Meazza",
+        "referee": null,
+        "homeTeam": {
+          "team_id": 489,
+          "team_name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png"
+        },
+        "awayTeam": {
+          "team_id": 515,
+          "team_name": "Spezia",
+          "logo": "https://media.api-sports.io/football/teams/515.png"
+        },
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null,
+        "score": {
+          "halftime": null,
+          "fulltime": null,
+          "extratime": null,
+          "penalty": null
+        }
+      },
+      {
+        "fixture_id": 608512,
+        "league_id": 2857,
+        "league": {
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        },
+        "event_date": "2020-10-18T00:00:00+00:00",
+        "event_timestamp": 1602979200,
+        "firstHalfStart": null,
+        "secondHalfStart": null,
+        "round": "Regular Season - 4",
+        "status": "Time to be defined",
+        "statusShort": "TBD",
+        "elapsed": 0,
+        "venue": null,
+        "referee": null,
+        "homeTeam": {
+          "team_id": 505,
+          "team_name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "awayTeam": {
+          "team_id": 489,
+          "team_name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png"
+        },
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null,
+        "score": {
+          "halftime": null,
+          "fulltime": null,
+          "extratime": null,
+          "penalty": null
+        }
+      },
+      {
+        "fixture_id": 608527,
+        "league_id": 2857,
+        "league": {
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        },
+        "event_date": "2020-10-25T00:00:00+00:00",
+        "event_timestamp": 1603584000,
+        "firstHalfStart": null,
+        "secondHalfStart": null,
+        "round": "Regular Season - 5",
+        "status": "Time to be defined",
+        "statusShort": "TBD",
+        "elapsed": 0,
+        "venue": null,
+        "referee": null,
+        "homeTeam": {
+          "team_id": 489,
+          "team_name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png"
+        },
+        "awayTeam": {
+          "team_id": 497,
+          "team_name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png"
+        },
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null,
+        "score": {
+          "halftime": null,
+          "fulltime": null,
+          "extratime": null,
+          "penalty": null
+        }
+      }
+    ]
+  }
+}

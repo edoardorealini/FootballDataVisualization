@@ -1,0 +1,21 @@
+,player_id,player_name,firstname,lastname,position,nationality,team_id,team_name,appearences,minutes_played,total_goals,assists_goals,conceded_goals,saves_goals,total_shots,on_shots,won_penalty,commited_penalty,success_penalty,missed_penalty,saved_penalty,yellow_cards,second_yellow_cards,red_cards
+0,1863,C. Immobile,Ciro,Immobile,Attacker,Italy,487,Lazio,37,3176,36,9.0,,,142,71,5.0,1.0,14,1,,8,0,0
+1,874,Cristiano Ronaldo,Cristiano Ronaldo,dos Santos Aveiro,Attacker,Portugal,496,Juventus,33,2919,31,4.0,,,199,79,2.0,,12,1,,3,0,0
+2,907,R. Lukaku,Romelu,Lukaku Menama,Attacker,Belgium,505,Inter,36,2984,23,2.0,,,99,47,,,6,0,,2,0,0
+3,31060,Francesco Caputo,Francesco,Caputo,Attacker,Italy,488,Sassuolo,36,2936,21,7.0,,,69,32,,,2,0,,3,0,0
+4,30562,João Pedro,João Pedro Geraldino,dos Santos Galvão,Midfielder,Brazil,490,Cagliari,36,3156,18,4.0,,,88,37,1.0,1.0,4,2,,6,0,0
+5,2493,L. Muriel,Luis Fernando,Muriel Fruto,Attacker,Colombia,499,Atalanta,34,1244,18,1.0,,,77,41,1.0,1.0,6,1,,1,0,0
+6,790,E. Džeko,Edin,Džeko,Attacker,Bosnia and Herzegovina,497,AS Roma,35,2854,16,7.0,,,122,47,4.0,,0,0,,4,0,0
+7,30509,A. Belotti,Andrea,Belotti,Attacker,Italy,503,Torino,36,3010,16,4.0,,,104,40,1.0,,7,1,,4,0,0
+8,30434,J. Iličić,Josip,Iličić,Midfielder,Slovenia,499,Atalanta,26,1672,15,5.0,,,81,36,2.0,,0,0,,1,0,1
+9,30537,D. Berardi,Domenico,Berardi,Attacker,Italy,488,Sassuolo,31,2504,14,10.0,,,117,46,,,2,1,,6,0,1
+10,217,L. Martínez,Lautaro Javier,Martínez,Attacker,Argentina,505,Inter,35,2466,14,3.0,,,124,46,2.0,,2,1,,8,0,1
+11,31737,M. Mancosu,Marco,Mancosu,Midfielder,Italy,867,Lecce,33,2445,14,2.0,,,85,30,2.0,,9,2,,3,0,0
+12,30414,G. Simeone,Giovanni Pablo,Simeone,Attacker,Argentina,490,Cagliari,37,2937,12,3.0,,,87,30,1.0,,0,0,,4,0,0
+13,1274,A. Cornelius,Andreas Evald,Cornelius,Attacker,Denmark,523,Parma,26,1491,12,3.0,,,45,20,1.0,,0,0,,1,0,0
+14,2495,Duván Esteban Zapata Banguera,Duván Esteban,Zapata Banguera,Attacker,Colombia,499,Atalanta,19,1451,12,6.0,,,89,37,1.0,,1,0,,1,0,0
+15,30879,A. Petagna,Andrea,Petagna,Attacker,Italy,493,Spal,36,3033,12,1.0,,,106,33,,,4,2,,5,0,0
+16,1831,A. Rebić,Ante,Rebić,Attacker,Croatia,489,AC Milan,26,1396,11,3.0,,,39,20,,,0,0,,5,0,0
+17,30531,J. Boga,Jeremie,Boga,Attacker,Côte d'Ivoire,488,Sassuolo,34,2522,11,2.0,,,54,20,1.0,2.0,0,0,,0,0,0
+18,333,A. Milik,Arkadiusz,Milik,Attacker,Poland,492,Napoli,26,1751,11,,,,68,29,,,0,0,,5,0,0
+19,875,P. Dybala,Paulo Bruno,Exequiel Dybala,Attacker,Argentina,496,Juventus,33,2165,11,6.0,,,99,35,3.0,,1,0,,5,0,0

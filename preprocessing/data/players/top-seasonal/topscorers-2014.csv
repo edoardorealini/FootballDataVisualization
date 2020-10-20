@@ -1,0 +1,21 @@
+,player_id,player_name,firstname,lastname,position,nationality,team_id,team_name,appearences,minutes_played,total_goals,assists_goals,conceded_goals,saves_goals,total_shots,on_shots,won_penalty,commited_penalty,success_penalty,missed_penalty,saved_penalty,yellow_cards,second_yellow_cards,red_cards
+0,115142,Luca Toni,Luca,Toni,Attacker,Italy,504,Verona,38,3231,22,,,,,,,,,,,3,0,0
+1,216,M. Icardi,Mauro Emanuel,Icardi Rivero,Attacker,Argentina,505,Inter,36,2900,22,,,,,,,,,,,4,0,0
+2,5982,C. Tevez,Carlos Alberto,Tevez,Attacker,Argentina,496,Juventus,32,2593,20,,,,,,,,,,,6,0,0
+3,2297,G. Higuaín,Gonzalo Gerardo,Higuaín,Attacker,Argentina,492,Napoli,37,2783,18,,,,,,,,,,,5,0,0
+4,35605,J. Ménez,Jérémy,Ménez,Attacker,France,489,AC Milan,33,2703,16,,,,,,,,,,,4,1,0
+5,30537,D. Berardi,Domenico,Berardi,Attacker,Italy,488,Sassuolo,32,2682,15,,,,,,,,,,,13,0,1
+6,115141,Antonio Di Natale,Antonio,Di Natale,Attacker,Italy,494,Udinese,33,2381,14,,,,,,,,,,,4,0,0
+7,115068,Miroslav Klose,Miroslav,Klose,Attacker,Germany,487,Lazio,34,1832,13,,,,,,,,,,,5,0,0
+8,30463,F. Quagliarella,Fabio,Quagliarella,Attacker,Italy,503,Torino,34,2804,13,,,,,,,,,,,3,0,0
+9,875,P. Dybala,Paulo Bruno,Exequiel Dybala,Attacker,Argentina,522,Palermo,34,2965,13,,,,,,,,,,,3,0,0
+10,30512,Iago Falqué,Iago,Falqué Silva,Attacker,Spain,495,Genoa,32,2351,13,,,,,,,,,,,6,0,0
+11,330,José Callejón,José María,Callejón Bueno,Attacker,Spain,492,Napoli,38,2973,11,,,,,,,,,,,1,0,0
+12,30515,S. Zaza,Simone,Zaza,Attacker,Italy,488,Sassuolo,31,2591,11,,,,,,,,,,,11,0,0
+13,2057,F. Vázquez,Franco Damián,Vázquez,Midfielder,Argentina,522,Palermo,37,3224,10,,,,,,,,,,,7,0,0
+14,32138,Massimo Maccarone,Massimo,Maccarone,Attacker,Italy,511,Empoli,34,2494,10,,,,,,,,,,,4,0,0
+15,202,A. Candreva,Antonio,Candreva,Midfielder,Italy,487,Lazio,34,2653,10,,,,,,,,,,,6,0,0
+16,1857,M. Parolo,Marco,Parolo,Midfielder,Italy,487,Lazio,34,2999,10,,,,,,,,,,,10,1,0
+17,2412,Felipe  Anderson Pereira Gomes,Felipe,Anderson Pereira Gomes,Midfielder,Brazil,487,Lazio,32,2095,10,,,,,,,,,,,5,0,0
+18,30878,A. Paloschi,Alberto,Paloschi,Attacker,Italy,491,Chievo,37,2633,9,,,,,,,,,,,2,0,0
+19,30461,Gregoire Defrel,Gregoire,Defrel,Attacker,France,509,Cesena,34,2701,9,,,,,,,,,,,7,0,0

@@ -1,0 +1,979 @@
+{
+    "api": {
+        "results": 36,
+        "leagues": [
+            {
+                "league_id": 6,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2018,
+                "season_start": "2018-04-14",
+                "season_end": "2018-12-02",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 28,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2017,
+                "season_start": "2017-08-19",
+                "season_end": "2018-05-20",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 41,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2017,
+                "season_start": "2017-05-13",
+                "season_end": "2017-12-03",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 62,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2016,
+                "season_start": "2016-05-14",
+                "season_end": "2016-12-11",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 66,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2016,
+                "season_start": "2016-08-20",
+                "season_end": "2017-05-28",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 94,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2018,
+                "season_start": "2018-08-18",
+                "season_end": "2019-05-26",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 141,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Ecuador",
+                "country_code": "EC",
+                "season": 2018,
+                "season_start": "2018-02-17",
+                "season_end": "2018-07-17",
+                "logo": "https://media.api-sports.io/football/leagues/242.png",
+                "flag": "https://media.api-sports.io/flags/ec.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 142,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Ecuador",
+                "country_code": "EC",
+                "season": 2017,
+                "season_start": "2017-01-29",
+                "season_end": "2017-07-09",
+                "logo": "https://media.api-sports.io/football/leagues/242.png",
+                "flag": "https://media.api-sports.io/flags/ec.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 143,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Ecuador",
+                "country_code": "EC",
+                "season": 2016,
+                "season_start": "2016-02-06",
+                "season_end": "2016-07-24",
+                "logo": "https://media.api-sports.io/football/leagues/242.png",
+                "flag": "https://media.api-sports.io/flags/ec.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": false,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 229,
+                "name": "Serie A Women",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2016,
+                "season_start": "2286-11-20",
+                "season_end": "1970-01-01",
+                "logo": "https://media.api-sports.io/football/leagues/139.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": false,
+                        "lineups": false,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": false,
+                    "topScorers": false,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 230,
+                "name": "Serie A Women",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2017,
+                "season_start": "2286-11-20",
+                "season_end": "1970-01-01",
+                "logo": "https://media.api-sports.io/football/leagues/139.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": false,
+                        "lineups": false,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": false,
+                    "topScorers": false,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 231,
+                "name": "Serie A Women",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2018,
+                "season_start": "2018-09-21",
+                "season_end": "2019-04-20",
+                "logo": "https://media.api-sports.io/football/leagues/139.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": false,
+                    "topScorers": false,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 292,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Ecuador",
+                "country_code": "EC",
+                "season": 2019,
+                "season_start": "2019-02-09",
+                "season_end": "2019-12-15",
+                "logo": "https://media.api-sports.io/football/leagues/242.png",
+                "flag": "https://media.api-sports.io/flags/ec.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": false
+                    },
+                    "players": false,
+                    "topScorers": false,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 357,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2019,
+                "season_start": "2019-04-27",
+                "season_end": "2019-12-08",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 690,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2015,
+                "season_start": "2015-05-09",
+                "season_end": "2015-12-06",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 691,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2014,
+                "season_start": "2014-04-19",
+                "season_end": "2014-12-07",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 692,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2013,
+                "season_start": "2013-05-25",
+                "season_end": "2013-12-08",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 693,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2012,
+                "season_start": "2012-05-19",
+                "season_end": "2012-12-02",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 694,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2011,
+                "season_start": "2011-05-21",
+                "season_end": "2011-12-04",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 695,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2010,
+                "season_start": "2010-05-08",
+                "season_end": "2010-11-28",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 708,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2015,
+                "season_start": "2015-08-22",
+                "season_end": "2016-05-15",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 709,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2014,
+                "season_start": "2014-08-30",
+                "season_end": "2015-05-31",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 710,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2013,
+                "season_start": "2013-08-24",
+                "season_end": "2014-05-18",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 711,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2012,
+                "season_start": "2012-08-25",
+                "season_end": "2013-05-19",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 712,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2011,
+                "season_start": "2011-09-09",
+                "season_end": "2012-05-13",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 713,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2010,
+                "season_start": "2010-08-28",
+                "season_end": "2011-05-22",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 891,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2019,
+                "season_start": "2019-08-24",
+                "season_end": "2020-08-02",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": true
+                }
+            },
+            {
+                "league_id": 977,
+                "name": "Serie A Women",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2019,
+                "season_start": "2019-09-14",
+                "season_end": "2020-05-16",
+                "logo": "https://media.api-sports.io/football/leagues/139.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 0,
+                "is_current": 0,
+                "coverage": {
+                    "standings": false,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": false,
+                    "topScorers": false,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 1262,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Ecuador",
+                "country_code": "EC",
+                "season": 2020,
+                "season_start": "2020-02-14",
+                "season_end": "2020-12-18",
+                "logo": "https://media.api-sports.io/football/leagues/242.png",
+                "flag": "https://media.api-sports.io/flags/ec.svg",
+                "standings": 1,
+                "is_current": 1,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": false
+                    },
+                    "players": false,
+                    "topScorers": false,
+                    "predictions": true,
+                    "odds": true
+                }
+            },
+            {
+                "league_id": 1396,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Brazil",
+                "country_code": "BR",
+                "season": 2020,
+                "season_start": "2020-08-08",
+                "season_end": "2021-02-24",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "standings": 1,
+                "is_current": 1,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": true
+                }
+            },
+            {
+                "league_id": 2515,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Ecuador",
+                "country_code": "EC",
+                "season": 2015,
+                "season_start": "2015-01-31",
+                "season_end": "2015-07-12",
+                "logo": "https://media.api-sports.io/football/leagues/242.png",
+                "flag": "https://media.api-sports.io/flags/ec.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 2516,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Ecuador",
+                "country_code": "EC",
+                "season": 2014,
+                "season_start": "2014-01-25",
+                "season_end": "2014-08-03",
+                "logo": "https://media.api-sports.io/football/leagues/242.png",
+                "flag": "https://media.api-sports.io/flags/ec.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": false,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 2517,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Ecuador",
+                "country_code": "EC",
+                "season": 2013,
+                "season_start": "2013-01-26",
+                "season_end": "2013-06-30",
+                "logo": "https://media.api-sports.io/football/leagues/242.png",
+                "flag": "https://media.api-sports.io/flags/ec.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 2518,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Ecuador",
+                "country_code": "EC",
+                "season": 2012,
+                "season_start": "2012-02-04",
+                "season_end": "2012-07-08",
+                "logo": "https://media.api-sports.io/football/leagues/242.png",
+                "flag": "https://media.api-sports.io/flags/ec.svg",
+                "standings": 1,
+                "is_current": 0,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 2798,
+                "name": "Serie A Women",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2020,
+                "season_start": "2020-08-22",
+                "season_end": "2021-05-23",
+                "logo": "https://media.api-sports.io/football/leagues/139.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 1,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": false,
+                        "players_statistics": false
+                    },
+                    "players": false,
+                    "topScorers": false,
+                    "predictions": true,
+                    "odds": false
+                }
+            },
+            {
+                "league_id": 2857,
+                "name": "Serie A",
+                "type": "League",
+                "country": "Italy",
+                "country_code": "IT",
+                "season": 2020,
+                "season_start": "2020-09-19",
+                "season_end": "2021-05-23",
+                "logo": "https://media.api-sports.io/football/leagues/135.png",
+                "flag": "https://media.api-sports.io/flags/it.svg",
+                "standings": 1,
+                "is_current": 1,
+                "coverage": {
+                    "standings": true,
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics": true,
+                        "players_statistics": true
+                    },
+                    "players": true,
+                    "topScorers": true,
+                    "predictions": true,
+                    "odds": true
+                }
+            }
+        ]
+    }
+}

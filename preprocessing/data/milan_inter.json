@@ -1,0 +1,1013 @@
+{
+  "api": {
+    "results": 1,
+    "predictions": [
+      {
+        "match_winner": "1 N",
+        "under_over": "-3.5",
+        "goals_home": null,
+        "goals_away": "-2.5",
+        "advice": "Combo Double chance : Inter or draws  and -3.5 goals",
+        "winning_percent": {
+          "home": "35%",
+          "draws": "35%",
+          "away": "30%"
+        },
+        "teams": {
+          "home": {
+            "team_id": 505,
+            "team_name": "Inter",
+            "last_5_matches": {
+              "forme": "0%",
+              "att": "0%",
+              "def": "0%",
+              "goals": 0,
+              "goals_avg": 0,
+              "goals_against": 0,
+              "goals_against_avg": 0
+            },
+            "all_last_matches": {
+              "matchs": {
+                "matchsPlayed": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                },
+                "wins": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                },
+                "draws": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                },
+                "loses": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                }
+              },
+              "goals": {
+                "goalsFor": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                },
+                "goalsAgainst": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                }
+              },
+              "goalsAvg": {
+                "goalsFor": {
+                  "home": "0.0",
+                  "away": "0.0",
+                  "total": "0.0"
+                },
+                "goalsAgainst": {
+                  "home": "0.0",
+                  "away": "0.0",
+                  "total": "0.0"
+                }
+              }
+            },
+            "last_h2h": {
+              "played": {
+                "home": 10,
+                "away": 11,
+                "total": 21
+              },
+              "wins": {
+                "home": 6,
+                "away": 4,
+                "total": 10
+              },
+              "draws": {
+                "home": 3,
+                "away": 3,
+                "total": 6
+              },
+              "loses": {
+                "home": 1,
+                "away": 4,
+                "total": 5
+              }
+            }
+          },
+          "away": {
+            "team_id": 489,
+            "team_name": "AC Milan",
+            "last_5_matches": {
+              "forme": "100%",
+              "att": "14%",
+              "def": "100%",
+              "goals": 2,
+              "goals_avg": 2,
+              "goals_against": 0,
+              "goals_against_avg": 0
+            },
+            "all_last_matches": {
+              "matchs": {
+                "matchsPlayed": {
+                  "home": 1,
+                  "away": 0,
+                  "total": 1
+                },
+                "wins": {
+                  "home": 1,
+                  "away": 0,
+                  "total": 1
+                },
+                "draws": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                },
+                "loses": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                }
+              },
+              "goals": {
+                "goalsFor": {
+                  "home": 2,
+                  "away": 0,
+                  "total": 2
+                },
+                "goalsAgainst": {
+                  "home": 0,
+                  "away": 0,
+                  "total": 0
+                }
+              },
+              "goalsAvg": {
+                "goalsFor": {
+                  "home": "2.0",
+                  "away": "0.0",
+                  "total": "2.0"
+                },
+                "goalsAgainst": {
+                  "home": "0.0",
+                  "away": "0.0",
+                  "total": "0.0"
+                }
+              }
+            },
+            "last_h2h": {
+              "played": {
+                "home": 11,
+                "away": 10,
+                "total": 21
+              },
+              "wins": {
+                "home": 4,
+                "away": 1,
+                "total": 5
+              },
+              "draws": {
+                "home": 3,
+                "away": 3,
+                "total": 6
+              },
+              "loses": {
+                "home": 4,
+                "away": 6,
+                "total": 10
+              }
+            }
+          }
+        },
+        "h2h": [
+          {
+            "fixture_id": 198422,
+            "league_id": 713,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2010-11-14T19:45:00+00:00",
+            "event_timestamp": 1289763900,
+            "firstHalfStart": 1289763900,
+            "secondHalfStart": 1289767500,
+            "round": "Regular Season - 12",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "0-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 198604,
+            "league_id": 713,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2011-04-02T18:45:00+00:00",
+            "event_timestamp": 1301769900,
+            "firstHalfStart": 1301769900,
+            "secondHalfStart": 1301773500,
+            "round": "Regular Season - 31",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 3,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "3-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 198100,
+            "league_id": 712,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2012-01-15T19:45:00+00:00",
+            "event_timestamp": 1326656700,
+            "firstHalfStart": 1326656700,
+            "secondHalfStart": 1326660300,
+            "round": "Regular Season - 18",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "0-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 198292,
+            "league_id": 712,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2012-05-06T18:45:00+00:00",
+            "event_timestamp": 1336329900,
+            "firstHalfStart": 1336329900,
+            "secondHalfStart": 1336333500,
+            "round": "Regular Season - 37",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 4,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "1-1",
+              "fulltime": "4-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 197611,
+            "league_id": 711,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2012-10-07T18:45:00+00:00",
+            "event_timestamp": 1349635500,
+            "firstHalfStart": 1349635500,
+            "secondHalfStart": 1349639100,
+            "round": "Regular Season - 7",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "0-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 197799,
+            "league_id": 711,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2013-02-24T19:45:00+00:00",
+            "event_timestamp": 1361735100,
+            "firstHalfStart": 1361735100,
+            "secondHalfStart": 1361738700,
+            "round": "Regular Season - 26",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "1-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 197332,
+            "league_id": 710,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2013-12-22T19:45:00+00:00",
+            "event_timestamp": 1387741500,
+            "firstHalfStart": 1387741500,
+            "secondHalfStart": 1387745100,
+            "round": "Regular Season - 17",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 197518,
+            "league_id": 710,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2014-05-04T18:45:00+00:00",
+            "event_timestamp": 1399229100,
+            "firstHalfStart": 1399229100,
+            "secondHalfStart": 1399232700,
+            "round": "Regular Season - 36",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 196901,
+            "league_id": 709,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2014-11-23T19:45:00+00:00",
+            "event_timestamp": 1416771900,
+            "firstHalfStart": 1416771900,
+            "secondHalfStart": 1416775500,
+            "round": "Regular Season - 12",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "1-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 197091,
+            "league_id": 709,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2015-04-19T18:45:00+00:00",
+            "event_timestamp": 1429469100,
+            "firstHalfStart": 1429469100,
+            "secondHalfStart": 1429472700,
+            "round": "Regular Season - 31",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "0-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 196431,
+            "league_id": 708,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2015-09-13T18:45:00+00:00",
+            "event_timestamp": 1442169900,
+            "firstHalfStart": 1442169900,
+            "secondHalfStart": 1442173500,
+            "round": "Regular Season - 3",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "San Siro/Giuseppe Meazza",
+            "referee": "Gianluca Rocchi, Italy",
+            "homeTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 196622,
+            "league_id": 708,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2016-01-31T19:45:00+00:00",
+            "event_timestamp": 1454269500,
+            "firstHalfStart": 1454269500,
+            "secondHalfStart": 1454273100,
+            "round": "Regular Season - 22",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "San Siro/Giuseppe Meazza",
+            "referee": "Antonio Damato, Italy",
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 3,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "3-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 21537,
+            "league_id": 66,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2016-11-20T19:45:00+00:00",
+            "event_timestamp": 1479671100,
+            "firstHalfStart": 1479671100,
+            "secondHalfStart": 1479674700,
+            "round": "Regular Season - 13",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "San Siro/Giuseppe Meazza",
+            "referee": "Paolo Tagliavento, Italy",
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "2-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 21355,
+            "league_id": 66,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2017-04-15T10:30:00+00:00",
+            "event_timestamp": 1492252200,
+            "firstHalfStart": 1492252200,
+            "secondHalfStart": 1492255800,
+            "round": "Regular Season - 32",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "San Siro/Giuseppe Meazza",
+            "referee": "Daniele Orsato, Italy",
+            "homeTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "2-0",
+              "fulltime": "2-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 8968,
+            "league_id": 28,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2017-10-15T18:45:00+00:00",
+            "event_timestamp": 1508093100,
+            "firstHalfStart": 1508093100,
+            "secondHalfStart": 1508096700,
+            "round": "Regular Season - 8",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "San Siro/Giuseppe Meazza",
+            "referee": "Paolo Tagliavento, Italy",
+            "homeTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 3,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "3-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 27987,
+            "league_id": 89,
+            "league": {
+              "name": "Coppa Italia",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/137.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2017-12-27T19:45:00+00:00",
+            "event_timestamp": 1514403900,
+            "firstHalfStart": 1514403900,
+            "secondHalfStart": 1514407500,
+            "round": "Quarter-finals",
+            "status": "Match Finished",
+            "statusShort": "AET",
+            "elapsed": 120,
+            "venue": "Stadio Giuseppe Meazza (Milano)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "0-0",
+              "extratime": "1-0",
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 8746,
+            "league_id": 28,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2018-04-04T16:30:00+00:00",
+            "event_timestamp": 1522859400,
+            "firstHalfStart": 1522859400,
+            "secondHalfStart": 1522863000,
+            "round": "Regular Season - 27",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "San Siro/Giuseppe Meazza",
+            "referee": "Marco Di Bello, Italy",
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "0-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 29074,
+            "league_id": 94,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2018-10-21T18:30:00+00:00",
+            "event_timestamp": 1540146600,
+            "firstHalfStart": 1540146600,
+            "secondHalfStart": 1540150200,
+            "round": "Regular Season - 9",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "San Siro/Giuseppe Meazza",
+            "referee": "Marco Guida, Italy",
+            "homeTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 29260,
+            "league_id": 94,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2019-03-17T19:30:00+00:00",
+            "event_timestamp": 1552851000,
+            "firstHalfStart": 1552851000,
+            "secondHalfStart": 1552854600,
+            "round": "Regular Season - 28",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "San Siro/Giuseppe Meazza",
+            "referee": "Marco Guida, Italy",
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 3,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "2-3",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 232560,
+            "league_id": 891,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2019-09-21T18:45:00+00:00",
+            "event_timestamp": 1569091500,
+            "firstHalfStart": 1569091500,
+            "secondHalfStart": 1569095100,
+            "round": "Regular Season - 4",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza",
+            "referee": "D. Doveri",
+            "homeTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "awayTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "0-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 232750,
+            "league_id": 891,
+            "league": {
+              "name": "Serie A",
+              "country": "Italy",
+              "logo": "https://media.api-sports.io/football/leagues/135.png",
+              "flag": "https://media.api-sports.io/flags/it.svg"
+            },
+            "event_date": "2020-02-09T19:45:00+00:00",
+            "event_timestamp": 1581277500,
+            "firstHalfStart": 1581277500,
+            "secondHalfStart": 1581281100,
+            "round": "Regular Season - 23",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Stadio Giuseppe Meazza",
+            "referee": "F. Maresca",
+            "homeTeam": {
+              "team_id": 505,
+              "team_name": "Inter",
+              "logo": "https://media.api-sports.io/football/teams/505.png"
+            },
+            "awayTeam": {
+              "team_id": 489,
+              "team_name": "AC Milan",
+              "logo": "https://media.api-sports.io/football/teams/489.png"
+            },
+            "goalsHomeTeam": 4,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "0-2",
+              "fulltime": "4-2",
+              "extratime": null,
+              "penalty": null
+            }
+          }
+        ],
+        "comparison": {
+          "forme": {
+            "home": "0%",
+            "away": "100%"
+          },
+          "att": {
+            "home": "0%",
+            "away": "100%"
+          },
+          "def": {
+            "home": "0%",
+            "away": "0%"
+          },
+          "fish_law": {
+            "home": "0%",
+            "away": "0%"
+          },
+          "h2h": {
+            "home": "93%",
+            "away": "7%"
+          },
+          "goals_h2h": {
+            "home": "71%",
+            "away": "29%"
+          }
+        }
+      }
+    ]
+  }
+}

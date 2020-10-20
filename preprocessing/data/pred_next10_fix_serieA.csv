@@ -1,0 +1,11 @@
+fixture_id,home_team_id,home_team_name,away_team_id,away_team_name,winning_percent_home,winning_percent_draws,winning_percent_away,forme_home,forme_away,att_home,att_away,def_home,def_away,fish_law_home,fish_law_away,h2h_home,h2h_away,goals_h2h_home,goals_h2h_away
+608490,500,Bologna,523,Parma,45%,45%,10%,0%,0%,0%,0%,50%,50%,0%,0%,64%,36%,60%,40%
+608480,506,Benevento,505,Inter,10%,45%,45%,50%,50%,43%,57%,60%,40%,0%,0%,0%,100%,23%,77%
+608488,494,Udinese,515,Spezia,10%,45%,45%,0%,0%,0%,100%,80%,20%,0%,0%,0%,100%,40%,60%
+608484,487,Lazio,499,Atalanta,10%,45%,45%,50%,50%,33%,67%,100%,0%,0%,0%,29%,71%,44%,56%
+608502,502,Fiorentina,498,Sampdoria,45%,45%,10%,100%,0%,67%,33%,60%,40%,100%,0%,62%,38%,57%,43%
+608508,488,Sassuolo,501,Crotone,45%,45%,10%,100%,0%,83%,17%,75%,25%,74%,26%,64%,36%,45%,55%
+608503,495,Genoa,503,Torino,45%,45%,10%,100%,0%,67%,33%,42%,58%,100%,0%,7%,93%,20%,80%
+608509,494,Udinese,497,AS Roma,10%,45%,45%,0%,100%,0%,100%,83%,17%,0%,0%,40%,60%,30%,70%
+608500,499,Atalanta,490,Cagliari,45%,45%,10%,75%,25%,80%,20%,60%,40%,0%,0%,60%,40%,57%,43%
+608501,506,Benevento,500,Bologna,10%,45%,45%,50%,50%,43%,57%,60%,40%,0%,0%,0%,100%,0%,100%
