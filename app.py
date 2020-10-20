@@ -487,7 +487,7 @@ def update_parallel(selected_dropdown_value):
 
     fig.add_trace(go.Parcoords(
             line_color = total,
-            line_colorscale = 'Reds',
+            line_colorscale = 'gnuplot',
             line_colorbar_title = 'Total shots',
             dimensions = list([
                 dict(range = [100,400],
