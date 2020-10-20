@@ -226,7 +226,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                 #row for dropdown selectors for the 2 SCATTER graphs
                 html.Div(className='row',
                     children=  [                                        
-                                    html.Div(className='twelve columns',
+                                    html.Div(className='row',
                                         children=[
                                             html.Center(children=[html.P('Season')]),
                                             html.Center(children=[html.Div(
@@ -234,7 +234,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                                                 children=[
                                                     dcc.Dropdown(id='season_select_parallel', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
                                                                 multi=False, value="2019",
-                                                                className='season_selector_wins',
+                                                                className='season_selector_parallel',
                                                                 clearable=False,
                                                                 searchable=False,
                                                                 style={"width": "60%"}
@@ -247,7 +247,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("
                 #row for dropdown selectors for the 2 scatter graphs
                 html.Div(className='row',
                     children=  [                                    
-                                    html.Div(className='twelve columns',
+                                    html.Div(className='row',
                                             children=[
                                                 dcc.Graph(id='parallel', config={'displayModeBar': True})
                                             ])
@@ -702,49 +702,6 @@ def update_bubbles(selected_dropdown_value):
 
     return fig
 
-
-    #teams lines scoring callback function, triggered by its dropdown menu
-@app.callback(Output('bar_shots', 'figure'),
-              [Input('season_select_bar_shots', 'value')])
-def update_bar_shots(selected_dropdown_value):
-
-    data = pd.read_csv("./data/shots/" + str(selected_dropdown_value) + ".csv", delimiter=";")
-    data = data.sort_values(by=['team_name'])
-    teams = data['team_name'].to_list()
-
-    goalkeeper_area = data['SixYardBox'].to_list()
-    penalty_area = data['PenaltyArea'].to_list()
-    out_area = data['OutOfBox'].to_list()
-
-    fig = go.Figure()
-
-    fig.add_trace(go.Bar(x=goalkeeper_area, y=teams,
-                    base=0,
-                    marker_color='green',
-                    name='Area Piccola',
-                    orientation='h'))
-
-    fig.add_trace(go.Bar(x=penalty_area, y=teams,
-                    base=goalkeeper_area,
-                    marker_color='white',
-                    name='Area di Rigore',
-                    orientation='h'))
-
-    fig.add_trace(go.Bar(x=out_area, y=teams,
-                    base=addition(goalkeeper_area,penalty_area),
-                    marker_color='red',
-                    name='Fuori Area',
-                    orientation='h'))
-
-
-    fig.update_layout(
-        title="Shot statistics for season " + str(selected_dropdown_value),
-        title_x=0.5,
-        barmode='stack',
-        #transition=trx
-    )
-
-    return fig
 
 # ----------------------------- MAIN ----------------------------------------
 
