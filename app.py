@@ -26,7 +26,7 @@ app.config.suppress_callback_exceptions = True
 server = app.server
 
 # Define the app
-app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("Data Results and Visualization Project")]), 
+app.layout = html.Div(children=[html.Center(className="row", children=[html.H2("Data Results and Visualization - Politecnico di Milano")]), 
     html.Div([
         dcc.Tabs([
             dcc.Tab(label='SERIE A', children=[
