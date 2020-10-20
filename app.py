@@ -1080,7 +1080,7 @@ def update_player_graph(player_name):
 
     bigDiv.append(html.Br())
     # bigDiv.append(html.Br())
-    bigDiv.append(html.B(children="Stats of " + player_name))
+    bigDiv.append(html.B(children="Stats of " + player_name, style={"fontSize": "20px"}))
 
     fig = go.Figure(go.Bar(x=x_values, y=y_values, orientation='h', marker_color=colors_bars))
     fig.update_layout(title_text=role)
@@ -1092,13 +1092,18 @@ def update_player_graph(player_name):
         domain={'x': [0, 1], 'y': [0, 1]}
     ))
 
+    voto.update_layout(autosize=False, width=300, height=300)
+
     encoded_image = base64.b64encode(open(campioncini[player_name], 'rb').read())
 
     row = html.Div([
         # image of campioncino
         html.Div([
-            html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()), alt=player_name),
-            dcc.Graph(figure=voto)
+            html.Br(),
+            html.Br(),
+            html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()), alt=player_name, style={"minWidth": "95px", "display": "block",
+                     "marginRight": "auto", "marginLeft": "auto", "maxWidth": "95px"}),
+            dcc.Graph(figure=voto, config={"modeBarButtonsToRemove": ['pan2d']})
         ], className="four columns"),
 
         # relevant stats: goals, assists, cards, avg grade
