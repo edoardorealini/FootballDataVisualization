@@ -907,7 +907,7 @@ def update_bubbles(selected_dropdown_value):
                         mode='markers',
                         text=marker_text,
                         marker=dict(
-                            size=goals[i],
+                            size=goals[i]/1.5,
                             opacity=0.9,
                             color=rgb_color_list[i],
                             line_width=1.7),
