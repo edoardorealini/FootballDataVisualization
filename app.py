@@ -1105,7 +1105,7 @@ def update_player_graph(player_name):
             html.Br(),
             html.Br(),
             html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()), alt=player_name, style={"minWidth": "95px", "display": "block",
-                     "marginRight": "auto", "marginLeft": "auto", "maxWidth": "95px"}),
+                     "marginRight": "auto", "marginLeft": "auto", "maxWidth": "120px"}),
             dcc.Graph(figure=voto, config={"modeBarButtonsToRemove": ['pan2d']})
         ], className="four columns"),
 
