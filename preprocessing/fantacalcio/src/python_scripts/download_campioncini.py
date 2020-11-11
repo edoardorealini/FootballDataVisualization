@@ -6,7 +6,7 @@ import pandas as pd
 
 parent_folder = Path.cwd().parent
 
-filename = parent_folder / "data/stats2019.csv"
+filename = parent_folder / "data/stats2020.csv"
 
 # read the columns of players' names
 all_names = pd.read_csv(filename)["Nome"]
@@ -24,7 +24,7 @@ for player_name in all_names:
 
     img_name = player_name + ".png"
 
-    url = "https://content.fantacalcio.it/web/campioncini/small/" + img_name
+    url = "https://content.fantacalcio.it/web/campioncini/medium/" + img_name
 
     try:
         req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
