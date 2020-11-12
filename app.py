@@ -60,15 +60,18 @@ roles = {"All": "Players",
          "C": "Midfielders",
          "A": "Forwarders"}
 
-color_by_role = {"P": "#A569BD",
-                 "D": "#3498DB",
-                 "C": "#16A085",
-                 "A": "#E74C3C"}
+color_by_role = {"P": "#F9A825",
+                 "D": "#2E7D32",
+                 "C": "#0277BD",
+                 "A": "#C62828"}
 
 numbers_of_players = [5, 10, 15, 20, 25]
 
 stats_to_show = ["Media voto + Media Fantavoto",
                  "Goal fatti + Rigori segnati", "Ammonizioni + Espulsioni"]
+
+stats_to_show_eng = ["Average Grade + Average Fantagrade",
+                     "Goals scored + Penalty scored", "Yellow Cards + Red Cards"]
 
 
 # ----------------------------- APP ----------------------------------------
@@ -102,9 +105,9 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                                                             className='season_selector_wins',
                                                             clearable=False,
                                                             searchable=False,
-                                                            style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
+
                                                             )
-                                            ])
+                                            ], style={"width": "50%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"})
                             ])
                         ]),
 
@@ -112,16 +115,16 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                         children=[
                             html.Div(style={"marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}, children=[html.P('Season')]),
 
-                            html.Div(style={'textAlign': 'center'},
+                            html.Div(className='row',
                                 children =  [
                                                 dcc.Dropdown(id='season_selector_goals', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
                                                             multi=False, value="2019",
                                                             className='season_selector_goals',
                                                             clearable=False,
                                                             searchable=False,
-                                                            style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
+
                                                             )
-                                            ])
+                                            ], style={"width": "50%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"})
                         ]
                     )
                 ]),
@@ -157,9 +160,9 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                                                                 className='season_selector_wins',
                                                                 clearable=False,
                                                                 searchable=False,
-                                                                style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
+
                                                                 ),
-                                                ])
+                                                ], style={"width": "50%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"})
                                             ])
                                         ]),
 
@@ -173,9 +176,9 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                                                                     className='season_selector_goals',
                                                                     clearable=False,
                                                                     searchable=False,
-                                                                    style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
+
                                                                     ),
-                                                    ])
+                                                    ], style={"width": "50%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"})
                                                 ] #, style={"display":"none"}
                                             )
                                 ]),
@@ -211,9 +214,9 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                                                                 className='season_selector_wins',
                                                                 clearable=True,
                                                                 searchable=True,
-                                                                style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
+
                                                                 ),
-                                                ])
+                                                ], style={"width": "50%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"})
                                             ])
                                         ]),
 
@@ -227,9 +230,9 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                                                                     className='season_selector_goals',
                                                                     clearable=True,
                                                                     searchable=True,
-                                                                    style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
+
                                                                     ),
-                                                    ])
+                                                    ], style={"width": "50%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"})
                                                 ] #, style={"display":"none"}
                                             ),
 
@@ -243,9 +246,9 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                                                                     className='season_selector_goals',
                                                                     clearable=True,
                                                                     searchable=True,
-                                                                    style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
+
                                                                     ),
-                                                    ])
+                                                    ], style={"width": "50%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"})
                                                 ] #, style={"display":"none"}
                                             )
                                 ]),
@@ -284,9 +287,8 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                                             className='season_selector_parallel',
                                             clearable=False,
                                             searchable=False,
-                                            style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
                                             ),
-                            ])
+                            ], style={"width": "35%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"})
                         ])
                     ]),
 
@@ -324,8 +326,9 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                     html.Div([
                         # second column first row
                         html.Div([
-                            html.P(style={"fontSize": "1.15em"},children='''The following graph shows the statistics about the number of goals
-                                                   scored or conceded, rispectevely for players or GoalKeepers.'''),
+                            html.P(style={"fontSize": "1.25em"},
+                                   children='''The following graph shows the statistics about the number of goals
+                                               scored or conceded, rispectevely for players or GoalKeepers.'''),
                             html.Br(),
 
                             html.Div([
@@ -366,8 +369,8 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
 
                         # second column first row
                         html.Div([
-                            html.P(style={"fontSize": "1.15em"},children='''The following graph shows the statistics about the grade
-                                             point average and the  so-called Fantagrade.'''),
+                            html.P(style={"fontSize": "1.25em"},children='''The following graph shows the statistics about the grade
+                                             point average and the so-called Fantagrade, which is based on bonus and malus.'''),
 
                             html.Br(),
 
@@ -411,11 +414,10 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                     html.Br(),
                     html.Br(),
                     html.Br(),
-                    html.Br(),
 
                     # second row
                     html.Div([
-                        html.P(style={"fontSize": "1.15em", "textAlign": "center"},
+                        html.P(style={"fontSize": "1.25em", "textAlign": "center"},
                                children='In the next section you can compare two players by plotting their \
                                most significant stats.'),
 
@@ -431,7 +433,7 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                                             clearable=False,
                                             id='player_to_show_name1',
                                             options=[{'label': name, 'value': name} for name in all_names_at_least_one_match],
-                                            value='IMMOBILE'
+                                            value='IBRAHIMOVIC'
                                         )], className='six columns')
                                 ], className='row', style={"maxWidth": "50%", "marginRight": "auto", "marginLeft": "auto"}),
                             ], className='six columns'),
@@ -455,13 +457,12 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
 
                     html.Br(),
                     html.Br(),
-                    html.Br(),
-                    html.Br(),
 
                     # third row
                     html.Div([
-                        html.P(style={"fontSize": "1.15em"},
-                               children='''The following graph shows the stats players filtered by their team.'''),
+                        html.P(style={"fontSize": "1.25em", "textAlign": "center"},
+                               children='''The following graph shows the stats players filtered by their team. NB: the bars have
+                                           different colors according to the role of each player.'''),
 
                         html.Br(),
 
@@ -489,8 +490,8 @@ app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className
                                             clearable=False,
                                             searchable=False,
                                             id='stats_value',
-                                            options=[{'label': i, 'value': i}
-                                                     for i in stats_to_show],
+                                            options=[{'label': stats_to_show_eng[i], 'value': stats_to_show[i]}
+                                                     for i in range(len(stats_to_show))],
                                             value="Media voto + Media Fantavoto"
                                         )], className='eight columns')
                                 ], className='row'), ], className='six columns'),
@@ -1020,10 +1021,11 @@ def update_mv_graph(players_role_mv, players_number_mv):
 
     fig.add_trace(
         go.Scatter(name='Avg Fantagrade', x=filtered["Nome"],
-                   y=filtered["Media Fantavoto"], marker_color='#0088E0', mode='lines+markers'))
+                   y=filtered["Media Fantavoto"], marker_color='#696969', marker_size=11, line_width=3,
+                   mode='lines+markers', marker_line=dict(color='black', width=1)))
 
     fig.add_trace(go.Bar(name='Avg grade', x=filtered["Nome"],
-                         y=filtered["Media voto"], marker_color='#E53935'))
+                         y=filtered["Media voto"], marker_color="#AF7AC5"))
 
     fig.update_layout(xaxis=dict(title_text="Name of players"),
                       yaxis=dict(title_text=y_title), title_text=title)
@@ -1039,29 +1041,37 @@ def update_mv_graph(players_role_mv, players_number_mv):
      Input('stats_value', 'value')])
 def update_team_graph(team_value, stats_value):
 
+    eng_dict = {"Media voto + Media Fantavoto": "Average Grade + Average Fantagrade",
+                "Goal fatti + Rigori segnati": "Goals scored + Penalty scored",
+                "Ammonizioni + Espulsioni": "Yellow Cards + Red Cards"}
+
     filtered = original_df[original_df["Squadra"] == team_value]
 
     title = "<b>Players of " + team_value + " of season " + \
             str(season) + "-" + str(season + 1) + \
-        " ordered by " + stats_value + "</b>"
+        " ordered by " + eng_dict[stats_value] + "</b>"
 
     stats = stats_value.split(" + ")
     filtered = filtered[filtered["Partite giocate"] > 3]
     filtered = filtered.sort_values(by=[stats[0]], ascending=False)
-    filtered = filtered.head(25)
+    filtered = filtered.head(27)
 
     colors = []
+    list_of_roles = []
 
     for role in filtered["Ruolo"]:
         colors.append(color_by_role[role])
+        list_of_roles.append("Role: " + roles[role][:-1])
 
     fig = go.Figure()
 
     if (stats[0] == "Media voto"):
         fig.add_trace(go.Scatter(name='Avg Fantagrade', x=filtered["Nome"],
-                                 y=filtered[stats[1]], marker_color='#0088E0', mode='lines+markers'))
+                                 y=filtered[stats[1]], marker_color='#696969', marker_size=11, line_width=3,
+                                 mode='lines+markers', marker_line=dict(color='black', width=1)
+                                 ))
         fig.add_trace(go.Bar(name='Avg grade', x=filtered["Nome"],
-                             y=filtered[stats[0]], marker_color=colors)),
+                             y=filtered[stats[0]], text=list_of_roles, marker_color=colors)),
         y_title = "Grade"
 
     if (stats[0] == "Goal fatti"):
@@ -1114,9 +1124,21 @@ def update_player_graph(player_name_1, player_name_2):
     player_2 = original_df[original_df["Nome"] == player_name_2]
     grade_2 = np.array(player_2["Media Fantavoto"])[0]
 
-    colors_bars = ["#AF7AC5", "#E74C3C", "#F1C40F", "#58D68D", "#229954", "#2980B9"]
+    colors_bars_1 = []
+    colors_bars_2 = []
+    loser_color = "#778899"
+    winner_color = "#C62828"
 
-    loser_color = "#707B7C"
+    for n in range(len(x_values_1)):
+        if -1 * x_values_1[n] > x_values_2[n]:
+            colors_bars_1.append(winner_color)
+            colors_bars_2.append(loser_color)
+        elif -1 * x_values_1[n] < x_values_2[n]:
+            colors_bars_1.append(loser_color)
+            colors_bars_2.append(winner_color)
+        else:
+            colors_bars_1.append(loser_color)
+            colors_bars_2.append(loser_color)
 
     bigDiv.append(html.Br())
     # bigDiv.append(html.Br())
@@ -1127,23 +1149,34 @@ def update_player_graph(player_name_1, player_name_2):
         ], className="row")
     )
 
-    y_values_bug_fix = ["Autogoal ", "Espulsioni ", "Ammonizioni ", "Assists tot ", "Goals tot ", "Partite giocate "]
+    y_values_bug_fix = ["Autogoals ", "Red card ", "Yellow cards ", "Assists tot ", "Goals tot ", "Matches played "]
     fig = go.Figure()
+
+    hover_1 = []
+    hover_2 = []
+
+    for i in x_values_1:
+        hover_1.append(player_name_1 + ", " + str(-1 * i))
+
+    for j in x_values_2:
+        hover_2.append(player_name_2 + ", " + str(j))
+
+    bar_width = np.ones(len(y_values_bug_fix)) * 0.45
 
     # add the trace of the first player
     fig.add_trace(go.Bar(x=x_values_1, y=y_values_bug_fix, name=player_name_1, orientation='h',
-                         text=(-1 * x_values_1), hoverinfo='text', marker_color=colors_bars))
+                         text=hover_1, hoverinfo='text', marker_color=colors_bars_1, width=bar_width))
 
     # add the trace of the second player
     fig.add_trace(go.Bar(x=x_values_2, y=y_values_bug_fix, name=player_name_2, orientation='h',
-                         hoverinfo='x', marker_color=colors_bars))
+                         text=hover_2, hoverinfo='text', marker_color=colors_bars_2, width=bar_width))
 
     list = [-40, -35, -30, -25, -20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
     pos_list = [40, 35, 30, 25, 20, 15, 10, 5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
 
     x_axis = {"range": [-40, 40], "tickvals": list, "ticktext": pos_list, "title": "Number"}
 
-    fig.update_layout(title_text=role_1, xaxis=x_axis, barmode='overlay', bargap=0.1)
+    fig.update_layout(xaxis=x_axis, barmode='overlay', bargap=0.1, margin_t=0, showlegend=False)
 
     # grade of first player
     voto_1 = go.Figure(go.Indicator(
