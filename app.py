@@ -79,10 +79,12 @@ app.config.suppress_callback_exceptions = True
 server = app.server
 
 # Define the app
-app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("Data Results and Visualization - Politecnico di Milano")]),
+app.layout = html.Div(children=[html.Div(style={'textAlign': 'center'},className="row", children=[html.H1("Data Results and Visualization - Politecnico di Milano")]),
     html.Div([
         dcc.Tabs([
             dcc.Tab(label='SERIE A', children=[
+
+            html.Div(children=[
 
                 html.Div(className="row", style={"padding": 20}),
 
@@ -91,8 +93,8 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
 
                     html.Div(className='six columns',
                         children=[
-                            html.Center(children=[html.P('Season')]),
-                            html.Center(children=[html.Div(
+                            html.Div(style={"marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}, children=[html.P('Season')]),
+                            html.Div(children=[html.Div(
                                 className='row',
                                 children =  [
                                                 dcc.Dropdown(id='season_selector_wins', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
@@ -100,9 +102,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                                                             className='season_selector_wins',
                                                             clearable=False,
                                                             searchable=False,
-                                                            style={"width": "60%",
-                                                                    "verticalAlign": "middle"
-                                                            }
+                                                            style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
                                                             )
                                             ])
                             ])
@@ -110,17 +110,16 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
 
                     html.Div(className='six columns',
                         children=[
-                            html.Center(children=[html.P('Season')]),
+                            html.Div(style={"marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}, children=[html.P('Season')]),
 
-                            html.Center(
-                                className='div-for-dropdown',
+                            html.Div(style={'textAlign': 'center'},
                                 children =  [
                                                 dcc.Dropdown(id='season_selector_goals', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
                                                             multi=False, value="2019",
                                                             className='season_selector_goals',
                                                             clearable=False,
                                                             searchable=False,
-                                                            style={"width": "60%"}
+                                                            style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
                                                             )
                                             ])
                         ]
@@ -149,8 +148,8 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                     children=  [
                                     html.Div(className='six columns',
                                         children=[
-                                            html.Center(children=[html.P('Season')]),
-                                            html.Center(children=[html.Div(
+                                            html.Div(style={"marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}, children=[html.P('Season')]),
+                                            html.Div(children=[html.Div(
                                                 className='row',
                                                 children=[
                                                     dcc.Dropdown(id='season_selector_scatter', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
@@ -158,7 +157,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                                                                 className='season_selector_wins',
                                                                 clearable=False,
                                                                 searchable=False,
-                                                                style={"width": "60%"}
+                                                                style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
                                                                 ),
                                                 ])
                                             ])
@@ -166,16 +165,15 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
 
                                     html.Div(className='six columns',
                                             children=[
-                                                html.Center(children=[html.P('Season')]),
-                                                html.Center(
-                                                    className='div-for-dropdown',
+                                                html.Div(style={"marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}, children=[html.P('Season')]),
+                                                html.Div(
                                                     children=[
                                                         dcc.Dropdown(id='season_select_bubble', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
                                                                     multi=False, value="2019",
                                                                     className='season_selector_goals',
                                                                     clearable=False,
                                                                     searchable=False,
-                                                                    style={"width": "60%"}
+                                                                    style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
                                                                     ),
                                                     ])
                                                 ] #, style={"display":"none"}
@@ -204,8 +202,8 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                     children=  [
                                     html.Div(className='four columns',
                                         children=[
-                                            html.Center(children=[html.P('Team')]),
-                                            html.Center(children=[html.Div(
+                                            html.Div(style={"marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}, children=[html.P('Team')]),
+                                            html.Div(children=[html.Div(
                                                 className='row',
                                                 children=[
                                                     dcc.Dropdown(id='team_selector_points', options=get_teams_dict_list(),
@@ -213,7 +211,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                                                                 className='season_selector_wins',
                                                                 clearable=True,
                                                                 searchable=True,
-                                                                style={"width": "60%"}
+                                                                style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
                                                                 ),
                                                 ])
                                             ])
@@ -221,16 +219,15 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
 
                                     html.Div(className='four columns',
                                             children=[
-                                                html.Center(children=[html.P('Team')]),
-                                                html.Center(
-                                                    className='div-for-dropdown',
+                                                html.Div(style={"marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}, children=[html.P('Team')]),
+                                                html.Div(
                                                     children=[
                                                         dcc.Dropdown(id='team_selector_wins', options=get_teams_dict_list(),
                                                                     multi=False, value="Juventus",
                                                                     className='season_selector_goals',
                                                                     clearable=True,
                                                                     searchable=True,
-                                                                    style={"width": "60%"}
+                                                                    style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
                                                                     ),
                                                     ])
                                                 ] #, style={"display":"none"}
@@ -238,16 +235,15 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
 
                                     html.Div(className='four columns',
                                             children=[
-                                                html.Center(children=[html.P('Team')]),
-                                                html.Center(
-                                                    className='div-for-dropdown',
+                                                html.Div(style={"marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}, children=[html.P('Team')]),
+                                                html.Div(
                                                     children=[
                                                         dcc.Dropdown(id='team_selector_scoring', options=get_teams_dict_list(),
                                                                     multi=False, value="Juventus",
                                                                     className='season_selector_goals',
                                                                     clearable=True,
                                                                     searchable=True,
-                                                                    style={"width": "60%"}
+                                                                    style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
                                                                     ),
                                                     ])
                                                 ] #, style={"display":"none"}
@@ -279,8 +275,8 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                 #row for dropdown selectors for the 2 SCATTER graphs
                 html.Div(className='row',
                     children=[
-                        html.Center(children=[html.P('Season')]),
-                        html.Center(children=[html.Div(
+                        html.Div(style={"marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}, children=[html.P('Season')]),
+                        html.Div(children=[html.Div(
                             className='row',
                             children=[
                                 dcc.Dropdown(id='season_selector_parallel', options=[{'label': str(i), 'value': str(i)} for i in range(2010, 2020)],
@@ -288,20 +284,22 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                                             className='season_selector_parallel',
                                             clearable=False,
                                             searchable=False,
-                                            style={"width": "60%"}
+                                            style={"width": "60%", "marginRight": "auto", "marginLeft": "auto", "textAlign": "center"}
                                             ),
                             ])
                         ])
                     ]),
 
                 # row for dropdown selectors for the 2 scatter graphs
-
+                html.Br(),
                 html.Div(className='row',
                         children=[
                             dcc.Graph(id='parallel', config={'displayModeBar': True})
                         ])
 
-            ]), # closes serieA tab
+            ], style={'maxWidth': '94vw', "marginRight": "auto", "marginLeft": "auto"})
+
+            ]),    # closes serieA tab
 
             dcc.Tab(label='FANTACALCIO', children=[
                 # TODO rick aggiungi HTML qui
@@ -317,7 +315,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                             ])
                         ], className="row"),
 
-                        html.H4(children='In this dashboard you can plot some interesting stats about last Serie A season.'),
+                        html.H4(children='In this dashboard you can plot some interesting stats about the players of last Serie A season.'),
 
                         html.Br(),
                     ], style={"textAlign": "center"}, id="introText"),
@@ -326,7 +324,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                     html.Div([
                         # second column first row
                         html.Div([
-                            html.H6(children='''The following graph shows the statistics about the number of goals
+                            html.P(style={"fontSize": "1.15em"},children='''The following graph shows the statistics about the number of goals
                                                    scored or conceded, rispectevely for players or GoalKeepers.'''),
                             html.Br(),
 
@@ -349,7 +347,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                                     "", className='two columns'),
                                 html.Div([
                                     html.Div([
-                                        html.Div(children='Show only top:', className='four columns', style={
+                                        html.Div(children='Show top:', className='four columns', style={
                                             "textAlign": "right", "paddingTop": "5px"}),
                                         html.Div([
                                             dcc.Dropdown(
@@ -363,11 +361,12 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                                     ], className='row'), ], className='five columns')
                             ], className='row'),
 
-                            dcc.Graph(id='goals_graph')], className="six columns"),
+                            dcc.Graph(id='goals_graph', config={'displayModeBar': False})
+                        ], className="six columns"),
 
                         # second column first row
                         html.Div([
-                            html.H6(children='''The following graph shows the statistics about the grade
+                            html.P(style={"fontSize": "1.15em"},children='''The following graph shows the statistics about the grade
                                              point average and the  so-called Fantagrade.'''),
 
                             html.Br(),
@@ -391,7 +390,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                                     "", className='two columns'),
                                 html.Div([
                                     html.Div([
-                                        html.Div(children='Show only top:', className='four columns', style={
+                                        html.Div(children='Show top:', className='four columns', style={
                                             "textAlign": "right", "paddingTop": "5px"}),
                                         html.Div([
                                             dcc.Dropdown(
@@ -405,7 +404,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                                     ], className='row'), ], className='five columns')
                             ], className='row'),
 
-                            dcc.Graph(id='mv_graph')
+                            dcc.Graph(id='mv_graph', config={'displayModeBar': False})
                         ], className="six columns")
                     ], className="row"),
 
@@ -418,7 +417,7 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                     html.Div([
                         # first column second row
                         html.Div([
-                            html.H6(
+                            html.P(style={"fontSize": "1.15em"},
                                 children='''The following graph shows the stats players filtered by their team.'''),
 
                             html.Br(),
@@ -454,12 +453,12 @@ app.layout = html.Div(children=[html.Center(className="row", children=[html.H1("
                                     ], className='row'), ], className='six columns'),
                             ], className='row'),
 
-                            dcc.Graph(id='team_graph')
+                            dcc.Graph(id='team_graph', config={'displayModeBar': False})
                         ], className="six columns"),
 
                         # second column second row
                         html.Div([
-                            html.H6(
+                            html.P(style={"fontSize": "1.15em"},
                                 children='Here you can visualise the most important stats of each player.'),
 
                             html.Br(),
@@ -974,6 +973,8 @@ def update_goals_graph(players_role_goals, players_number_goals):
     fig.update_layout(barmode='stack', xaxis=dict(title_text="Name of players"),
                       yaxis=dict(title_text=y_title), title_text=title)
 
+    fig.update_layout(hovermode="x unified")
+
     return fig
 
 
@@ -999,14 +1000,16 @@ def update_mv_graph(players_role_mv, players_number_mv):
     fig = go.Figure()
 
     fig.add_trace(
-        go.Scatter(name='Average Fantagrade', x=filtered["Nome"],
+        go.Scatter(name='Avg Fantagrade', x=filtered["Nome"],
                    y=filtered["Media Fantavoto"], marker_color='#0088E0', mode='lines+markers'))
 
-    fig.add_trace(go.Bar(name='Average grade', x=filtered["Nome"],
+    fig.add_trace(go.Bar(name='Avg grade', x=filtered["Nome"],
                          y=filtered["Media voto"], marker_color='#E53935'))
 
     fig.update_layout(xaxis=dict(title_text="Name of players"),
                       yaxis=dict(title_text=y_title), title_text=title)
+
+    fig.update_layout(hovermode="x unified")
 
     return fig
 
@@ -1036,9 +1039,9 @@ def update_team_graph(team_value, stats_value):
     fig = go.Figure()
 
     if (stats[0] == "Media voto"):
-        fig.add_trace(go.Scatter(name='Average Fantagrade', x=filtered["Nome"],
+        fig.add_trace(go.Scatter(name='Avg Fantagrade', x=filtered["Nome"],
                                  y=filtered[stats[1]], marker_color='#0088E0', mode='lines+markers'))
-        fig.add_trace(go.Bar(name='Average grade', x=filtered["Nome"],
+        fig.add_trace(go.Bar(name='Avg grade', x=filtered["Nome"],
                              y=filtered[stats[0]], marker_color=colors)),
         y_title = "Grade"
 
@@ -1058,6 +1061,8 @@ def update_team_graph(team_value, stats_value):
 
     fig.update_layout(barmode='stack', xaxis=dict(title_text="Name of players"),
                       yaxis=dict(title_text=y_title), title_text=title)
+
+    fig.update_layout(hovermode="x unified")
 
     return fig
 
@@ -1092,7 +1097,9 @@ def update_player_graph(player_name):
         mode="gauge+number",
         value=grade,
         title={'text': "<b>Fantagrade</b>"},
-        domain={'x': [0, 1], 'y': [0, 1]}
+        domain={'x': [0, 1], 'y': [0, 1]},
+        gauge={'axis': {'range': [None, 12]},
+               'threshold': {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 6}}
     ))
 
     voto.update_layout(autosize=False, width=300, height=300)
@@ -1106,12 +1113,12 @@ def update_player_graph(player_name):
             html.Br(),
             html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()), alt=player_name, style={"minWidth": "95px", "display": "block",
                      "marginRight": "auto", "marginLeft": "auto", "maxWidth": "120px"}),
-            dcc.Graph(figure=voto, config={"modeBarButtonsToRemove": ['pan2d']})
+            dcc.Graph(figure=voto, config={'displayModeBar': False})
         ], className="four columns"),
 
         # relevant stats: goals, assists, cards, avg grade
         html.Div([
-            dcc.Graph(figure=fig)
+            dcc.Graph(figure=fig, config={'displayModeBar': False})
         ], className="eight columns"),
     ], className="row")
 
